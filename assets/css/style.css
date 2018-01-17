@@ -1,0 +1,146 @@
+/* Reset css */
+ a, abbr, applet, body, html, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,  acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* Texts */
+
+body {
+  font-size: 12px;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+h1 { font-size: 3em;}
+h2{ font-size: 2.5em;}
+h3{ font-size: 2em;}
+h4{ font-size: 1.8em;}
+h5{font-size: 1.8em;}
+h6 { font-size: 1.8em;}
+p{ font-size: 1em;}
+.render {
+  position: relative;
+}
+.page {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+.content {
+  margin: auto;
+  width: 80%;
+  transition: 0.5s;
+}
+
+.blur, .front {
+  pointer-events: none;
+}
+
+.blur .content, .blur aside {
+  transform: scale(0.8);
+  filter: blur(0.6em);
+  opacity: 0;
+}
+
+.blur.moreBlur .content, .blur.moreBlur aside {
+  transform: scale(0.6);
+  filter: blur(0.9em);
+  opacity: 0.5;
+}
+.front .content, .front aside{
+  transform: scale(1.2);
+  filter: blur(0.4em);
+  opacity: 0;
+  pointer-events: none;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+.front.moreFront .content, .front.moreFront aside {
+  transform: scale(1.4);
+  filter: blur(0.6em);
+}
+.title {
+  margin: 1em;
+}
+
+/* Fonctionnel */
+
+/* Page doc */
+.page aside {
+    width: 28%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    padding: 20vh 2vw 0 0;
+    padding-top: 20vh;
+    padding-right: 2vw;
+    height: 80vh;
+    /* border-right: solid black 2px; */
+    /* background-color: green; */
+}
+.page aside li{
+  list-style-type: none;
+}
+.content.markdown-body {
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 20vh 10vh;
+  max-height: 56vh;
+  overflow-Y: scroll;
+}
+@media screen and (max-width: 1200px) {
+  .page aside {
+    width: 20%;
+  }
+}
+#lab .content {
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  justify-content: space-between; /* switched from default (flex-start, see below) */
+}
+.prez {
+  position: relative;
+	width: 25%;
+	display: inline-block;
+	margin: 2em;
+	margin-top: 50vh;
+	transform: translateY(-50%);
+	vertical-align: top;
+  text-align: center;
+  }
+  .prez .title {
+    margin: auto;
+    margin-bottom: 1em;
+  }
+  .prez hr {
+  	position: absolute;
+  	top: 3em;
+  	width: 59%;
+  	/* margin: auto; */
+  	left: 0;
+  	right: 0;
+  }
+.btn {
+	background: #000;
+	box-shadow: 7px 5px #aaa;
+	margin: auto;
+	display: block;
+	margin-top: 2em;
+	border-radius: 20px;
+	padding: 0.5em 1.3em;
+	border: 2px solid black;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+  position: relative;
+  bottom: 0;
+  transition: 0.5s;
+}
+.btn:hover {
+	bottom: 0.5em;
+	box-shadow: 9px 12px 4px 5px #aaa;
+}
