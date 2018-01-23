@@ -1,1 +1,7 @@
+# Remove Adobe Files
+#.psd
+#.ai
+*.psd
+*.ai
+.ai
 .psd
