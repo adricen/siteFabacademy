@@ -16,9 +16,7 @@
   <!-- <script src="assets/js/accueil.vue" type="accueil"></script> -->
 </head>
 <body>
-
-    </section>
-  </div>
+  <?php echo "<h1>main title</h1>" ?>
   <footer>
     <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
