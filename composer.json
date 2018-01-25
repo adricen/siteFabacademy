@@ -1,5 +1,5 @@
 {
-    "require": {
+    "require-dev: {
         "jlong/sass-bootstrap": "1.0.*"
     }
 }
