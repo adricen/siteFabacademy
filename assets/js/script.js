@@ -1,5 +1,5 @@
 var layout_page = new Vue({
-  el: '#portfolio',
+  el: '#home',
   data: {
     seen: {
       theme_1: true,
