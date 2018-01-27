@@ -17,7 +17,7 @@ var layout_page = new Vue({
       theme_2: true,
     },
     template: {
-      nav : '<header class="container nav-theme-1"><nav><ul class="row"><li class="col"><a href="index.html">Acceuil</a></li><li class="col"><a href="documentation.html">Documentation</a></li><li class="col"><a href="/about">About</a></li></ul></nav></header>',
+      nav : '<header class="nav-theme-1"><nav class="container "><ul class="row"><li class="col"><a href="index.html">Home</a></li><li class="col"><a href="documentation.html">Documentation</a></li><li class="col"><a href="/about">About</a></li></ul></nav></header>',
     },
     markdown: {
       documentation: {
@@ -71,6 +71,9 @@ var layout_page = new Vue({
     get_document: function() {
       // console.log(this.markdown[my_url].content);
       return this.markdown[my_url].content
+    },
+    site_title: function() {
+      return 'fabacademy2018-'+ my_url;
     }
   //   class_focus: function() {
   //     if( this.seen.focus ){

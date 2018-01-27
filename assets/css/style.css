@@ -135,5 +135,8 @@ li {
   height: 100vh;
 } */
 .main_doc {
-  margin-top: 12em;
+	/* background-color: #2a2727;
+  color: white; */
+	padding-top: 12em;
+  transition: 0.5s;
 }
