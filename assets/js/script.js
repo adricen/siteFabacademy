@@ -1,12 +1,26 @@
+
+
+var my_url = window.location.href.split('/')
+var nb = my_url.length - 1
+console.log(nb);
+my_url = my_url[nb].split('.')[0]
+// location = location[location.lenght-1].split('.')[0]
+console.log(my_url)
+// console.log( window.location.href.split("/") );
+
+
 var layout_page = new Vue({
-  el: '#home',
+  el: '#app',
   data: {
     seen: {
       theme_1: true,
       theme_2: true,
     },
+    template: {
+      nav : '<header class="container nav-theme-1"><nav><ul class="row"><li class="col"><a href="index.html">Acceuil</a></li><li class="col"><a href="documentation.html">Documentation</a></li><li class="col"><a href="/about">About</a></li></ul></nav></header>',
+    },
     markdown: {
-      index: {
+      documentation: {
         index : "readme.md",
         content: ''
       },
@@ -49,11 +63,15 @@ var layout_page = new Vue({
         return 'theme-1'
       }
     },
-    layout_aside: function(){
+    layout_size: function(){
       if( this.seen.theme_1 ){
         return 'col-5'
       }
     },
+    get_document: function() {
+      // console.log(this.markdown[my_url].content);
+      return this.markdown[my_url].content
+    }
   //   class_focus: function() {
   //     if( this.seen.focus ){
   //       return
@@ -78,12 +96,16 @@ var layout_page = new Vue({
 
 
 // loading of every markdown pages from assets
+var validDoc = true;
 $.each( layout_page.markdown, function(index, value) {
-  console.log('index est : ' + index);
-  console.log(value);
-  $.get( 'assets/docs/' + value.index, function( markdownContent ) {
+  // console.log('index est : ' + index);
+  // console.log(value);
+  $.get( 'md_files/' + value.index, function( markdownContent ) {
     layout_page.markdown[index].content = marked( markdownContent )
   },'html').fail(function(){
-    console.error('%cPas de document...%c', "color: #EEEB52; font-size: 2em;")
+    validDoc = false;
   });
 });
+if( !validDoc ) {
+  console.error( 'un probleme c\'est déroulé durant le chargement des fichiers' );
+}

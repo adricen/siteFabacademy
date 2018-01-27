@@ -8,6 +8,7 @@
   <!-- <link rel="stylesheet" href="assets/lib/bootstrap-4/dist/css/bootstrap-reboot.min.css"> -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i">
   <link rel="stylesheet" href="assets/css/md-css.css">
   <link rel="stylesheet" href="assets/css/style.css">
@@ -16,19 +17,24 @@
   <!-- <script src="assets/js/accueil.vue" type="accueil"></script> -->
 </head>
 <body>
-  <div id="home" class="render">
-    <header>
-      <nav>
-        
-      </nav>
-    </header>
+  <div id="app" class="render">
+    <div v-html="template.nav"></div>
     <section v-bind:class="'container-fluid '+layout_general">
       <div class="row">
-        <aside v-bind:class="'layout-general ' +  layout_aside">
-          <div class="">
-            <h1 class="">Go to second layout</h1>
-            <h3>Quick</h3>
-            <button type="button" class="btn btn-primary btn-lg">Large button</button>
+        <aside v-bind:class="'layout-general ' +  layout_size">
+          <!-- <div class="filter"></div> -->
+
+          <div class="main">
+            <h1 class=""><span>Adrien Centonze</span></h1>
+            <h3><span>3D artist / Front end developpeur</span></h3>
+            <ul class="social">
+              <li><i class="fa fa-paint-brush" aria-hidden="true"></i></li><!---
+              --><li><i class="fa fa-codepen" aria-hidden="true"></i></li><!---
+              --><li><i class="fa fa-github" aria-hidden="true"></i></li><!---
+              --><li><i class="fa fa-facebook" aria-hidden="true"></i></li><!---
+              --><li><i class="fa fa-twitter" aria-hidden="true"></i></li><!--
+            --><li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+            </ul>
           </div>
         </aside>
         <section class="col layout-general">
