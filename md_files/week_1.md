@@ -1,8 +1,7 @@
-# Fabacademy : *Week 1* - **January 24/2018**
+# Fabacademy : *Week 1* - **January 17/2018**
 
+* **January 22 recitation: [version control (Fiore Basile)](http://fab.academany.org/2018/recitations/version-control.html#1)**
 
+## Assignement - principles and practices
 
-## Assignement - Project management
-
->  * Work through a git tutorial
-        Build a personal site in the class archive describing you and your final project
+        plan and sketch a potential final project 

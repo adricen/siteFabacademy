@@ -17,7 +17,7 @@
   <!-- <script src="assets/js/accueil.vue" type="accueil"></script> -->
 </head>
 <body>
-  <div id="app" class="render">
+  <div id="app" class="render home">
     <div v-html="template.nav"></div>
     <section v-bind:class="'container-fluid '+layout_general">
       <div class="row">
@@ -37,7 +37,14 @@
             </ul>
           </div>
         </aside>
-        <section class="col layout-general">
+        <section class="col layout-general home">
+          <!-- <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
+            <div class="grid-item"><img src="assets/img/fabIsp/FabOptimus2.png" alt=""></div>
+            <div class="grid-item"><img src="assets/img/fabIsp/printedCard.jpg" alt=""></div>
+            <div class="grid-item"><img src="assets/img/fabIsp/printedCard.jpg" alt=""></div>
+            <div class="grid-item" ><div v-html="masonery_images">{{ masonery_images }}</div> </div>
+          </div> -->
+
           <!-- <li v-for="(item, index) in markdown">
           <button v-if="index !== 'index'" v-on:click="display_doc(index.index)">{{ index.content }}</button>
         </li> -->
@@ -51,6 +58,7 @@
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/marked@0.3.6"></script>
     <script src="https://unpkg.com/lodash@4.16.0"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
   </footer>
 </body>

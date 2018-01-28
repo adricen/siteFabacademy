@@ -1,8 +1,8 @@
-# Fabacademy : *Week 2* - **January 31/2018**
+# Fabacademy : *Week 2* - **January 24/2018**
 
 
 
-## Assignement - computer-aided design
+## Assignement - Project management
 
-> * Model (raster, vector, 2D, 3D, render, animate, simulate, ...) a possible final project
-      post it on your class page
+>  * Work through a git tutorial
+        Build a personal site in the class archive describing you and your final project

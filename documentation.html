@@ -17,7 +17,7 @@
   <!-- <script src="assets/js/accueil.vue" type="accueil"></script> -->
 </head>
 <body>
-  <div id="app" class="render">
+  <div id="app" class="render ">
     <div v-html="template.nav"></div>
 
     <section v-bind:class="'container-fluid '+ layout_general + ' theme-doc'">
@@ -28,6 +28,12 @@
       </section>
       </div>
     </section>
+    <div class="modal_doc" v-if="modal">
+      <button class="btn"></button>
+      <div class="container">
+        <img v-bind:src="imgSrc_modal" class="zoom" alt="">
+      </div>
+    </div>
   </div>
   <footer>
     <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
