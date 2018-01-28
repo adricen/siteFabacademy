@@ -26,14 +26,25 @@ li {
 }
  .main.aside-them-2{
   text-align: right;
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: lighter;
   margin-top: 6em !important;
   position: fixed;
   transform: translateY(0);
   right: 70%;
 }
-
+.main.aside-them-2 li ul {
+  padding-left: 0;
+}
+.main.aside-them-2 li ul {
+  max-height: 63vh;
+  overflow-y: scroll;
+}
+.main.aside-them-2 a {
+  padding-right: 1em;
+  font-size: 0.7em;
+  /* font-size */
+}
 .nav-theme-1 ul {
   margin-bottom: 0;
 }
@@ -48,6 +59,10 @@ li {
 .main.nav-doc {
 	text-align: right;
   font-size: 2em;
+}
+.main.aside-them-2 .active a {
+  /* background-color: #E55C51; */
+  font-weight: bold;
 }
 .theme-1 {
   background-image: url('../img/MaterialsStudy2D.png');
@@ -137,6 +152,6 @@ li {
 .main_doc {
 	/* background-color: #2a2727;
   color: white; */
-	padding-top: 12em;
+	padding-top: 9em;
   transition: 0.5s;
 }

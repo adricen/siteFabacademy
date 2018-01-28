@@ -22,24 +22,7 @@
 
     <section v-bind:class="'container-fluid '+ layout_general + ' theme-doc'">
       <div class="row">
-        <aside class="layout-general aside-doc col-4">
-          <!-- <div class="filter"></div> -->
-          <div class="main aside-them-2">
-            <ul>
-              <li><h3>Fabacademy2018</h3></li>
-              <li><h4>Documentation</h4></li>
-              <li>
-                <ul>
-                  <li><a href="semaine_0.html">week 0</a></li>
-                  <li>week 1</li>
-                  <li>week 2</li>
-                  <li>week 3</li>
-                  <li>week 4</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </aside>
+        <aside v-html="doc_nav" class="layout-general aside-doc col-4"></aside>
         <section class="col main_doc">
           <div v-html="get_document" class="col-10 content markdown-body"></div>
       </section>
