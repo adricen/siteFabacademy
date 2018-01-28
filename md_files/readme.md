@@ -1,5 +1,8 @@
 # Facademy 2018
 
-## Session
+## infos
+
+fablab : Digiscope
+Local instructor : Romain Divozzo
 
 ## Schedules
