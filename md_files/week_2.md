@@ -37,7 +37,16 @@ I wanted to go further with git to enhance my worflow, specialy for the fabacade
 
 ### II. Build a personnal web site
 
-#### 1. Goal
+#### 1. goals !
+
+Building a website from scratch is something that can be quickly annoying if you don't think a little bit about it before to do anithings. Initiate a good reflexion about architecture, content, design and ergonomy and drope it into a tool like Trello save a lot of time and mistac.
+
+First things first, the purpose of my website : offert me a good support to write and display the content I will produce in the futur and a proper way to presente it.
+
+I do have some personnal contraint that needed some particular features in order to take care of my documentation. The biggest one as I said, was the 3h of public transport a day... wich is quite a lot, even for Paris.
+
+To answer to this main probleme, I choose to write my content in 'markdown', a pre-processor html that allow me to produce content w
+
 
 * Having my content in markdown
 * Using a template manager - Vue.JS
