@@ -67,12 +67,12 @@ var layout_page = new Vue({
         content: ""
       },
       week_8: {
-        title : 'week omputer-controlled machining',
+        title : 'Computer-controlled machining',
         index: "week_8.md",
         content: ""
       },
       week_9: {
-        title : 'week mbedded programming',
+        title : 'Embedded programming',
         index: "week_9.md",
         content: ""
       },
@@ -194,14 +194,6 @@ var layout_page = new Vue({
     close_modal: function(){
       this.seen.modal = false;
     },
-    // display_main: function () {
-    //   this.seen.main = true;
-    //   this.seen.lab = false;
-    //   this.seen.focus = false;
-    // },
-    // display_doc: function( data ) {
-    //   this.markdown.index = layout_page.markdown[data]
-    // }
   },
 })
 if( my_url == 'index') {
@@ -237,8 +229,8 @@ $.each( layout_page.markdown, function(name, value) {
       // console.log(images);
       images.each(function(){
         $(this).on('click', function(){
-          layout_page.template.imgSrc_modal = this.src
-          layout_page.seen.modal = true
+          layout_page.template.imgSrc_modal = this.src;
+          layout_page.seen.modal = true;
         })
       })
       control_stop++

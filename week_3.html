@@ -24,9 +24,15 @@
         <aside v-html="doc_nav" class="layout-general aside-doc col-4"></aside>
         <section class="col main_doc">
           <div v-html="get_document" class="col-10 content markdown-body"></div>
-      </section>
+        </section>
       </div>
     </section>
+    <div class="modal_doc" v-if="seen.modal">
+      <div class="container">
+        <button class="btn" v-on:click="close_modal"><i class="fa fa-times" aria-hidden="true"></i></button>
+        <img v-bind:src="template.imgSrc_modal" class="zoom" alt="">
+      </div>
+    </div>
   </div>
   <footer>
     <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>

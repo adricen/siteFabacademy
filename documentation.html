@@ -12,26 +12,25 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i">
   <link rel="stylesheet" href="assets/css/md-css.css">
   <link rel="stylesheet" href="assets/css/style.css">
-  <title>Portfolio Perso</title>
+  <title>fabacademy-2018-adrien-centonze</title>
   <script src="https://unpkg.com/vue"></script>
   <!-- <script src="assets/js/accueil.vue" type="accueil"></script> -->
 </head>
 <body>
-  <div id="app" class="render ">
+  <div id="app" class="render">
     <div v-html="template.nav"></div>
-
     <section v-bind:class="'container-fluid '+ layout_general + ' theme-doc'">
       <div class="row">
         <aside v-html="doc_nav" class="layout-general aside-doc col-4"></aside>
         <section class="col main_doc">
           <div v-html="get_document" class="col-10 content markdown-body"></div>
-      </section>
+        </section>
       </div>
     </section>
-    <div class="modal_doc" v-if="modal">
-      <button class="btn"></button>
+    <div class="modal_doc" v-if="seen.modal">
       <div class="container">
-        <img v-bind:src="imgSrc_modal" class="zoom" alt="">
+        <button class="btn" v-on:click="close_modal"><i class="fa fa-times" aria-hidden="true"></i></button>
+        <img v-bind:src="template.imgSrc_modal" class="zoom" alt="">
       </div>
     </div>
   </div>
