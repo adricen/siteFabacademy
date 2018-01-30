@@ -23,7 +23,7 @@ var layout_page = new Vue({
     markdown: {
       documentation: {
         title: "Home - Readme",
-        index : "README.md",
+        index : "readme.md",
         content: ''
       },
       week_0: {
