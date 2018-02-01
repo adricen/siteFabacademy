@@ -12,7 +12,6 @@ function getUrlParameter(sParam) {
     }
   }
 }
-
 var layout_page = new Vue({
   el: '#app',
   data: {
@@ -22,7 +21,7 @@ var layout_page = new Vue({
       modal : false,
     },
     template: {
-      nav : '<header class="nav-theme-1"><nav class="container "><ul class="row"><li class="col"><a href="index.html">About Me</a></li><li class="col"><a href="assignement.html?page=documentation">Weekly Assignement</a></li><li class="col"><a href="/about">Group Project</a></li><li class="col"><a href="assignement.html?page=finalProject">Final Project</a></li></ul></nav></header>',
+      nav : '<header class="nav-theme-1"><nav class="container "><ul class="row"><li class="col"><a href="index.html">About Me</a></li><li class="col"><a href="assignement.html?page=documentation">Weekly Assignement</a></li><li class="col"><a href="assignement.html?page=week_11">Group Project</a></li><li class="col"><a href="assignement.html?page=finalProject">Final Project</a></li></ul></nav></header>',
       imgSrc_modal : '',
     },
     markdown: {
@@ -92,47 +91,47 @@ var layout_page = new Vue({
         content: ""
       },
       week_11: {
-        title : 'Output devices',
+        title : 'Machine Design',
         index: "week_11.md",
         content: ""
       },
       week_12: {
-        title : 'Molding and casting',
+        title : 'Output devices',
         index: "week_12.md",
         content: ""
       },
       week_13: {
-        title : 'Input devices',
+        title : 'Molding and casting',
         index: "week_13.md",
         content: ""
       },
       week_14: {
-        title : 'Wildcard week',
+        title : 'Input devices',
         index: "week_14.md",
         content: ""
       },
       week_15: {
-        title : 'Networking and communications',
+        title : 'Wildcard week',
         index: "week_15.md",
         content: ""
       },
       week_16: {
-        title : 'Interface and application programming',
+        title : 'Networking and communications',
         index: "week_16.md",
         content: ""
       },
       week_17: {
-        title : 'Applications and implications',
+        title : 'Interface and application programming',
         index: "week_17.md",
         content: ""
       },
       week_18: {
-        title : 'Invention, intellectual property, and income',
+        title : 'Applications and implications',
         index: "week_18.md",
         content: ""
       },
       week_19: {
-        title : 'Project development',
+        title : 'Invention, intellectual property, and income',
         index: "week_19.md",
         content: ""
       },
@@ -177,7 +176,6 @@ var layout_page = new Vue({
         var active = name == getUrlParameter('page')? 'active': '';
         if(name == 'documentation' || name == 'finalProject') {
           doc_nav += '<li class="'+ active +'"><a href="assignement.html?page='+ name + '">'+ value.title +'</a></li>';
-
         } else {
           doc_nav += '<li class="'+ active +'"><a href="assignement.html?page='+ name + '">'+ value.title +" - week " + nb+ '</a></li>';
           nb++;
