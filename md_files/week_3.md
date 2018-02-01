@@ -6,3 +6,5 @@
 
 > * Model (raster, vector, 2D, 3D, render, animate, simulate, ...) a possible final project
 post it on your class page
+
+The goal is to mak a prototype 

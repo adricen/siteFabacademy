@@ -1,12 +1,17 @@
+function getUrlParameter(sParam) {
+  var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+  sURLVariables = sPageURL.split('&'),
+  sParameterName,
+  i;
 
+  for (i = 0; i < sURLVariables.length; i++) {
+    sParameterName = sURLVariables[i].split('=');
 
-var my_url = window.location.href.split('/')
-var nb = my_url.length - 1
-my_url = my_url[nb].split('.')[0]
-// location = location[location.lenght-1].split('.')[0]
-// console.log(my_url)
-// console.log( window.location.href.split("/") );
-
+    if (sParameterName[0] === sParam) {
+      return sParameterName[1] === undefined ? true : sParameterName[1];
+    }
+  }
+}
 
 var layout_page = new Vue({
   el: '#app',
@@ -17,10 +22,15 @@ var layout_page = new Vue({
       modal : false,
     },
     template: {
-      nav : '<header class="nav-theme-1"><nav class="container "><ul class="row"><li class="col"><a href="index.html">About Me</a></li><li class="col"><a href="documentation.html">Weekly Assignement</a></li><li class="col"><a href="/about">Group Project</a></li><li class="col"><a href="/about">Final Project</a></li></ul></nav></header>',
+      nav : '<header class="nav-theme-1"><nav class="container "><ul class="row"><li class="col"><a href="index.html">About Me</a></li><li class="col"><a href="assignement.html?page=documentation">Weekly Assignement</a></li><li class="col"><a href="/about">Group Project</a></li><li class="col"><a href="assignement.html?page=finalProject">Final Project</a></li></ul></nav></header>',
       imgSrc_modal : '',
     },
     markdown: {
+      finalProject: {
+        title: "Final project Developpement",
+        index : "finalProject.md",
+        content: ''
+      },
       documentation: {
         title: "Home - Readme",
         index : "readme.md",
@@ -129,9 +139,6 @@ var layout_page = new Vue({
     }
   },
   computed: {
-    // md_text: function(){
-    //   return this.markdown.index
-    // },
     layout_general: function(){
       if( this.seen.theme_1 ){
         return 'theme-1'
@@ -144,12 +151,12 @@ var layout_page = new Vue({
     },
     get_document: function() {
       // console.log(this.markdown[my_url].content);
-      return this.markdown[my_url].content
+      return this.markdown[getUrlParameter('page')].content
     },
     site_title: function() {
-      return 'fabacademy2018-'+ my_url;
+      // return 'fabacademy2018-'+ my_url;
+      return 'fabacademy2018-'+ getUrlParameter('page');
     },
-
     // template part //
     header_nav: function(){
       var nav ='<header class="nav-theme-1"><nav class="container "><ul class="row">'
@@ -158,20 +165,21 @@ var layout_page = new Vue({
       nav += '<li class="col"><a href="/about">About</a></li>'
       nav += '</ul></nav></header>'
     },
+    // Aside Nav => assignement.html
     doc_nav: function() {
       var  nb = 0
-       var doc_nav = '<div class="main aside-them-2"><ul><li></li>';
+      var doc_nav = '<div class="main aside-them-2"><ul><li></li>';
           doc_nav += '<li><h3>Fabacademy2018</h3></li>';
           doc_nav += '<li><h4>Documentation</h4></li><li><ul>';
-          doc_nav += '<li><a href="#">Final project developpement</a></li>';
       $.each(this.markdown, function( name, value ){
-
-        var active = name == my_url? 'active': '';
-        if(name == 'documentation') {
-          doc_nav += '<li class="'+ active +'"><a href="'+ name + '.html">'+ value.title +'</a></li>';
+        console.log(name);
+        // console.log(this);
+        var active = name == getUrlParameter('page')? 'active': '';
+        if(name == 'documentation' || name == 'finalProject') {
+          doc_nav += '<li class="'+ active +'"><a href="assignement.html?page='+ name + '">'+ value.title +'</a></li>';
 
         } else {
-          doc_nav += '<li class="'+ active +'"><a href="'+ name + '.html">'+ value.title +" - week " + nb+ '</a></li>';
+          doc_nav += '<li class="'+ active +'"><a href="assignement.html?page='+ name + '">'+ value.title +" - week " + nb+ '</a></li>';
           nb++;
         }
       })
@@ -196,15 +204,8 @@ var layout_page = new Vue({
     },
   },
 })
-if( my_url == 'index') {
-  $('.grid').masonry({
-    // options...
-    itemSelector: '.grid-item',
-    columnWidth: 200
-  });
-}
 
-
+// Counting my pages numbers
 Object.size = function(obj) {
     var size = 0, key;
     for (key in obj) {
@@ -213,8 +214,6 @@ Object.size = function(obj) {
     return size;
 };
 var size = Object.size(layout_page.markdown);
-console.log(size);
-
 var control_stop = 0;
 // loading of every markdown pages from md_files referenced in this.markdown
 $.each( layout_page.markdown, function(name, value) {
@@ -237,9 +236,4 @@ $.each( layout_page.markdown, function(name, value) {
     }
   })
 });
-// Modale image
-
-// .on('click', function(){
-//   var images =  $(this).find('img')
-//   console.log(images);
-// })
+console.log(getUrlParameter('page'));

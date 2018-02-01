@@ -47,9 +47,4 @@ I do have some personnal contraint that needed some particular features in order
 
 To answer to this main probleme, I choose to write my content in 'markdown', a pre-processor html that allow me to produce content w
 
-
-* Having my content in markdown
-* Using a template manager - Vue.JS
-* Having a simple architecture
-* Having a simple and smouth design
-* Being able to update my website on a simple phone
+#### 2. Start coding
