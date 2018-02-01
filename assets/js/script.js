@@ -146,7 +146,7 @@ var layout_page = new Vue({
     },
     layout_size: function(){
       if( this.seen.theme_1 ){
-        return 'col-5'
+        return 'col-6'
       }
     },
     get_document: function() {
