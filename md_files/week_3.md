@@ -15,6 +15,9 @@ Let's work on the entire production chain and explore some soft I don't know. As
 ### Uses Cases :
 
 * Using 3D mouse into a 3D world for object manipulation
+* Working with "wilder" screen and being able to interact with huge virtual space.
+* Moving his hand in virtual world for desable people with hand cut.
+* Work inside 3D software
 
 
 ### Draw and Scan :
@@ -28,3 +31,15 @@ Last Time I opened Gimp, it was like time traveling. The interface was look like
 So first impression is pretty cool regarding the progress they've done so far.
 
 ![]()
+
+### Fusion 360 - free autodesk software for teacher and student
+
+### Solidworks
+
+### Antimony
+
+### Antimony with maya and other soft
+
+### Rinho 3d and Grasshoper
+
+
