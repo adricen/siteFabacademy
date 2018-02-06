@@ -6,4 +6,6 @@
 
 ## Design :
 
-Design done 
+### Draw and Scan :
+
+![handDraw](assets\img\week3\handsDraw.jpg)

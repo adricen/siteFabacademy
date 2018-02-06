@@ -114,7 +114,7 @@ In `windex.html` :
 ```html
 <div v-html="template.nav"></div>
 ```
-- aside :
+- <u>**aside :**</u>
 ```html
   <aside v-bind:class="'layout-general ' +  layout_size">
     <div class="main">
@@ -133,7 +133,7 @@ In `windex.html` :
   </aside>
 ```
 
-- content :
+- <u>**content :**</u>
 
   ```html
     <section class="col layout-general home"></section>

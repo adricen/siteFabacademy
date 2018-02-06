@@ -20,10 +20,6 @@ Let's work on the entire production chain and explore some soft I don't know. As
 * Work inside 3D software
 
 
-### Draw and Scan :
-
-![handDraw](assets\img\week3\handsDraw.jpg)
-
 ### Xnview by Softtonic :
 
 
