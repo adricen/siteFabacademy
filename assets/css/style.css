@@ -203,6 +203,9 @@ li {
 .markdown-body .highlight pre, .markdown-body pre {
 	background-color: #c6d0c4;
 }
+.markdown-body .highlight pre, .markdown-body pre {
+	width: 80%;
+}
 /* Modal */
 .modal_doc {
 	position: fixed;
