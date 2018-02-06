@@ -101,6 +101,8 @@ Let's face it... I am not gonna became a fabulous user of this soft just at look
 | state 01 | state 02 |
 | --- | --- |
 | ![tuto01](assets\img\week3\solid01.jpg) | ![tuto02](assets\img\week3\solid02.jpg) |
+| ![tutoSolid3](assets\img\week3\solid03.jpg)| ![solid4](assets\img\week3\solid04.jpg)|
+![solidResulta](assets\img\week3\PlateauDePression_04.JPG)
 
 
 

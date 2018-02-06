@@ -110,7 +110,7 @@ var layout_page = new Vue({
 ---
 The layout is divised int three parts, `<header>`, `<aside>` and `<section>`, it change beetween `about me` page and `documentaion` page. For the index it's divided like this :
 In `windex.html` :
-- header > nav :
+- <u>**header > nav :**</u>
 ```html
 <div v-html="template.nav"></div>
 ```
@@ -140,5 +140,6 @@ In `windex.html` :
 
   ```
 > the section is empty in the home for the moment. I will fill it up later.
+
 
 #### 2. Start coding
