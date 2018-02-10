@@ -21,7 +21,7 @@
 
 ##### Starting By a simple shape.
 
-![starting](assets/img/week4/fusion360_00.jpg)
+![starting](assets/img/Week4/fusion360_00.jpg)
 
 ##### Then Trying to bind some edges together
 ![starting](assets/img/week4/fusion360_01.jpg)
@@ -44,3 +44,24 @@ I cant't eiting it enymore from that dymenssion cause I had set the pivot point 
 | Shape 01 | Shape 02 |
 | --- | --- |
 | ![starting](assets/img/week4/fusion360_05.jpg) | ![starting](assets/img/week4/fusion360_04.jpg) |
+
+### Then cutting some object and see how they work
+
+need parametres
+![]()
+#### The cutting part :
+need parametres
+![laser](assets/img/Week4/Parametric_wood_06.jpg)
+
+#### Shape and forms
+need parametres
+![test02](assets\img\Week4\parametric_wood_06.jpg)
+
+
+| Differents | patterns | fabrics |
+| --- | --- | --- |
+| ![test02](assets\img\Week4\parametric_wood_14.jpg) | ![test02](assets\img\Week4\parametric_wood_15.jpg) | ![test02](assets\img\Week4\parametric_wood_13.jpg) |
+| ![test02](assets\img\Week4\parametric_wood_02.jpg) | ![test02](assets\img\Week4\parametric_wood_03.jpg) | ![test02](assets\img\Week4\parametric_wood_07.jpg) |
+| ![test02](assets\img\Week4\parametric_wood_05.jpg) | ![test02](assets\img\Week4\parametric_wood_04.jpg) | ![test01](assets\img\Week4\parametric_wood_01.jpg) |
+| ![test02](assets\img\Week4\parametric_wood_08.jpg) | ![test02](assets\img\Week4\parametric_wood_09.jpg) | ![test02](assets\img\Week4\parametric_wood_10.jpg) |
+| ![test02](assets\img\Week4\parametric_wood_11.jpg) | ![test02](assets\img\Week4\parametric_wood_12.jpg) |  |
