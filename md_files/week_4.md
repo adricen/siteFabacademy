@@ -57,7 +57,7 @@ need parametres
 
 | Differents | patterns | fabrics |
 | --- | --- | --- |
-| ![test02](assets\img\Week4\Parametric_wood_14.jpg) | ![test03](assets\img\Week4\parametric_wood_15.jpg) | ![test04](assets\img\Week4\parametric_wood_13.jpg) |
+| ![test02](..\assets\img\Week4\Parametric_wood_14.jpg) | ![test03](..\assets\img\Week4\parametric_wood_15.jpg) | ![test04](assets\img\Week4\parametric_wood_13.jpg) |
 | ![test05](assets\img\Week4\parametric_wood_02.jpg) | ![test06](assets\img\Week4\parametric_wood_03.jpg) | ![test07](assets\img\Week4\parametric_wood_07.jpg) |
 | ![test08](assets\img\Week4\parametric_wood_05.jpg) | ![test09](assets\img\Week4\parametric_wood_04.jpg) | ![test10](assets\img\Week4\parametric_wood_01.jpg) |
 | ![test11](assets\img\Week4\parametric_wood_08.jpg) | ![test12](assets\img\Week4\parametric_wood_09.jpg) | ![test13](assets\img\Week4\parametric_wood_10.jpg) |
