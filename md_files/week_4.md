@@ -24,7 +24,7 @@
 ![starting](assets/img/Week4/fusion360_00.jpg)
 
 ##### Then Trying to bind some edges together
-![starting](assets/img/week4/fusion360_01.jpg)
+![starting](assets\img\Week4\fusion360_01.jpg)
 
 > I tryed to understand the concept of binding element together and how I could used it to my adventage.
 
@@ -54,14 +54,11 @@ need parametres
 ![laser](assets/img/Week4/Parametric_wood_06.jpg)
 
 #### Shape and forms
-need parametres
-![test02](assets\img\Week4\parametric_wood_06.jpg)
-
 
 | Differents | patterns | fabrics |
 | --- | --- | --- |
-| ![test02](assets\img\Week4\parametric_wood_14.jpg) | ![test02](assets\img\Week4\parametric_wood_15.jpg) | ![test02](assets\img\Week4\parametric_wood_13.jpg) |
-| ![test02](assets\img\Week4\parametric_wood_02.jpg) | ![test02](assets\img\Week4\parametric_wood_03.jpg) | ![test02](assets\img\Week4\parametric_wood_07.jpg) |
-| ![test02](assets\img\Week4\parametric_wood_05.jpg) | ![test02](assets\img\Week4\parametric_wood_04.jpg) | ![test01](assets\img\Week4\parametric_wood_01.jpg) |
-| ![test02](assets\img\Week4\parametric_wood_08.jpg) | ![test02](assets\img\Week4\parametric_wood_09.jpg) | ![test02](assets\img\Week4\parametric_wood_10.jpg) |
-| ![test02](assets\img\Week4\parametric_wood_11.jpg) | ![test02](assets\img\Week4\parametric_wood_12.jpg) |  |
+| ![test02](assets\img\Week4\Parametric_wood_14.jpg) | ![test03](assets\img\Week4\parametric_wood_15.jpg) | ![test04](assets\img\Week4\parametric_wood_13.jpg) |
+| ![test05](assets\img\Week4\parametric_wood_02.jpg) | ![test06](assets\img\Week4\parametric_wood_03.jpg) | ![test07](assets\img\Week4\parametric_wood_07.jpg) |
+| ![test08](assets\img\Week4\parametric_wood_05.jpg) | ![test09](assets\img\Week4\parametric_wood_04.jpg) | ![test10](assets\img\Week4\parametric_wood_01.jpg) |
+| ![test11](assets\img\Week4\parametric_wood_08.jpg) | ![test12](assets\img\Week4\parametric_wood_09.jpg) | ![test13](assets\img\Week4\parametric_wood_10.jpg) |
+| ![test14](assets\img\Week4\parametric_wood_11.jpg) | ![test15](assets\img\Week4\parametric_wood_12.jpg) |  |
