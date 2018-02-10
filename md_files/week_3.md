@@ -12,12 +12,9 @@ Let's work on the entire production chain and explore some soft I don't know. As
 
 ## Work...
 
-### Uses Cases :
+[xnview](#xnview-by-softtonic-) / [Gimp 2.0](#gimp-2-) / [Fusion360](#fusion-360-free-autodesk-software-for-teacher-and-student) / [Solidworks](#solidworks) / [Antimony](#antimony) / [Antimony with Maya](#antimony-with-maya-and-other-soft) / [Rhino et Grasshoper](rinho-3d-and-grasshoper)
 
-* Using 3D mouse into a 3D world for object manipulation
-* Working with "wilder" screen and being able to interact with huge virtual space.
-* Moving his hand in virtual world for desable people with hand cut.
-* Work inside 3D software
+
 
 
 ### Xnview by Softtonic :
