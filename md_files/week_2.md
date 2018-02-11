@@ -58,6 +58,13 @@ I wanted to go further with git to enhance my worflow, specialy for the fabacade
 <center></center>
 
 ### II. Build a personnal web site
+```
+ __         ______     ______   ______        ______     ______     _____     ______    
+/\ \       /\  ___\   /\__  _\ /\  ___\      /\  ___\   /\  __ \   /\  __-.  /\  ___\   
+\ \ \____  \ \  __\   \/_/\ \/ \ \___  \     \ \ \____  \ \ \/\ \  \ \ \/\ \ \ \  __\   
+ \ \_____\  \ \_____\    \ \_\  \/\_____\     \ \_____\  \ \_____\  \ \____-  \ \_____\
+  \/_____/   \/_____/     \/_/   \/_____/      \/_____/   \/_____/   \/____/   \/_____/
+```
 
 #### 1. goals !
 
@@ -141,5 +148,186 @@ In `windex.html` :
   ```
 > the section is empty in the home for the moment. I will fill it up later.
 
+##### b. Markdown
+
+In order to focus on the content of my material I used the Markdown form to organize freely my documentation. It's gona be a lot of documents so I need to be effective and precise. Using `Vue.js` and `$.Ajax`, I can get my files and load thems inside variables :
+
+```javascript
+
+// Counting my pages numbers => Object.length
+Object.size = function(obj) {
+    var size = 0, key;
+    for (key in obj) {
+        if (obj.hasOwnProperty(key)) size++;
+    }
+    return size;
+};
+var size = Object.size(layout_page.markdown);
+var control_stop = 0;
+
+// loading of every markdown pages from md_files referenced in this.markdown
+$.each( layout_page.markdown, function(name, value) {
+  $.get( 'md_files/' + value.index, function( markdownContent ) {
+    layout_page.markdown[name].content = marked( markdownContent )
+  },'html').fail(function(){
+    console.log('Mauvais chargement des docs')
+  }).done(function( ) {
+    // Once Img is done, Modal Img is create, before that, img dosn't existe Creation
+    if( control_stop < size ){
+      var images = $('.markdown-body').find('img')
+      images.each(function(){
+        $(this).on('click', function(){
+          layout_page.template.imgSrc_modal = this.src;
+          layout_page.seen.modal = true;
+        })
+      })
+      control_stop++
+    }
+  })
+});
+
+```
 
 #### 2. Start coding
+
+Vue.js is a MVVM ( Model View View Model ), it facilitate the DOM protocole and allow you to bind some parts of your `vue` object. Once you defined an entry in your vue object, you can apply all kind of changement. If you wich to try how it work, you can learn it really quickly and they have an exellent [getting started guide online](https://vuejs.org/v2/guide/).
+
+##### a. Vue object how does it work
+
+You start by declaring your variable that will contain all your object for you page or application.
+
+```javascript
+var layout = new Vue({
+  // This is the element your are gona work on
+  el: '☻app'
+  data: {
+    // You put here your simple var data. They can be change by further methods
+    seen: {
+      // Use this class to deal with visibility. You can manage your stuff so it make a transition animation
+      obj_01: true,
+      obj_02: false,
+    },
+    markdown: {
+      week_01: {
+        file_name:'week_01.md',
+        // The futur content charge with ajax
+        content: '',
+      }
+      // ...
+    }
+  },
+  // Use computed for element that gona depend on certain condition or action.
+  computed: {
+    layout_01: function(){
+      if( this.seen.obj_01 == true ){
+        $('.mark').css("background-color", 'red');
+      } else {
+        $('.mark').css("background-color", 'white');
+      }
+    }
+  },
+  // Use for action methods like buttons
+  // For exemple my modal image
+  methods: {
+    close_modal: function(){
+      this.seen.modal = false;
+    },
+  },
+})
+```
+##### b. And what in html ?
+
+In html you have to bind your objects to whatever you want.
+* For some content in html :
+```html
+<div v-html="get_document" class="col-10 content markdown-body"></div>
+```
+* For class :
+```html
+<section v-bind:class="layout_general"></section>
+```
+* Or visibility :
+see if `seen.modal` is `true`
+```html
+<div class="modal_doc" v-if="seen.modal">
+```
+
+##### c. Markdown !
+
+My markdown is bind to the object in a second time. In the content of vue.js, I can't use Ajax as I want it. There is another library that allow it, but at that time I was already on understanding `Vue`, so I didn't gave a shot. See `axios` lib, well explain [here](https://vuejsdevelopers.com/2017/08/28/vue-js-ajax-recipes/).
+
+> To begin with :
+
+* My prepared object :
+``` javascript
+markdown: {
+  finalProject: {
+    title: "Final project Developpement",
+    index : "finalProject.md",
+    content: ""
+  },
+  documentation: {
+    title: "Home - Readme",
+    index : "readme.md",
+    content: ""
+  },
+  week_0: {
+    title: "Pre-Fabacademy",
+    index : "week_0.md",
+    content: ""
+  },
+  week_1: {
+    title: "Git and web",
+    index : "week_1.md",
+    content: ""
+  },
+  // ..
+```
+
+* My ajax method :
+``` javascript
+// I use this method I found to count my object like an array
+Object.size = function(obj) {
+    var size = 0, key;
+    for (key in obj) {
+        if (obj.hasOwnProperty(key)) size++;
+    }
+    return size;
+};
+var size = Object.size(layout_page.markdown);
+var control_stop = 0;
+// loading of every markdown pages from md_files referenced in this.markdown
+$.each( layout_page.markdown, function(name, value) {
+  $.get( 'md_files/' + value.index, function( markdownContent ) {
+    layout_page.markdown[name].content = marked( markdownContent )
+  },'html').fail(function(){
+    console.log('Mauvais chargement des docs')
+    // once it's done I create the modal, binded on the click of img
+  }).done(function( ) {
+    // Modal Img Creation
+    if( control_stop < size ){
+      var images = $('.markdown-body').find('img')
+      images.each(function(){
+        $(this).on('click', function(){
+          layout_page.template.imgSrc_modal = this.src;
+          layout_page.seen.modal = true;
+        })
+      })
+      // Counting how many objects I have so I can stop the prosses of binding all images
+      control_stop++
+    }
+  })
+});
+```
+
+```
+______________ ___  ____ ___  _____ __________  _________  ____ _____________._.
+\__    ___/   |   \|    |   \/     \\______   \/   _____/ |    |   \______   \ |
+  |    | /    ~    \    |   /  \ /  \|    |  _/\_____  \  |    |   /|     ___/ |
+  |    | \    Y    /    |  /    Y    \    |   \/        \ |    |  / |    |    \|
+  |____|  \___|_  /|______/\____|__  /______  /_______  / |______/  |____|    __
+                          \/                 \/       \/        \/                      \/
+
+```
+
+In the case where you use those three, the html may be not rendered in the page. You can then manipulate entire part of your layout and play with them, change it's content, do whatever you need. Once you have the tricks, it goes like you want really quickly. Make some test, do the [getting started guide online](https://vuejs.org/v2/guide/) to start with and go with it!

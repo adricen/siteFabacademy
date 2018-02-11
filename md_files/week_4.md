@@ -33,7 +33,7 @@ I had interessting point of view from my local instructor that pushes me always 
 
 #### a. First Try
 
-> **Methods :** Using reverse ingenering on the first `image`, I quickly made this design. To make it parametric and being able to bind elements with eachother, I am gona need of further tools.
+> <u>**Methods :**</u> Using reverse ingenering on the first `image`, I quickly made this design. To make it parametric and being able to bind elements with eachother, I am gona need of further tools.
 * **Sketch dimension** => tap `D` or `sketch`>`sketch dimension`
 * **Change parametres** => `Modify`>`change parametres`
 
@@ -75,7 +75,7 @@ need parametres
 
 | ![test02](assets\img\Week4\Parametric_wood_14.jpg) | ![test03](assets\img\Week4\Parametric_wood_15.jpg) | ![test04](assets\img\Week4\Parametric_wood_13.jpg) |
 | --- | --- | --- |
+| ![test08](assets\img\Week4\Parametric_wood_05.jpg) | ![test09](assets\img\Week4\Parametric_wood_04.jpg) | ![test14](assets\img\Week4\Parametric_wood_16.jpg) |
 | ![test05](assets\img\Week4\Parametric_wood_02.jpg) | ![test10](assets\img\Week4\Parametric_wood_01.jpg) | ![test06](assets\img\Week4\Parametric_wood_03.jpg) |
-| ![test08](assets\img\Week4\Parametric_wood_05.jpg) | ![test09](assets\img\Week4\Parametric_wood_04.jpg) | ![test07](assets\img\Week4\Parametric_wood_07.jpg) |
-| ![test11](assets\img\Week4\Parametric_wood_08.jpg) | ![test12](assets\img\Week4\Parametric_wood_09.jpg) | ![test13](assets\img\Week4\Parametric_wood_10.jpg) |
-| ![test14](assets\img\Week4\Parametric_wood_11.jpg) | ![test15](assets\img\Week4\Parametric_wood_12.jpg) |  |
+|![test07](assets\img\Week4\Parametric_wood_07.jpg) | ![test11](assets\img\Week4\Parametric_wood_08.jpg) | ![test12](assets\img\Week4\Parametric_wood_09.jpg) |
+| ![test13](assets\img\Week4\Parametric_wood_10.jpg) | ![test14](assets\img\Week4\Parametric_wood_11.jpg) | ![test15](assets\img\Week4\Parametric_wood_12.jpg) |
