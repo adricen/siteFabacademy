@@ -19,7 +19,7 @@
 
 Starting by that question, what could look like a parametric shape, fabric or building. Fastest way I know *ask google*.
 
-I foun some really interesting result simply searchning for `parametric design`. I was particulary interested by  **hexagone shapes** that I found really well balance. Here are some interesting features I found.
+I foun some really interesting result simply searchning for `parametric design`. I was particulary interested by  **hexagone shapes** that I found really well balanced. Here are some interesting features I found.
 
 ![ref01](assets\img\Week4\ref_parametric0.jpg)
 
