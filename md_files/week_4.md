@@ -33,24 +33,27 @@ I had interessting point of view from my local instructor that pushes me always 
 
 #### a. First Try
 
-##### Starting By a simple shape.
+> **Methods :** Using reverse ingenering on the first `image`, I quickly made this design. To make it parametric and being able to bind elements with eachother, I am gona need of further tools.
+* **Sketch dimension** => tap `D` or `sketch`>`sketch dimension`
+* **Change parametres** => `Modify`>`change parametres`
 
-![starting](assets/img/Week4/fusion360_00.jpg)
+With this simple two tools it's should be possible to construct a parametric design material.
 
-##### Then Trying to bind some edges together
-![starting](assets\img\Week4\fusion360_01.jpg)
+| Starting By a simple shape. ![starting](assets/img/Week4/fusion360_00.jpg) | Then Trying to bind some edges together ![starting](assets\img\Week4\fusion360_01.jpg) |
+| --- | --- |
+|  |  |
 
-> I tryed to understand the concept of binding element together and how I could used it to my adventage.
+
+I tryed to understand the concept of binding element together and how I could used it to my adventage.
 
 #### b. A second test
 
-##### Seing things from symetry point of view.
+> After few try on it, it came clear that I won't go far with my first sketch. I worked on a econd one, thinking symetry.
 
-![starting](assets/img/week4/fusion360_02.jpg)
+| Seing things from symetry point of view. ![starting](assets/img/week4/fusion360_02.jpg) | The model work fine but something is wrong... ![starting](assets/img/week4/fusion360_03.jpg) |
+|--- | --- |
 
-##### The model work fine but something is wrong...
-![starting](assets/img/week4/fusion360_03.jpg)
-> I cant't editing it anymore cause I had set the pivot point on the wrong side. Scaling it won't go well.
+**I cant't editing it anymore** cause I had set the pivot point on the wrong side. Scaling it won't go well.
 
 #### c. A last try
 
@@ -70,9 +73,8 @@ need parametres
 
 #### Shape and forms
 
-| Differents | patterns | fabrics |
-| --- | --- | --- |
 | ![test02](assets\img\Week4\Parametric_wood_14.jpg) | ![test03](assets\img\Week4\Parametric_wood_15.jpg) | ![test04](assets\img\Week4\Parametric_wood_13.jpg) |
+| --- | --- | --- |
 | ![test05](assets\img\Week4\Parametric_wood_02.jpg) | ![test10](assets\img\Week4\Parametric_wood_01.jpg) | ![test06](assets\img\Week4\Parametric_wood_03.jpg) |
 | ![test08](assets\img\Week4\Parametric_wood_05.jpg) | ![test09](assets\img\Week4\Parametric_wood_04.jpg) | ![test07](assets\img\Week4\Parametric_wood_07.jpg) |
 | ![test11](assets\img\Week4\Parametric_wood_08.jpg) | ![test12](assets\img\Week4\Parametric_wood_09.jpg) | ![test13](assets\img\Week4\Parametric_wood_10.jpg) |
