@@ -39,7 +39,7 @@ I had interessting point of view from my local instructor that pushes me always 
 
 With this simple two tools it's should be possible to construct a parametric design material.
 
-| Starting By a simple shape. ![starting](assets/img/Week4/fusion360_00.jpg) | Then Trying to bind some edges together ![starting](assets\img\Week4\fusion360_01.jpg) |
+| Starting By a simple shape. ![starting](assets\img\Week4\fusion360_00.jpg) | Then Trying to bind some edges together ![starting](assets\img\Week4\fusion360_01.jpg) |
 | --- | --- |
 |  |  |
 
@@ -50,7 +50,7 @@ I tryed to understand the concept of binding element together and how I could us
 
 > After few try on it, it came clear that I won't go far with my first sketch. I worked on a econd one, thinking symetry.
 
-| Seing things from symetry point of view. ![starting](assets/img/week4/fusion360_02.jpg) | The model work fine but something is wrong... ![starting](assets/img/week4/fusion360_03.jpg) |
+| Seing things from symetry point of view. ![starting](assets\img\Week4\fusion360_02.jpg) | The model work fine but something is wrong... ![starting](assets\img\Week4\fusion360_03.jpg) |
 |--- | --- |
 
 **I cant't editing it anymore** cause I had set the pivot point on the wrong side. Scaling it won't go well.
@@ -60,8 +60,8 @@ I tryed to understand the concept of binding element together and how I could us
 ##### I finally made it through! I have a parametric design fabrics that adapte its shape to the weight of my material.
 | Shape 01 | Shape 02 |
 | --- | --- |
-| ![starting](assets/img/week4/fusion360_05.jpg) | ![starting](assets/img/week4/fusion360_04.jpg) |
-![starting](assets/img/week4/fusion360_06.jpg)
+| ![starting](assets\img\Week4\fusion360_05.jpg) | ![starting](assets\img\Week4\fusion360_04.jpg) |
+![fusion_6](assets\img\Week4\fusion360_06.jpg)
 
 ### <u>3. Then cutting some object and see how they work</u>
 
