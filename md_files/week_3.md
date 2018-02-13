@@ -14,9 +14,6 @@ Let's work on the entire production chain and explore some soft I don't know. As
 
 [xnview](#xnview-by-softtonic-) / [Gimp 2.0](#gimp-2-) / [Fusion360](#fusion-360-free-autodesk-software-for-teacher-and-student) / [Solidworks](#solidworks) / [Antimony](#antimony) / [Antimony with Maya](#antimony-with-maya-and-other-soft) / [Rhino et Grasshoper](rinho-3d-and-grasshoper)
 
-
-
-
 ### Xnview by Softtonic :
 
 
