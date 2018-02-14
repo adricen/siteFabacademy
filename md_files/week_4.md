@@ -19,7 +19,7 @@ Miss - pics of the software
 Make something for your computer... hmm...
 In order to use the maximum of color, I wanted to try to make a cool illustration of Hellboy. Mignola have a perfect sharp black and white style that will fit perfectly for the vinyl cutter.
 
-|  | Sketch including color we have on site ![goal](assets\img\Week4\vinyl_cut3.jpg) | Result So far ![resuilt](assets\img\Week4\vinyl_cut7.jpg) |
+|  | Sketch including color we have on site ![goal](assets\img\Week4\illustration2.jpg) | Result So far ![resuilt](assets\img\Week4\vinyl_cut7.jpg) |
 | --- | --- | --- |
 | File 01 - background ![svg](assets\img\Week4\vinyl_cut.svg) | File 02 - background  ![a rajouter]() | File 03 - background ![a rajouter]() |
 | Parametre of the vinylcutter - I hae to take them again cause we don't see anything ![](assets\img\Week4\vinyl_cut4.jpg) | That a failure. I didn't let enougth roll on ![asee](assets\img\Week4\vinyl_cut5.jpg) | ![redsult](assets\img\Week4\vinyl_cut6.jpg) |
