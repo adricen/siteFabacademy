@@ -19,10 +19,10 @@ Miss - pics of the software
 Make something for your computer... hmm...
 In order to use the maximum of color, I wanted to try to make a cool illustration of Hellboy. Mignola have a perfect sharp black and white style that will fit perfectly for the vinyl cutter.
 
-| Reference ![ref](assets\img\Week4\vinyl_cutref.jpg) | Sketch including color we have on site ![goal](assets\img\Week4\vinyl_cut8.jpg) | Result So far ![resuilt](assets\img\Week4\vinyl_cut7.jpg) |
+|  | Sketch including color we have on site ![goal](assets\img\Week4\vinyl_cut3.jpg) | Result So far ![resuilt](assets\img\Week4\vinyl_cut7.jpg) |
 | --- | --- | --- |
 | File 01 - background ![svg](assets\img\Week4\vinyl_cut.svg) | File 02 - background  ![a rajouter]() | File 03 - background ![a rajouter]() |
-| Parametre of the vinylcutter - I hae to take them again cause we don't see anything ![](assets\img\Week4\vinyl_cut4.jpg) | That a failure. I didn't let enougth roll on ![asee](assets\img\Week4\vinyl_cut5.jpg) | result ![redsult](assets\img\Week4\vinyl_cut6.jpg) |
+| Parametre of the vinylcutter - I hae to take them again cause we don't see anything ![](assets\img\Week4\vinyl_cut4.jpg) | That a failure. I didn't let enougth roll on ![asee](assets\img\Week4\vinyl_cut5.jpg) | ![redsult](assets\img\Week4\vinyl_cut6.jpg) |
 
 
 ## III. Design, make and document a parametric press-fit construction kit
@@ -30,14 +30,6 @@ In order to use the maximum of color, I wanted to try to make a cool illustratio
 ### <u>1. Defining a parametric shape</u>
 
 Starting by that question, what could look like a parametric shape, fabric or building. Fastest way I know *ask google*.
-
-I foun some really interesting result simply searchning for `parametric design`. I was particulary interested by  **hexagone shapes** that I found really well balanced. Here are some interesting features I found.
-
-![ref01](assets\img\Week4\ref_parametric0.jpg)
-
-| ![ref01](assets\img\Week4\ref_parametric3.jpg) | ![ref02](assets\img\Week4\ref_parametric1.jpg)| ![](assets\img\Week4\ref_parametric2.jpg)|
-| --- | --- | --- |
-
 I had interessting point of view from my local instructor that pushes me always further. The last queston I had was, *how do you make it in 3D ?* and I finaly found the answer.
 
 ### <u>2. Fusion 360</u>
