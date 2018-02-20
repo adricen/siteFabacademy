@@ -49,7 +49,6 @@ Here the process of making PCB is more by laser cutting than milling machin. **W
 
 #### <u>Seeing through microscope</u>
 
-
 | ![](assets\img\week5\microscopCam0.jpg) | ![](assets\img\week5\microscopCam1.jpg) | ![](assets\img\week5\microscopCam2.jpg) |
 | --- | --- | --- |
 | ![microscope](assets\img\week5\mireComparaison.png) | ![mire](assets\img\week5\mireGravex25.png) | ![microscope](assets\img\week5\mireCuteGravex32_2.png) |
@@ -60,3 +59,11 @@ Here the process of making PCB is more by laser cutting than milling machin. **W
 
 | ![clean](assets\img\week5\Mire.jpg) | ![clean](assets\img\week5\Mire2.jpg) |
 | --- | --- |
+
+
+### Making an Accelerometre board
+
+I made my fabISP on the pre fabacademy I did with Romain. You can see it there : [fabISP Optimus](assignement.html?page=week_0)
+![fabOptimus](assets\img\fabIsp\component.jpg)
+
+For this assignement, I choose to make an accelerometre input.
