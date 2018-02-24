@@ -29,9 +29,27 @@ li {
 	border-top: none;
 	padding: 2em 0;
 }
+/* homepage */
+.home > .container {
+	padding-top: 20vh;
+}
+.home > .container pre {
+  text-align: center;
+}
 .aside-doc {
   position: fixed;
   /* background-color: rgba(247,139,99,1); */
+}
+.social .fa {
+	font-size: 25px;
+	/* background-color: black; */
+	/* padding: 5px; */
+	margin: 0;
+  text-align: center;
+	color: black;
+}
+a.nope:hover {
+  text-decoration: none;
 }
 .aside-doc li{
   /* background-color: rgba(247,139,99,1); */
@@ -244,11 +262,59 @@ li {
   background-color: white;
   color: transparent;
 }
-/* masonery */
-.grid-item {
-  width: 10em;
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
-.grid-item img {
+.masonry {
+  /* background: #EEE; */
+  /* max-width: 1024px; */
+}
+
+.masonry .item {
+  position: relative;
+  padding: 10px;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #333;
+  border-radius: 5px;
+  float: left;
+  height: 270px;
+  margin-bottom: 5px;
+  width:  270px;
+}
+.masonry .item a {
+  position: absolute;
+  height: 100%;
   width: 100%;
-  height: auto;
+}
+
+.masonry .w0 {
+  color: white;
+  background-image: url('../img/fabIsp/component.jpg');
+}
+.masonry .w1 {
+  background-image: url('../img/week3/handsDraw.jpg');
+}
+.masonry .w2 {
+  color: white;
+  background-position: bottom;
+  background-image: url('../img/week2/ubuntuBash02.jpg');
+}
+.masonry .w3 {
+  background-image: url('../img/week3/PlateauDePression_04.JPG');
+}
+.masonry .w4 {
+  color: white;
+  background-image: url('../img/Week4/parametricDesign.jpg');
+}
+.masonry .w5 {
+  color: white;
+  background-image: url('../img/week5/accelero06.jpg');
+}
+.masonry .w6 {
+  color: white;
+  background-image: url('../img/aClasser/20180222_152249.jpg');
 }

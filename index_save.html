@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link rel="stylesheet" href="assets/css/main.css" /> -->
+  <!-- <link rel="stylesheet" href="assets/lib/bootstrap-4/dist/css/bootstrap-reboot.min.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i">
+  <link rel="stylesheet" href="assets/css/md-css.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Portfolio Perso</title>
+  <script src="https://unpkg.com/vue"></script>
+  <!-- <script src="assets/js/accueil.vue" type="accueil"></script> -->
+</head>
+<body>
+  <div id="app" class="render home">
+    <div v-html="template.nav"></div>
+    <section v-bind:class="'container-fluid '+layout_general">
+      <div class="row">
+        <aside v-bind:class="'layout-general ' +  layout_size">
+          <!-- <div class="filter"></div> -->
+
+          <div class="main">
+            <h1 class=""><span>Adrien Centonze</span></h1>
+            <h3><span>3D artist / Front end developpeur</span></h3>
+            <ul class="social">
+              <li><a href="http://centonze-3d.blogspot.fr/" target="_blank" rel="noopener"><i class="fa fa-paint-brush" aria-hidden="true"></i></a></li><!---
+              --><li><a href="https://codepen.io/Adricen/" target="_blank" rel="noopener"><i class="fa fa-codepen" aria-hidden="true"></i></a></li><!---
+            --><li><a href="https://gitlab.fabcloud.org/academany/fabacademy/2018/labs/fablabdigiscope/students/adrien-centonze" target="_blank" rel="noopener"><i class="fa fa-gitlab" aria-hidden="true"></i></a></li><!---
+              --><li><a href="https://github.com/adricen" target="_blank" rel="noopener"><i class="fa fa-github" aria-hidden="true"></i></a></li><!---
+              --><li><a href="https://facebook.com/adricen111" target="_blank" rel="noopener"><i class="fa fa-facebook" aria-hidden="true"></i></a></li><!---
+              --><li><a href="https://twitter.com/whad111" target="_blank" rel="noopener"><i class="fa fa-twitter" aria-hidden="true"></i></a></li><!--
+            --><li><a href="https://www.linkedin.com/in/adrien-centonze/" target="_blank" rel="noopener"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </aside>
+        <section class="col layout-general home">
+      </section>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/marked@0.3.6"></script>
+    <script src="https://unpkg.com/lodash@4.16.0"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+  </footer>
+</body>
+</html>
