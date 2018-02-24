@@ -54,4 +54,15 @@ And normaly if you have done the job right, it should work correctly
 
 > You can now program your own board freely
 
-## II. **Hello-world Card** *echo hello-world*
+
+```
+  _________                                ._.
+ /   _____/__ __   ____  ____  ____   _____| |
+ \_____  \|  |  \_/ ___\/ ___\/ __ \ /  ___/ |
+ /        \  |  /\  \__\  \__\  ___/ \___ \ \|
+/_______  /____/  \___  >___  >___  >____  >__
+        \/            \/    \/    \/     \/ \/
+
+```
+
+<!-- ## II. **Hello-world Card** *echo hello-world* -->
