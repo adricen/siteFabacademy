@@ -35,6 +35,10 @@ li {
 }
 .home > .container pre {
   text-align: center;
+  line-height: 1.1vw;
+}
+.home pre {
+  font-size: 1vw;
 }
 .aside-doc {
   position: fixed;
@@ -318,3 +322,8 @@ a.nope:hover {
   color: white;
   background-image: url('../img/aClasser/20180222_152249.jpg');
 }
+/* @media screen and (max-width: 500px) {
+    pre {
+        font-size: 0.2em;
+    }
+} */

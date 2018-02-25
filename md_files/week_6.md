@@ -16,3 +16,43 @@
 Seing through our 3D printer at Digiscope Fablab, we have 2 kinds of 3d printer, Formalab and Ultimaker.
 
 For the group Assignement, we are gonna test the Formalab 2 and the Ultimaker 3 Extended that we want to use for futur test of multiple material printing.
+
+### Printing the mire on the formlab
+
+| ![formlabMire](assets\img\week6\formlabMire06.jpg) | ![formlabMire](assets\img\week6\formlabMire.jpg) | ![formlabMire](assets\img\week6\formlabMire02.jpg) |
+| --- | --- | --- |
+|![formlabMire](assets\img\week6\formlabMire03.jpg) | ![formlabMire](assets\img\week6\formlabMire04.jpg)  | ![formlabMire](assets\img\week6\formlabMire05.jpg)  |
+
+My mistake was I did settup the support way to thin, so the model did fall in the back and fix itself on the bottom of the back. We will do it again.
+
+Inbetween, we made a test print from a bust from Julie Taris wich make the Fabricademy here in the Digicscope that I help to make.
+![scan](assets\img\week6\testPrint.jpg)
+
+### Printing the mire on the Ultimaker 3
+
+We send the print for the weekend
+
+| ![cura](assets\img\week6\cura0.jpg) | ![cura](assets\img\week6\cura1.jpg) | ![printedPCB](assets\img\week6\printCircuit05.jpg) |
+| --- | --- | --- |
+| ![printedPCB](assets\img\week6\printCircuit06.jpg)  | ![printedPCB](assets\img\week6\printCircuit07.jpg)  | ![printedPCB](assets\img\week6\printCircuit08.jpg) |
+| ![printedPCB](assets\img\week6\printCircuit09.jpg) |
+
+## Printing an electronic device
+
+Let's try something new, We have a [conductive PLA from proto pasta](https://www.proto-pasta.com/pages/conductive-pla), so I want to give a shot and try to make something electronic printed. From the docmentation of the plastic, we can see that it have a resistivity of 30 ohm-cm on the X-Y axis and 150 ohm-cm on the Z axis.
+
+So let's make some calcul, -- complete --
+
+With this we can conclude that we have to make 5 spire to have a resistivity equivalente for our LED.
+Let's jump to the realisation an see the result :
+
+| ![printedPCB](assets\img\week6\fusionScene0.jpg) | ![printedPCB](assets\img\week6\fusion360_0.jpg) | ![printedPCB](assets\img\week6\fusion360_0.jpg) |
+| --- | --- | --- |
+| ![cura](assets\img\week6\cura0.jpg) | ![cura](assets\img\week6\cura1.jpg)  | ![printedPCB](assets\img\week6\printCircuit00.jpg) |
+| ![printedPCB](assets\img\week6\printCircuit0.jpg) | ![printedPCB](assets\img\week6\printCircuit01.jpg) | ![printedPCB](assets\img\week6\printCircuit02.jpg) |
+| ![printedPCB](assets\img\week6\printCircuit03.jpg) | ![printedPCB](assets\img\week6\printCircuit04.jpg) | ![printedPCB](assets\img\week6\printCircuit10.jpg) |
+| ![printedPCB](assets\img\week6\printCircuit11.jpg) | ![printedPCB](assets\img\week6\printCircuit12.jpg) | ![printedPCB](assets\img\week6\printCircuit13.jpg) |
+| ![printedPCB](assets\img\week6\printCircuit14.jpg) | ![printedPCB](assets\img\week6\printCircuit15.jpg) | ![printedPCB](assets\img\week6\printCircuit16.jpg) |
+| ![printedPCB](assets\img\week6\printCircuit17.jpg) | ![printedPCB](assets\img\week6\printCircuit18.jpg) | ![printedPCB](assets\img\week6\printCircuit19.jpg) |
+| ![printedPCB](assets\img\week6\printCircuit20.jpg) | ![printedPCB](assets\img\week6\printCircuit21.jpg) | ![printedPCB](assets\img\week6\printCircuit22.jpg) |
+| ![printedPCB](assets\img\week6\printCircuit23.jpg) |

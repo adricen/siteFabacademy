@@ -60,10 +60,21 @@ Here the process of making PCB is more by laser cutting than milling machin. **W
 | ![clean](assets\img\week5\Mire.jpg) | ![clean](assets\img\week5\Mire2.jpg) |
 | --- | --- |
 
+### Trying to cut circuits with the vinyl cutter
+
+After the computer controlled week, we tryed to make a fabIsp board with the vinyl cutter and some copper surface. In the time I had, I didn't found the good parametres for this purpuses, but I am sure it's something possible, I'll investigate later on this. Here is what it give
+![vinyl cut test](assets\img\week5\copperLayer.jpg)
 
 ### Making an Accelerometre board
 
 I made my fabISP on the pre fabacademy I did with Romain. You can see it there : [fabISP Optimus](assignement.html?page=week_0)
 ![fabOptimus](assets\img\fabIsp\component.jpg)
 
-For this assignement, I choose to make an accelerometre input.
+For this assignement, I choose to make an accelerometre input from the [input devices](http://academy.cba.mit.edu/classes/input_devices/index.html) week. We actualy have a problem to ourfiber laser cutter actualy, so I tryed to make my PCB on it but had some difficulty to make a good output.
+
+| ![laser](assets\img\week5\laser00.jpg) | ![laser](assets\img\week5\laser01.jpg) |  ![laser](assets\img\week5\laser02.jpg) |
+| --- | --- | --- |
+|  ![laser](assets\img\week5\laser03.jpg) | ![laser](assets\img\week5\laser04.jpg) | ![laser](assets\img\week5\laser05.jpg) |
+|  ![laser](assets\img\week5\laser06.jpg) | ![laser](assets\img\week5\laser07.jpg) | ![laser](assets\img\week5\laser08.jpg) |
+
+After investigation, it seams that I made an error in my setup and over past the frequency. put it on ten insted of one so it grilled my pcb.
