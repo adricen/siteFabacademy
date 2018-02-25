@@ -320,10 +320,5 @@ a.nope:hover {
 }
 .masonry .w6 {
   color: white;
-  background-image: url('../img/week6/testPrint.jpg');
+  background-image: url('../img/week6/printCircuit20.jpg');
 }
-/* @media screen and (max-width: 500px) {
-    pre {
-        font-size: 0.2em;
-    }
-} */
