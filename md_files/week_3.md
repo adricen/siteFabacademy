@@ -180,6 +180,8 @@ ninja
 ```
 And that's it, you can now run antimony directly into windows, without having to switch to a double linux boot...
 
+![antimony](assets\img\week3\Antimony.png)
+
 
 ### Antimony with maya
 
