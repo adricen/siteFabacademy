@@ -35,7 +35,7 @@ We send the print for the weekend
 | ![cura](assets\img\week6\cura0.jpg) | ![cura](assets\img\week6\cura1.jpg) | ![printedPCB](assets\img\week6\printCircuit05.jpg) |
 | --- | --- | --- |
 | ![printedPCB](assets\img\week6\printCircuit06.jpg)  | ![printedPCB](assets\img\week6\printCircuit07.jpg)  | ![printedPCB](assets\img\week6\printCircuit08.jpg) |
-| ![printedPCB](assets\img\week6\printCircuit09.jpg) |
+| ![printedPCB](assets\img\week6\printCircuit09.jpg) | ![printedMire](assets\img\week6\mireDone.jpg) |
 
 ## Printing an electronic device
 
@@ -57,4 +57,19 @@ Let's jump to the realisation an see the result :
 | ![printedPCB](assets\img\week6\printCircuit20.jpg) | ![printedPCB](assets\img\week6\printCircuit21.jpg) | ![printedPCB](assets\img\week6\printCircuit22.jpg) |
 | ![printedPCB](assets\img\week6\printCircuit23.jpg) |
 
-> this was a proof of concept and it worked! I probably investigate further to do a real functionnal printed device.
+> This was a proof of concept and it worked! I probably investigate further to do a real functionnal printed device.
+
+We have done another try with an ABS conductive material, but for now we are experiencing sticky probleme with this material... nothing fit for now.
+
+![printedStuff](assets\img\week6\printedMire.jpg)
+
+## mixing organic and parametric shapes
+
+In order to try to melt both technics, I tryed to mix to to differents type of shapes all made inside Zbrush.
+
+| ![hand1](assets\img\week6\ZBrush-fablabLogo00.png) | ![hand1](assets\img\week6\ZBrush-fablabLogo01.png) | ![hand1](assets\img\week6\hand1-00.png) |
+| --- | --- | --- |
+| ![hand1](assets\img\week6\handCura.png) | ![hand](assets\img\week6\hand1-0.jpg) | ![hand1](assets\img\week6\hand1-1.jpg) |
+| ![hand1](assets\img\week6\hand1-2.jpg) | ![hand1](assets\img\week6\hand1-3.jpg) | ![hand1](assets\img\week6\hand1-4.jpg) |
+| ![hand1](assets\img\week6\hand1-5.jpg) | ![hand1](assets\img\week6\hand1-6.jpg) | ![hand1](assets\img\week6\hand1-8.jpg) |
+![hand1](assets\img\week6\hand1-7.jpg) |
