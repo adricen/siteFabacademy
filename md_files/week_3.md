@@ -183,6 +183,26 @@ And that's it, you can now run antimony directly into windows, without having to
 
 ![antimony](assets\img\week3\Antimony.png)
 
+#### e. bonus - finding your file through windows
+
+For now, I couldn't find home folder directories in windows, so let's reverse the process a little bit.
+Instead of finding files inside windows, let's take files inside Ubuntu and copy them into windows directory.
+
+My file is called fabLogo.stl so, once I navigate to my file in Ubuntu bash :
+
+```
+// We are gonna use cp command and /mnt for windows file directory
+// cp [file name] [copy location]
+
+cp fabLogo.stl /mnt/c/Users/[your user name]/Documents/
+
+// Presse enter and that's it! Your file is now available in Documents directory or wherever you need.
+
+
+
+```
+
+
 
 ### Antimony with maya
 
