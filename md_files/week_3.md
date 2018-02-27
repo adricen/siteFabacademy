@@ -156,7 +156,7 @@ You will need a display emulator to run the display of your application. Xming w
 
 #### d. The last part ! Install Antimony --> [instructions](https://github.com/mkeeter/antimony/blob/master/BUILDING.md#linux)
 
-You can now run the install procedure describe on the antimony github page, just be sure to be connected as `root` user and to do an 'apt-get update' just after you get dependencies. So your command lines would be :
+You can now run the install procedure describe on the antimony github page, just be sure to be connected as `root` user and to do an `apt-get update`  just after you get dependencies. before running the application you have to had an export paramettre this way : `export DISPLAY=:0`
 
 ```
 # Install dependencies
@@ -176,6 +176,7 @@ cd build
 # Build and launch the application
 cmake -GNinja ..
 ninja
+export DISPLAY=:0
 ./app/antimony
 ```
 And that's it, you can now run antimony directly into windows, without having to switch to a double linux boot...
