@@ -181,6 +181,8 @@ export DISPLAY=:0
 ```
 And that's it, you can now run antimony directly into windows, without having to switch to a double linux boot...
 
+You can get the files here : [fablab Logo antimony Scene](assets\files\antimony\fablabLogoScene.sb) / [fablabLogo.stl](assets\files\antimony\fablabLogo.stl)
+
 ![antimony](assets\img\week3\Antimony.png)
 
 #### e. bonus - finding your file through windows
@@ -197,9 +199,6 @@ My file is called fabLogo.stl so, once I navigate to my file in Ubuntu bash :
 cp fabLogo.stl /mnt/c/Users/[your user name]/Documents/
 
 // Presse enter and that's it! Your file is now available in Documents directory or wherever you need.
-
-
-
 ```
 
 

@@ -56,3 +56,5 @@ Let's jump to the realisation an see the result :
 | ![printedPCB](assets\img\week6\printCircuit17.jpg) | ![printedPCB](assets\img\week6\printCircuit18.jpg) | ![printedPCB](assets\img\week6\printCircuit19.jpg) |
 | ![printedPCB](assets\img\week6\printCircuit20.jpg) | ![printedPCB](assets\img\week6\printCircuit21.jpg) | ![printedPCB](assets\img\week6\printCircuit22.jpg) |
 | ![printedPCB](assets\img\week6\printCircuit23.jpg) |
+
+> this was a proof of concept and it worked! I probably investigate further to do a real functionnal printed device.
