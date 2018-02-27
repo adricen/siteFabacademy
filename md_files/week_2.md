@@ -42,20 +42,6 @@ I wanted to go further with git to enhance my worflow, specialy for the fabacade
 
 > for now, it's where I am at. I still have trouble identifyng where am I in the phone and can't manage to find the good place. Next step is to identifying the image folder and being able to synch it with gihub. Or clone my website on my phone just to have access to my md files and being able to modify theme and synchronized it. For now I can modify files on my phone  
 
-##### b. Install and Use the Linux Bash Shell on Windows 10 --> [source here](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
-
-![outside_pics_01](https://www.howtogeek.com/wp-content/uploads/2016/04/ximg_570997a37ca4e.png.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.sRQi9uZ3CQ.png)
----
-| <center><i class="fa fa-500px"></i></center> | <center><i class="fa fa-book"></i></center> |
-| --- | --- |
-| **1. Activate Windows developper mode** | ![outside_pics_02](https://www.howtogeek.com/wp-content/uploads/2016/04/ximg_570999e304309.png.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.5V9iFGJlWR.png) |
-| **2. Open Control Panel > Programs and activate `windows Subsystem for linux(Beta)`** |![ubuntu00](assets\img\week2\ubuntuBash00.jpg) |
-| **3. Open Bash** | ![outside_pics_02](https://www.howtogeek.com/wp-content/uploads/2016/04/ximg_57099904643e7.png.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.0LbC1f1nur.png) |
-| **4. Update to Ubuntu Bash** | ![ubuntu02](https://www.howtogeek.com/wp-content/uploads/2016/04/ximg_570998bb8323b.png.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.l29bWUELIg.png) |
-| **5. Run Install** | `lxrun /install /y` |
-| **6. Open Ubuntu Bash and tap `sudo apt-get upgrade`** | ![ubuntu03](assets\img\week2\ubuntuBash02.jpg) |
-
-<center></center>
 
 ### II. Build a personnal web site
 ```
