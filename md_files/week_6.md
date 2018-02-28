@@ -26,7 +26,7 @@ For the group Assignement, we are gonna test the Formalab 2 and the Ultimaker 3 
 My mistake was I did settup the support way to thin, so the model did fall in the back and fix itself on the bottom of the back. We will do it again.
 
 Inbetween, we made a test print from a bust from Julie Taris wich make the Fabricademy here in the Digicscope that I help to make.
-![scan](assets\img\week6\testPrint.jpg)
+<!-- ![scan](assets\img\week6\testPrint.jpg) -->
 
 ### Printing the mire on the Ultimaker 3
 
@@ -73,3 +73,10 @@ In order to try to melt both technics, I tryed to mix to to differents type of s
 | ![hand1](assets\img\week6\hand1-2.jpg) | ![hand1](assets\img\week6\hand1-3.jpg) | ![hand1](assets\img\week6\hand1-4.jpg) |
 | ![hand1](assets\img\week6\hand1-5.jpg) | ![hand1](assets\img\week6\hand1-6.jpg) | ![hand1](assets\img\week6\hand1-8.jpg) |
 ![hand1](assets\img\week6\hand1-7.jpg) |
+
+
+## Scanning --
+
+We just made the scanning assignement, so the documentation is in wip. We are gonna investigate further on scanning tool and have some cool information.
+
+![scanning wip](assets\img\week6\scanning00.png)
