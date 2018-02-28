@@ -74,6 +74,10 @@ In order to try to melt both technics, I tryed to mix to to differents type of s
 | ![hand1](assets\img\week6\hand1-5.jpg) | ![hand1](assets\img\week6\hand1-6.jpg) | ![hand1](assets\img\week6\hand1-8.jpg) |
 ![hand1](assets\img\week6\hand1-7.jpg) |
 
+## Making a parametric design in Antimony
+(still need to print it)
+
+![antimony](assets\img\week3\Antimony.png)
 
 ## Scanning --
 
