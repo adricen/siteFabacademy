@@ -28,5 +28,5 @@
 
 I started lately working on KiCAD trying to re-design the HelloBoard. As a beginner on this software, I found a documentation that someone made in the past [here](http://archive.fabacademy.org/2017/fablabnervecentre/students/401/assignment6.html). So I reproducte the schematiks.
 
-| ![kiCad](assets\img\week7\kiCad-01.jpg) Starting Schematics | ![kiCad](assets\img\week7\kiCad-02.jpg)  Schematics done! | ![kiCad](../img/week7/kiCad-03.jpg) |
+| ![kiCad](assets\img\week7\kiCad-01.jpg) Starting Schematics | ![kiCad](assets\img\week7\kiCad-02.jpg)  Schematics done! | ![kiCad](assets/img/week7/kiCad-03.jpg) |
 | --- | --- | --- |
