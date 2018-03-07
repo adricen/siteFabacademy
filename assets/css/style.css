@@ -322,3 +322,6 @@ a.nope:hover {
   color: white;
   background-image: url('../img/week6/printCircuit20.jpg');
 }
+.masonry .w7 {
+  background-image: url('../img/week7/helloBoard.jpg');
+}
