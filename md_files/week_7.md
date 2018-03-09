@@ -15,14 +15,23 @@
 
 ## Production
 
+
 ### Lexique
 
-* Impedence
-* Voltage
-* Resistance
-* Tention
+ohm law : U = R * I
+
+* Voltage / Tention :
+  Resistance multiply by Intensity. It's unite is Voltage => V
+
+* Resistance :
+  Limitation of the current. it's unite is in ohm.
+
+* Impedence :
+  Equivalent to resistance for alternative current
+
 * Capacitence
-* Intensité / Current
+* Intensité / Current :
+
 
 ### Redesign the HelloBoard
 
