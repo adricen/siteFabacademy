@@ -16,9 +16,69 @@
 > git hub Tagname : [@adricen](https://github.com/adricen)
 
 I discovered git three years ago when I started to learn about web developpement.
-At that time, I have been engaged in a quite big association in order to teech web developpement and coach young adulte living in popular area. I started to work on git hub with them, beginning by the online-interface of github, guid them through the creation of somme simple md files to learn about html structure. Then created a programme called [`Ma6TvaCODER`](https://github.com/Ma6Tvacoder-Docs) where github had a central place between schools. Soon, it's been 60 students that were working together on this support, experimenting through content creation.
+At that time, I have been engaged in a quite big association in order to teech web developpement and coach young adulte living in popular area. I started to work on git hub with them by myself, beginning by the online-interface of github, guid them through the creation of somme simple md files to learn about html structure. Then created a programme called [`Ma6TvaCODER`](https://github.com/Ma6Tvacoder-Docs) where github had a central place between schools. Soon, it's been 80 students that were working together on this support, experimenting through content creation.
 
-#### 2. assignement for Git
+Let's make a breakdown of how I learned Git three years ago, and some good link soem of you could use.
+
+##### Learning the basics
+
+When you start on git, you see a lt of new concept and some of theù are really hard to understand. The best way to get them is to try thems. The first step is to create your git profil. At that time I choose Github but didn't really know for other platteforme of that type. So start by creating your profil. Here is some personnal advice to have a good profil :
+
+* change the gravatar profil picture.
+  * put a good photo of yourself, not too coth ( like me... ) and not too far and well lighten.
+  * use the Github Octodex pictures -> [link here](https://octodex.github.com/)
+* Create a ssh key on your computer and link it to your account
+  * everything you need to know on this is [here](https://help.github.com/articles/connecting-to-github-with-ssh/)
+  * type
+    ```
+    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+    ```
+
+When asking for passphrase, you can put your centence or let it blank. In my opinion if your work is not really sensitive and nobody except you have acces to this computer, you can let the passphrase blank because otherwise you will have to tap your sentence each time you want to upload files.
+
+##### Branching !
+
+On a git repository you can make some branch wich could rapidly be really usefull or a big mess if you don't clean your work regulary. How to make a branch ?
+
+`git branch` and `git checkout`
+
+```
+
+git branch <name of your branch>
+
+git checkout <your branch>
+
+or
+
+git checkout -b <name of your branch>
+
+```
+
+The result is the same, in both case you will swith your branch. When it's a fresh branch, you files are the same as the master branch but now, you can change them as far as you want.
+
+##### Let's see how it work for real !
+
+Before we start, I have to say that I work with [Atom](https://atom.io/) as IDE, [git bash](https://gitforwindows.org/) for windows and [xampp](https://www.apachefriends.org/fr/index.html) in case I need to use server language like Php.
+
+As a xampp user, my root directory will be my htdocs file, where xampp can emulate a server directory.
+
+| ![git00](assets\img\week2\git0.jpg) | ![git01](assets\img\week2\git1.jpg) |
+| --- | --- |
+| ![git02](assets\img\week2\git2.jpg) | ![git03](assets\img\week2\git3.jpg) |
+| ![git02](assets\img\week2\git4.jpg) | ![git03](assets\img\week2\git5.jpg) |
+| ![git02](assets\img\week2\git6.jpg) | ![git03](assets\img\week2\git7.jpg) |
+| ![git02](assets\img\week2\git8.jpg) | ![git03](assets\img\week2\git9.jpg) |
+| ![git02](assets\img\week2\git10.jpg) | ![git03](assets\img\week2\git11.jpg) |
+| ![git02](assets\img\week2\git12.jpg) | ![git03](assets\img\week2\git13.jpg) |
+| ![git02](assets\img\week2\git14.jpg) | ![git03](assets\img\week2\git15.jpg) |
+
+
+
+
+#### 2. assignement for Git1
+
+
 
 Everything you need to no to start with git is well explain here by [@fiore](https://gitlab.fabcloud.org/fibasile) :  
 
