@@ -47,6 +47,15 @@ Making a full human size object could be a long creative process. So I choose to
 | ![mayaConcept00](assets\img\week8\concept00.jpg) | ![mayaConcept00](assets\img\week8\concept01.jpg) |
 | --- | --- |
 
+### The making
+
+| ![chair](assets\img\week8\chair00.jpg) | ![chair](assets\img\week8\chair01.jpg) |
+| --- | --- |
+| ![chair](assets\img\week8\chair03.jpg) | ![chair](assets\img\week8\chair04.jpg) |
+| ![chair](assets\img\week8\chair05.jpg) | ![chair](assets\img\week8\chair07.jpg) |
+| ![chair](assets\img\week8\chair06.jpg) | ![chair](assets\img\week8\chaire00.jpeg) |
+| ![chair](assets\img\week8\chaire01.jpeg) | ![chair](assets\img\week8\chaire02.jpeg) |
+
 ### Maya wasn't the good choise
 
 Due to the time I add, I choose to use maya to design my stool because I know it well and can design anything really quickly. I though tha t I could conceptualized it in maya and then pass it to Fusion, using the CAM tool of it. But it didn't happend this way. Maya is a greate tool and offer a lot of possibility, and one of them is parametric modelisation, wich work fine as far as you stay proper and clean and with simple shapes. But you can go really quickly to a non parametric object so you have to be really focus. You don't have a STL output, and you can't export it to fusion. I will let this kind of process for the futur for when I will have time. Fusion would have been more usefull on this exercice... I'll know it next time.
