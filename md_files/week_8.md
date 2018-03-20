@@ -1,4 +1,4 @@
-# Fabacademy : *Week 8* **February 28/2018**
+# Fabacademy : *Week 8* **March 07/2018**
 
 ## Assignement - Make something Big !
 
@@ -48,6 +48,8 @@ Making a full human size object could be a long creative process. So I choose to
 | --- | --- |
 
 ### The making
+
+I used a down-cut spindle
 
 | ![chair](assets\img\week8\chair00.jpg) | ![chair](assets\img\week8\chair01.jpg) |
 | --- | --- |

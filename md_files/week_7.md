@@ -6,6 +6,7 @@
 ### group project:
    use the test equipment in your lab to observe the operation
       of a microcontroller circuit board
+
 ### individual project:
    redraw the echo hello-world board,
    add (at least) a button and LED (with current-limiting resistor)
@@ -29,7 +30,9 @@ ohm law : U = R * I
 * Impedence :
   Equivalent to resistance for alternative current
 
-* Capacitence
+* Capacitence :
+  Stabilize current
+
 * Intensité / Current :
 
 
