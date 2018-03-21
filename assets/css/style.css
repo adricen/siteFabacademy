@@ -317,9 +317,13 @@ a.nope:hover {
 }
 .masonry .w7 {
   color: white;
-  background-image: url('../img/week7/helloBoard.jpg');
+  background-image: url('../img/week9/20180316_132927.jpg');
 }
 .masonry .w8 {
   color: white;
-  background-image: url('../img/week8/big07.jpg');
+  background-image: url('../img/week8/site1.jpeg');
+}
+.masonry .w9 {
+  color: white;
+  background-image: url('../img/week7/helloBoard.jpg');
 }

@@ -17,9 +17,9 @@
 | --- | --- |
 | VCC | Supply Voltage / + |
 | GND | Ground Voltage / - |
-| Port B | Port B Have 4 bit analogic Input/Output on the ITtiny44A. PB3 = RESET. It also have specific possibility. |
-| RESET | The reset Input allow you to  |
-|  |  |
+| Port B | Port B Have 4 bit analogic Input/Output on the ITtiny44A. |
+| PB3 = RESET | You can reconfigure it as a classic analiogic pin but you won't be able to rewrite your code anyway. |
+| Port A : from PA07 to PA0 | 8 bit input / output  |
 
 ### Echo Helloboard !
 
@@ -45,6 +45,8 @@ sudo apt-get install putty
 | two new file in `.hex` and `.out` have been done from the `.c` file, you can now send it to your board using `program-usbtiny` | `make -f hello.ftdi.44.echo.c.make program-usbtiny |
 | Now connect your board to Putty | ![putty](assets\img\week9\Screenshot from 2018-03-19 20-34-28.png) |
 | victory is yours, you can now write to your board that respond with a 25 lenght string taxt that you wrote. | ![helloPutty](assets\img\week9\helloPutty.jpg) |
+| Pull-Up Resistor | Maintain the Current in a high lvl. Generaly there is a pull up on the RESET pin to maintain the integrity of the controler |
+|  |  |
 
 ### Blink Helloboard !
 
