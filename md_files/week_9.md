@@ -22,6 +22,10 @@
 | PB3 = RESET | The reset Pin allow you to reprogram your chip. You can reconfigure it as a classic analiogic pin but you won't be able to rewrite your code anyway. |
 | Pull-Up Resistor | Maintain the Current in a high lvl. Generaly there is a pull up on the RESET pin to maintain the integrity of the controler. There is a pull resistor setable in each pin register normaly |
 | Registers | Every pin have a register referenced in the datasheet. For the PAx or PBx. Each Pin have DDxn, PORTxn, and PINxn that are setable |
+| AREF |  External Analog Reference for ADC. Pullup and output driver are disabled on PA0 when the pin is used as an external reference or Internal Voltage Reference with external capacitor at the AREF pin by setting (one) the bit REFS0 in the ADC Multiplexer Selection Register (ADMUX).|
+| AINO | Analog Comparator Positive Input. Configure the port pin as input with the internal pull-up switched off to avoid the digital port function from interfering with the function of the Analog Comparator |
+| DDRA / DDRB |  |
+| PORTA / PORTB |  |
 
 ### Echo Helloboard !
 
@@ -61,3 +65,201 @@ Let's play with this led ! I found a basic C file for the blink on a past studen
 | make file | `make -f hello.ftdi.44.blink.c.make` |
 | then push it on your board | `make -f hello.ftdi.44.blink.c.make program-usbtiny` |
 | if everything work correctly you should have your led blinking | ![trih](assets\img\week9\20180319_201219.jpg) |
+
+
+### HelloGame - Duel
+
+[hello.ftdi.44.duel.c](assets\files\helloboard\helloGame\Duel\hello.ftdi.44.duel.c) / [hello.ftdi.44.duel.c.make](assets\files\helloboard\helloGame\Duel\hello.ftdi.44.duel.c.make)
+
+This programme is made for the [helloGame board]()
+
+I tryed to make a simple game with the thing I learned so far. Designing a board, using and reading datasheet, making my PCB, mount it, make my programme and hopefully download it on my helloGame board and play with it.
+
+#### Duel- the game
+
+Thinking gameprogramming is a really simple way to approche programming languae using the oldest way we know about learning, play. Everything begin with some rules and consequence.
+
+Let's break it down !
+
+##### SET UP
+```
+// Setup Btn and Led
+		// Player 1
+			// Btn
+			DDRA &= (1<<PA3);
+			PORTA |= (1<<PA3);
+
+			// Led
+			DDRA |= (1<<PA2);
+			PORTA |= (1<<PA2);
+
+		// Player 2
+			// Btn
+			DDRB &= (1<<PB2);
+			PORTB |= (1<<PB2);
+
+			// Led
+			DDRA |= (1<<PA7);
+			PORTA |= (1<<PA7);
+
+```
+
+> The led and button used on the ATtiny44. You have to setup them in differents register. The DDRA for the
+
+##### VARIABLES USED BY THE GAME
+
+```
+// Variables used to play
+int init = 1;
+int score1 = 0; // for player 1
+int score2 = 0; // for player 2
+int scoreLimit = 10;
+
+```
+> init is for the initialisation activation / scores are for each score player / Score limite is the limite of point you get to win
+
+##### RESET
+
+```
+
+if ((PINA & (1 << PA3)) == (1 << PA3) && (PINB & (1 << PB2)) == (1 << PB2)) {
+  _delay_ms(500);
+  if ((PINA & (1 << PA3)) == (1 << PA3) && (PINB & (1 << PB2)) == (1 << PB2)) {
+    init = 1;
+  }
+}
+```
+
+> If the two button are pressed more than 5 sec the init goes back to active and the score will be araised.
+
+##### Function to display points
+
+```
+
+// Display points
+if(((PINA & (1 << PA3)) == (1 << PA3) || (PINB & (1 << PB2)) == (1 << PB2)) && !((PINA & (1 << PA3)) == (1 << PA3) && (PINB & (1 << PB2)) == (1 << PB2)) ) {
+  _delay_ms( 200 );
+  if( (PINA & (1 << PA3)) == (1 << PA3) ){
+
+    // Blink once for a point
+    int a;
+    for( a = 0; a < score1; a = a + 1 ){
+      PORTA &= ~( 1<<PA2 );
+      _delay_ms( 250 );
+      PORTA |= ( 1<<PA2 );
+      _delay_ms( 250 );
+      PORTA &= ~( 1<<PA2 );
+    }
+  }
+  if( (PINB & (1 << PB2)) == (1 << PB2) ){
+
+    // Blink once for a point
+    int a;
+    for( a = 0; a < score2; a = a + 1 ){
+      PORTA &= ~( 1<<PA7 );
+      _delay_ms( 250 );
+      PORTA |= ( 1<<PA7 );
+      _delay_ms( 250 );
+      PORTA &= ~( 1<<PA7 );
+    }
+  }
+}
+
+```
+> detecte if a button is pushed more than 2 seconde and then light his light for each point.
+
+##### Trigger function : waiting for someone to push the button
+
+```
+// Trigger function
+void trigger(){
+  if( (PINA & (1 << PA3)) == (1 << PA3) || (PINB & (1 << PB2)) == (1 << PB2)){
+    if( (PINA & (1 << PA3)) == (1 << PA3) ){
+      // adding one point to score 1
+      score1 = score1 + 1;
+      // lighting to show the winner
+      PORTA &= ~( 1<<PA2 );
+      _delay_ms( 10 );
+      PORTA |= ( 1<<PA2 );
+      _delay_ms( 250 );
+      PORTA &= ~( 1<<PA2 );
+    }
+    if( (PINB & (1 << PB2)) == (1 << PB2) ){
+      // adding one oint to score 2
+      score2 = score2 + 1;
+      // lighting to show the winner
+      PORTA &= ~( 1<<PA7 );
+      _delay_ms( 10 );
+      PORTA |= ( 1<<PA7 );
+      _delay_ms( 250 );
+      PORTA &= ~( 1<<PA7 );
+    }
+  } else {
+    trigger();
+  }
+}
+
+```
+
+> Once it's called, the trigger function enter into a recurcive loop that call itself until a button is push.
+
+##### WINNER  LOOP
+
+```
+// Winner State
+void winner( char led ){
+  PORTA &= ~( 1 << led );
+  _delay_ms( 75 );
+  PORTA |= ( 1 << led );
+  _delay_ms( 75 );
+  PORTA &= ~( 1 << led );
+  _delay_ms( 75 );
+  init = 1;
+  if((PINA & (1 << PA3)) !== (1 << PA3) && (PINB & (1 << PB2)) !== (1 << PB2)){
+    winner(led);
+  }
+}
+
+```
+> the loop continues until someone push a button
+
+##### ROUND
+
+```
+
+// Round function
+void round ( score1, score2 ) {
+  int limit;
+  for( limit = 3; limit > 0; limit = limit-1 ){
+    int loop;
+    for( loop = 0; loop < limit; loop = loop+1 ){
+      PORTA &= ~( 1<<PA7 );
+      PORTA &= ~( 1<<PA2 );
+      _delay_ms( 35 );
+      PORTA |= ( 1<<PA7 );
+      PORTA |= ( 1<<PA2 );
+      _delay_ms( 35 );
+      PORTA &= ~( 1<<PA7 );
+      PORTA &= ~( 1<<PA2 );
+    }
+    if( limit > 1){
+      int r = rand() % 1000;
+      // random delay
+      _delay_ms(r);
+    }
+  }
+  trigger();
+  if( score1 < scoreLimit && score2 < scoreLimit ){
+    round();
+  } else {
+    if( score1 > 10 ){
+      winner( PA2 );
+    } else {
+      winner( PA7 );
+    }
+  }
+}
+```
+> The round function is called at each turn. This is the main core of the game that count turn and deal with victory states.
+
+> The first loop is a count down that blink 3, 2 and 1 time until it's your turn to push. Inbetween each number their is a random amount of time to wait. This way you never know when the last light are gona blink.

@@ -33,12 +33,35 @@ ohm law : U = R * I
 * Capacitence :
   Stabilize current
 
-* Intensité / Current :
+* Intensity / Current :
 
 
-### Redesign the HelloBoard
+### Redesign the HelloBoard on KiCAD
 
 I started lately working on KiCAD trying to re-design the HelloBoard. As a beginner on this software, I found a documentation that someone made in the past [here](http://archive.fabacademy.org/2017/fablabnervecentre/students/401/assignment6.html). So I reproducte the schematiks.
 
 | ![kiCad](assets\img\week7\kiCad-01.jpg) Starting Schematics | ![kiCad](assets\img\week7\kiCad-02.jpg)  Schematics done! | ![kiCad](assets/img/week7/kiCad-03.jpg) |
 | --- | --- | --- |
+
+> After a few test, I left KiCad for Eagle. The open source software seams to be quite good, but every device are not avalaible in the library for now and for now I am a beginner that try to understand what this is all about, so maybe I'll come to it further but for now I need a stable and effective software wich allow me to understand stuf clearly.
+
+### Redesign the HelloBoard on Eagle - birth of the helloGame board
+
+I wanted to try to use every slot available on my ATtiny44, so I put 2 button and 2 led. With this I should be able to programme simple interaction to make a simple 2 player game.
+
+Component :
+
+* Attiny44A : ATTINY44-SSU
+* AVRISPSMD
+*
+* RESONATOR 1uf 20mhz
+* CAP-US1206FAB
+* Resistor :  500ohm x 2 + 100ohm
+* BUTTON x2
+* Leds : LEDFAB1206 x 2
+
+#### Eagle time
+
+| Schematics using the list above and the clasic echohelloboard exemple I have been able to connect et design my own board | ![eagle0](assets\img\week7\helloGame0.png) |
+| --- | --- |
+| Board - To make the ground like this and spar some engrave time, create a squarre around your board using `Polygone` tool,then name it using the naming tool that I circle on this picture nad name your element `GND`. Once it's done you can clic on rastnet and  | ![eagle1](assets\img\week7\helloGame1.jpg) |
