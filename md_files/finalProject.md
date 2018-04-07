@@ -1,6 +1,6 @@
 # Final Project Developpement - 3D mouse wristband
 
-## Concept :
+<!-- ## Concept :
 
 **3D Mouse** - a wristband that track my hands and fingers and allow me to work within a 3D modeler, interact and sculpt objects with my right hand.
 
@@ -9,11 +9,21 @@
 * Using 3D mouse into a 3D world for object manipulation
 * Working with "wilder" screen and being able to interact with huge virtual space.
 * Moving his hand in virtual world for desable people with hand cut.
-* Work inside 3D software
+* Work inside 3D software -->
 
-## Design :
+## Project thinking
 
+<!-- Version 2 -->
+### <u>Beatmachine Doorbell - compose your ring-tone</u>
 
-### Draw and Scan :
+* Touch pad with glowing button
+  * Leave a message
+  * Change music features ( hiphop / techno / Jeanmichel Jar )
+* Home box - shape of sound buffer with style
+  * Music buffer
+  * Micro to communicate
+  * Listen messages
+  * Save messages
+  * See that you hav a message
 
-![handDraw](assets\img\week3\handsDraw.jpg)
+### Design thinking

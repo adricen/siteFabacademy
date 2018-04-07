@@ -126,6 +126,7 @@ if ((PINA & (1 << PA3)) == (1 << PA3) && (PINB & (1 << PB2)) == (1 << PB2)) {
   _delay_ms(500);
   if ((PINA & (1 << PA3)) == (1 << PA3) && (PINB & (1 << PB2)) == (1 << PB2)) {
     init = 1;
+    return;
   }
 }
 ```
@@ -150,6 +151,8 @@ if(((PINA & (1 << PA3)) == (1 << PA3) || (PINB & (1 << PB2)) == (1 << PB2)) && !
       _delay_ms( 250 );
       PORTA &= ~( 1<<PA2 );
     }
+    return;
+
   }
   if( (PINB & (1 << PB2)) == (1 << PB2) ){
 
@@ -162,6 +165,8 @@ if(((PINA & (1 << PA3)) == (1 << PA3) || (PINB & (1 << PB2)) == (1 << PB2)) && !
       _delay_ms( 250 );
       PORTA &= ~( 1<<PA7 );
     }
+    return;
+
   }
 }
 
@@ -183,6 +188,7 @@ void trigger(){
       PORTA |= ( 1<<PA2 );
       _delay_ms( 250 );
       PORTA &= ~( 1<<PA2 );
+      return;
     }
     if( (PINB & (1 << PB2)) == (1 << PB2) ){
       // adding one oint to score 2
@@ -193,9 +199,12 @@ void trigger(){
       PORTA |= ( 1<<PA7 );
       _delay_ms( 250 );
       PORTA &= ~( 1<<PA7 );
+      return;
     }
   } else {
     trigger();
+    return;
+
   }
 }
 
@@ -218,6 +227,8 @@ void winner( char led ){
   if((PINA & (1 << PA3)) !== (1 << PA3) && (PINB & (1 << PB2)) !== (1 << PB2)){
     winner(led);
   }
+  return;
+
 }
 
 ```
@@ -258,6 +269,8 @@ void round ( score1, score2 ) {
       winner( PA7 );
     }
   }
+  return;
+  
 }
 ```
 > The round function is called at each turn. This is the main core of the game that count turn and deal with victory states.

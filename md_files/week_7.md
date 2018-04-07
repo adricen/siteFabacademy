@@ -47,13 +47,15 @@ I started lately working on KiCAD trying to re-design the HelloBoard. As a begin
 
 ### Redesign the HelloBoard on Eagle - birth of the helloGame board
 
+<u>EAGLES : </u> [Schaematics](assets\files\helloboard\helloGame\helloGame1.5.sch) / [board](assets\files\helloboard\helloGame\helloGame1.5.brd) / [resultBoard](assets\files\helloboard\helloGame\helloGameBoard.png)
+
 I wanted to try to use every slot available on my ATtiny44, so I put 2 button and 2 led. With this I should be able to programme simple interaction to make a simple 2 player game.
 
 Component :
 
 * Attiny44A : ATTINY44-SSU
 * AVRISPSMD
-*
+* FTDI
 * RESONATOR 1uf 20mhz
 * CAP-US1206FAB
 * Resistor :  500ohm x 2 + 100ohm
@@ -64,4 +66,11 @@ Component :
 
 | Schematics using the list above and the clasic echohelloboard exemple I have been able to connect et design my own board | ![eagle0](assets\img\week7\helloGame0.png) |
 | --- | --- |
-| Board - To make the ground like this and spar some engrave time, create a squarre around your board using `Polygone` tool,then name it using the naming tool that I circle on this picture nad name your element `GND`. Once it's done you can clic on rastnet and  | ![eagle1](assets\img\week7\helloGame1.jpg) |
+| Board - To make the ground like this and spar some engrave time, create a squarre around your board using `Polygone` tool,then name it using the naming tool that I circle on this picture nad name your element `GND`. Once it's done you can clic on rastnet.  | ![eagle1](assets\img\week7\helloGame1.jpg) |
+| To see if my design fit well with my engraving laser cutter, I made some test on wood to see if it work. | ![woodTest](assets\img\week7\woodTest.jpg) |
+| ![](assets\img\week7\mount0.jpg) | ![](assets\img\week7\mount1.jpg) |
+
+![mounted](assets\img\week7\mount2.jpg)
+
+| After this first version when I tryed to flash it with my fabISP, it apears that I had conductivity issue probably so this board won't work after all. I made a cleaner version without the big ground plate.S the board look like that after all| ![resultBoard](assets/files/helloboard/helloGame/helloGameBoard.png) |
+| --- | --- |

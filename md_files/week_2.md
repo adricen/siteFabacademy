@@ -104,17 +104,28 @@ I wanted to go further with git to enhance my worflow, specialy for the fabacade
 
 
 ### II. Build a personnal web site
+
+#### Design Rule
+
+
+| The first layout contain an introduction of myself and a quick navigation to the content of the documentation. | ![HomePage](assets/img/week2/webHome.jpg) |
+| --- | --- |
+| The second layout is made to welcome any syze of content base on the same layout. The general navgation is in the header. On an **aside** you will find **every pages edited in this documentation**. **The right part contain documentation** and is generated dynamicaly from `markdown` files contained in the folder `/md_files`. Each page is identified throught `_GET` parameter in the Url after the `?` character. | ![documentation page](assets/img/week2/webDoc.jpg) |
+
+
+Web is generaly organize around the content and specialy here. There is going to be a lot of content in the futur, so this need to be organised with a simlpe and clear architecture. There is  
+
 ```
- __         ______     ______   ______        ______     ______     _____     ______    
-/\ \       /\  ___\   /\__  _\ /\  ___\      /\  ___\   /\  __ \   /\  __-.  /\  ___\   
-\ \ \____  \ \  __\   \/_/\ \/ \ \___  \     \ \ \____  \ \ \/\ \  \ \ \/\ \ \ \  __\   
- \ \_____\  \ \_____\    \ \_\  \/\_____\     \ \_____\  \ \_____\  \ \____-  \ \_____\
-  \/_____/   \/_____/     \/_/   \/_____/      \/_____/   \/_____/   \/____/   \/_____/
+ __         ______     ______    ______        ______     ______     _____     ______    
+/\ \       /\  ___\   /\__  _\  /\  ___\      /\  ___\   /\  __ \   /\  __-.  /\  ___\   
+\ \ \____  \ \  __\   \/_/\ \/  \ \___  \     \ \ \____  \ \ \/\ \  \ \ \/\ \ \ \  __\   
+ \ \_____\  \ \_____\    \ \_\   \/\_____\     \ \_____\  \ \_____\  \ \____-  \ \_____\
+  \/_____/   \/_____/     \/_/    \/_____/      \/_____/   \/_____/   \/____/   \/_____/
 ```
 
 #### 1. goals !
 
-Building a website from scratch is something that can be quickly annoying if you don't think a little bit about it before to do anithings. Initiate a good reflexion about architecture, content, design and ergonomy and drope it into a tool like Trello save a lot of time and mistac.
+**Building a website from scratch** is something that can be quickly annoying if you don't **think a little bit about it before** to do anithings. Initiate a good reflexion about architecture, content, design and ergonomy and drope it into a tool like Trello save a lot of time and mistakes.
 
 First things first, the purpose of my website : offert me a good support to write and display the content I will produce in the futur and a proper way to presente it.
 

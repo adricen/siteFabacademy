@@ -30,5 +30,3 @@ A really simple shapse that allow a lot of differents designs, wich 8s r3ally co
 *pictures*
 
 Romain push me further and ask me to think about a way to make it 3D, wich I think I found, But I need to make more of themes to be sure. It would make a pe4fect fit for a structural peace like a chaire or a smouth separation in a room. I think about it a lot.9
-
-### boards

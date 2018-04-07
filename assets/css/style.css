@@ -281,6 +281,7 @@ a.nope:hover {
   height: 270px;
   margin-bottom: 5px;
   width:  270px;
+  color: white;
 }
 .masonry .item a {
   position: absolute;
@@ -288,42 +289,13 @@ a.nope:hover {
   width: 100%;
 }
 
-.masonry .w0 {
-  color: white;
-  background-image: url('../img/fabIsp/component.jpg');
-}
-.masonry .w1 {
-  background-image: url('../img/week3/handsDraw.jpg');
-}
-.masonry .w2 {
-  color: white;
-  background-position: bottom;
-  background-image: url('../img/week2/ubuntuBash02.jpg');
-}
-.masonry .w3 {
-  background-image: url('../img/week3/PlateauDePression_04.JPG');
-}
-.masonry .w4 {
-  color: white;
-  background-image: url('../img/Week4/parametricDesign.jpg');
-}
-.masonry .w5 {
-  color: white;
-  background-image: url('../img/week5/accelero06.jpg');
-}
-.masonry .w6 {
-  color: white;
-  background-image: url('../img/week6/printCircuit20.jpg');
-}
-.masonry .w7 {
-  color: white;
-  background-image: url('../img/week9/20180316_132927.jpg');
-}
-.masonry .w8 {
-  color: white;
-  background-image: url('../img/week8/site1.jpeg');
-}
-.masonry .w9 {
-  color: white;
-  background-image: url('../img/week7/helloBoard.jpg');
-}
+.masonry .w0 {  background-image: url('../img/fabIsp/component.jpg'); }
+.masonry .w1 {  color: black;  background-image: url('../img/week3/handsDraw.jpg'); }
+.masonry .w2 {  background-position: bottom; background-image: url('../img/week2/ubuntuBash02.jpg'); }
+.masonry .w3 {  color: black;  background-image: url('../img/week3/PlateauDePression_04.JPG'); }
+.masonry .w4 {  background-image: url('../img/Week4/parametricDesign.jpg'); }
+.masonry .w5 {  background-image: url('../img/week5/accelero06.jpg'); }
+.masonry .w6 {  background-image: url('../img/week6/printCircuit20.jpg'); }
+.masonry .w7 {  background-image: url('../img/week7/accueil.jpg'); }
+.masonry .w8 {  background-image: url('../img/week8/site1.jpeg'); }
+.masonry .w9 {  background-image: url('../img/week7/helloBoard.jpg'); }
