@@ -81,4 +81,34 @@ Zbrush file : [mold.ZTL](assets\files\stickman\moldStickman.ZTL)
 
 `.stl` file : [mold2_export1.ZTL](assets\files\stickman\mold2_export1.stl) / [mold2_export2.ZTL](assets\files\stickman\mold2_export2.stl)
 
-You should now have your two stl file than we are going to mill.
+You should now have your two `stl` file than we are going to mill. We work with `Shopbot` and `Vcarve` to make my mold.
+![setup](assets\img\week10\setup.jpg)
+
+| using the [feed and rate tool](missing link), Milling the mold using two passes with a end mill 1/16. | ![missing page](missing page) |
+| --- | --- |
+| `rought passe` and then a `clean passe` | ![gif milling](assets\img\week10\millingProcess.gif) |
+| First time I cut my mold I didn't made any *contour*, so I had to make a leveling and do it again with a bigger mill. An 1/8 End-Mill.  | ![leveling](assets\img\week10\leveling.jpg)  |
+| Second time I mill my mold and there it is, I have my job done! | ![mold](assets\img\week10\mold.jpg) |
+
+###### d. Molding with **liquid plastic**
+
+| Working with liquid plastic was a bit touchy. It heated more than I expected and had a really short potlife so it brings some issue on my process. | ![mold suite](assets\img\week10\moldSuit.jpg) |
+| --- | --- |
+| filling the mold wwith product was fine ut bubbles were slow to come out | ![mold suite fill](assets\img\week10\moldSuiteFill.jpg) |
+| It gives Bubbles on the foot at the end, no matter how quick I get to fill the mold. | ![mold filled bubble issue](assets\img\week10\moldMistake.jpg) |
+| it give a character at the end with short legs. | ![perso plastic](assets\img\week10\perso_plastic.jpg)|
+| here is the result | ![hero shot](assets\img\week10\heroShotPlastic.jpg) |
+
+###### e. Molding some Ecoflex
+
+| Starting by fill the mold up with Ecoflex after melting product A and B. | ![mold](assets\img\week10\moldFilledSilicone.jpg) |
+| --- | --- |
+| Working with ecoflex was fine. I used the vacum machin to pull out bubbles | ![vacum machine](assets\img\week10\vacumMachine.jpg) |
+| unmold was fine | ![anime unmold](assets\img\week10\unmold.gif) |
+| And here come the stickman | ![stickman](assets\img\week10\stickman.jpg) |
+
+![hero shot](assets\img\week10\heroSilicone.jpg)
+
+> the result is quite good but it may be need a more sticky material to be a real stickman, and the shape is a little bit to large to function correctly on the window. Need improvement in the future.
+
+---

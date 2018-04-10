@@ -86,7 +86,7 @@ var layout_page = new Vue({
         content: ""
       },
       week_10: {
-        title : 'Mechanical design',
+        title : 'Molding and Casting',
         index: "week_10.md",
         content: ""
       },

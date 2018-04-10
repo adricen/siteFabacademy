@@ -1,11 +1,12 @@
 # Fabacademy : *Week 8* **March 07/2018**
 
-## Assignement - Make something Big !
+### Assignement - Make something Big !
 
-### group assignment
+
+## group assignment
   test runout, alignment, speeds, feeds, and toolpaths for your machine
-### individual assignment
-  make something big
+## individual assignment
+  make something big - Working on a stool
 
 
 ![workStation](assets\img\week8\cnc00.jpg)
@@ -21,7 +22,7 @@ The milling procedure include a warm up routin to prepar material before cutting
 
 ## Starting by testing
 
-Before beginning my design, I wanted to try diferent assembling part to try, and succed, to reproduce exactly what I designed initialy. We have a little cnc with a surface of 600mm by 350mm wich make difficulte to make some big pieces, but nothing is impossible :)
+Before beginning my design, I wanted to try diferent assembling part to try, and succed, to reproduce exactly what I designed initialy. We have a Shopbot Desktop 2418 cnc with a surface of 600mm x 450mm x 800mm wich make difficulte to make some big pieces, but nothing is impossible :)
 
 I started directly on VCarve using the vectorial software to design my first pieces.
 
@@ -40,6 +41,8 @@ We try to scale it up a little bit and struggle with the machin boundaries. It a
 
 ![moving Z](assets\img\week8\scale02.jpg)
 
+> Changing the martyr by a thiner plastic layer made the difference and allow us to cut through
+
 ## Make something BIG !
 
 Making a full human size object could be a long creative process. So I choose to use a tool that I know well, Maya, at least for the design and creative process. I will reproduss the same object back in fusion once I'll be sure of my shape and design. Let's breakdown the process a little bit.
@@ -48,6 +51,10 @@ Making a full human size object could be a long creative process. So I choose to
 | --- | --- |
 
 ### The making
+
+Files I used : [footFile](assets\files\stool\pied03.obj) / [chair](assets\files\stool\assise06.obj)
+
+I used an export format and then redraw some part in V-Carve
 
 I used a down-cut spindle
 
