@@ -289,6 +289,7 @@ a.nope:hover {
   width: 100%;
 }
 
+.masonry .final {  background-image: url('../img/finalProject/beatboxMachin.jpg'); }
 .masonry .w0 {  background-image: url('../img/fabIsp/component.jpg'); }
 .masonry .w1 {  color: black;  background-image: url('../img/week3/handsDraw.jpg'); }
 .masonry .w2 {  background-position: bottom; background-image: url('../img/week2/ubuntuBash02.jpg'); }
@@ -300,3 +301,4 @@ a.nope:hover {
 .masonry .w8 {  background-image: url('../img/week8/site1.jpeg'); }
 .masonry .w9 {  background-image: url('../img/week7/helloBoard.jpg'); }
 .masonry .w10 {  background-image: url('../img/week10/stickman.jpg'); }
+.masonry .w11 {  background-image: url('../img/week11/distance pcb mount.jpg'); }

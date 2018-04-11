@@ -14,7 +14,7 @@
 ## Project thinking
 
 <!-- Version 2 -->
-### <u>Beatmachine Doorbell - compose your ring-tone</u>
+### <u>Beatmachine Doorbell - *now you can ring my bell*</u>
 
 * Touch pad with glowing button
   * Leave a message
@@ -26,8 +26,19 @@
   * Save messages
   * See that you hav a message
 
+### Pitch
+
+Having a bell where your visitor can compose there own music. If you are not, here, then your friend, that have done all the road to come and see you, can compose a music and let it like a message for you. LEave yur friend a music!
+
+#### Futur developpement
+
+A lot of community are found of beat music and a device like that could esealy be scalable through all those home and connected to a global network where you can share your composition like snapchat or keakr. What not integrate it to an application like Keakr and offer the possbility to compose music at the bottom of an hlm and share it with your neighbourg.
+
 ### Design thinking
 
-The design is divided in three part. I choose to break it down a little bit for the final project.
+![inside3D](assets\img\finalProject\beatboxMachin.jpg)
 
-Here is the totality of it. I can breakit down in three part for
+The design is divided in three part, one input, the beatmachin, doorbell, one output, a bluetooth speaker and an interface to deal with content while connecting with mobil.
+I choose to break it down a little bit for the final project. Two device, one input, one output and an online interface.
+
+It can be break down from the minimum, the beatachin, to the full project, a beatmachin, with a bluetoth speaker where you can deal with your content on your mobile phone or a web interface.
