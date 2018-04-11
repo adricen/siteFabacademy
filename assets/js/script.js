@@ -91,7 +91,7 @@ var layout_page = new Vue({
         content: ""
       },
       week_11: {
-        title : 'Machine Design',
+        title : 'Input Device',
         index: "week_11.md",
         content: ""
       },

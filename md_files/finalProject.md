@@ -27,3 +27,7 @@
   * See that you hav a message
 
 ### Design thinking
+
+The design is divided in three part. I choose to break it down a little bit for the final project.
+
+Here is the totality of it. I can breakit down in three part for
