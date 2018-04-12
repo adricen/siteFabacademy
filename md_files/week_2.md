@@ -388,3 +388,45 @@ ______________ ___  ____ ___  _____ __________  _________  ____ _____________._.
 ```
 
 In the case where you use those three, the html may be not rendered in the page. You can then manipulate entire part of your layout and play with them, change it's content, do whatever you need. Once you have the tricks, it goes like you want really quickly. Make some test, do the [getting started guide online](https://vuejs.org/v2/guide/) to start with and go with it!
+
+### Xnview by Softtonic :
+
+
+I would have add this little soft to the already big list in the shcedule of this week.
+It have some pretty cool features that allow you to manipulate and make small modification/convertion really quickly.
+
+Link to the soft : [download here](https://www.xnview.com/)
+
+Basicaly I am using some small features wich are presente in this soft. Initialy I was using it when I was working in video games, because this soft allow you to see and edit the mipmap of your image (for .dds file format ).
+
+> you can pass from one pic to another using `Page up` or `Page down`
+
+Let see how it work :
+
+| definition | pics |
+| --- | --- |
+| This is the control panel. As you can do it in Adobe bridge, you can browse your file and see the preview of your picture. Double clic on your selected pics to edit it. | ![xnview01](assets\img\week3\xnView01.jpg) |
+| There you have some interessente features. You can configure your favorite editing soft on some simple shortcut. | ![xnview02](assets\img\week3\xnView02.png) |
+
+
+**Associate programmes :**
+
+![Xnview03](assets\img\week3\xnView03.png)
+
+Cliquing on associate programme, you can associate your favorit tool like Alt+1
+This way, once you have the image you want to work on, just clic on the defined shortcut to openit within your soft.
+
+**resize image :**
+
+| menu | windows |
+| --- | --- |
+| ![Xnview04](assets\img\week3\xnView04.jpg) | ![Xnview04](assets\img\week3\xnView05.jpg) |
+
+**Cleaning image :**
+
+| def | pic |
+| --- | --- |
+| **Erase Alpha layer** | ![Xnview07](assets\img\week3\xnView07.jpg) |
+| **Erase metadata** Sometimes you can gain some space on your picture size removing metadata such as author, date... | ![Xnview06](assets\img\week3\xnView06.jpg) |
+
+> Those settting possibility offert you a good tool to make quick modification on your pics without entering into a big file editor manager.

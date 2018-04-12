@@ -11,21 +11,7 @@
          accounting for the lasercutter kerf,
          which can be assembled in multiple ways
 
-## II. Cut something on the vinylcutter.
-
-Model of the viny cutter Knkmax hair --> ![pics]()
-Miss - pics of the software
-
-Make something for your computer... hmm...
-In order to use the maximum of color, I wanted to try to make a cool illustration of Hellboy. Mignola have a perfect sharp black and white style that will fit perfectly for the vinyl cutter.
-
-|  | Sketch including color we have on site ![goal](assets\img\Week4\illustration2.jpg) | Result So far ![resuilt](assets\img\Week4\vinyl_cut7.jpg) |
-| --- | --- | --- |
-| File 01 - background ![svg](assets\img\Week4\vinyl_cut.svg) | File 02 - background  ![a rajouter]() | File 03 - background ![a rajouter]() |
-| Parametre of the vinylcutter - I hae to take them again cause we don't see anything ![](assets\img\Week4\vinyl_cut4.jpg) | That a failure. I didn't let enougth roll on ![asee](assets\img\Week4\vinyl_cut5.jpg) | ![redsult](assets\img\Week4\vinyl_cut6.jpg) |
-
-
-## III. Design, make and document a parametric press-fit construction kit
+## I. Design, make and document a parametric press-fit construction kit
 
 ### <u>1. Defining a parametric shape</u>
 
@@ -44,7 +30,7 @@ With this simple two tools it's should be possible to construct a parametric des
 
 | Starting By a simple shape. ![starting](assets\img\Week4\fusion360_00.jpg) | Then Trying to bind some edges together ![starting](assets\img\Week4\fusion360_01.jpg) |
 | --- | --- |
-|  |  |
+
 
 
 I tryed to understand the concept of binding element together and how I could used it to my adventage.
@@ -60,21 +46,43 @@ I tryed to understand the concept of binding element together and how I could us
 
 #### c. A last try
 
+
+
 ##### I finally made it through! I have a parametric design fabrics that adapte its shape to the weight of my material.
+
+Everything is index on the height fabric so it adapte it shape to the height you configure. It allow me to deal with  press-fit property whatever the height of the fabric is.
+
 | Shape 01 | Shape 02 |
 | --- | --- |
-| ![starting](assets\img\Week4\fusion360_05.jpg) | ![starting](assets\img\Week4\fusion360_04.jpg) |
-![fusion_6](assets\img\Week4\fusion360_06.jpg)
+| ![starting](assets\img\Week4\fusion360_06.jpg) | ![starting](assets\img\Week4\fusion360_05.jpg)  |
+| ![fusion_6](assets\img\Week4\parametricDesign.png) | ![parametric end](assets\img\Week4\parametricDesign3.jpg) |
 
 ### <u>3. Then cutting some object and see how they work</u>
 
-need parametres
-![]()
+My paramettres for the cutter, directly came from the laser documentation of the Epilogue Fusion 75 watts.
+
+Speed 20 / Power 100 / Frequencie 50
+
+
 #### The cutting part :
-need parametres
-![laser](assets/img/Week4/Parametric_wood_06.jpg)
+
+##### Laser cutter security
+
+Laser cuttng is a really efficient process, but as the machin is expensive, it come with security warant.
+
+The CO2 laser is made to cut through wood or plastics, but you really need to be aware of the composition of your fabric because it could become really dangerous if you don't pay attention. It could reject chlore, fluor ou autres gaz/vapeurs toxiques.
+
+**It can't go through metal** or you laser will come boack through lens and burn itself up.
+
+Fiber laser is made to engrave or cut thin layer of soft metal like copper or alluminium.
+
+Every user must stay next to the laser cutter until the end of the process to be sure everything goes fine and don't burn the machin.
+
 
 #### Shape and forms
+
+need parametres
+![laser](assets/img/Week4/Parametric_wood_06.jpg)
 
 | ![test02](assets\img\Week4\Parametric_wood_14.jpg) | ![test03](assets\img\Week4\Parametric_wood_15.jpg) | ![test04](assets\img\Week4\Parametric_wood_13.jpg) |
 | --- | --- | --- |
@@ -82,3 +90,20 @@ need parametres
 | ![test08](assets\img\Week4\Parametric_wood_05.jpg) | ![test09](assets\img\Week4\Parametric_wood_04.jpg) | ![test14](assets\img\Week4\Parametric_wood_16.jpg) |
 |![test07](assets\img\Week4\Parametric_wood_07.jpg) | ![test11](assets\img\Week4\Parametric_wood_08.jpg) | ![test12](assets\img\Week4\Parametric_wood_09.jpg) |
 | ![test13](assets\img\Week4\Parametric_wood_10.jpg) | ![test14](assets\img\Week4\Parametric_wood_11.jpg) | ![test15](assets\img\Week4\Parametric_wood_12.jpg) |
+
+
+## II. Cut something on the vinylcutter.
+
+<!-- Model of the vinyl cutter Knkmax hair  ![pics]()
+Miss - pics of the software -->
+
+Make something for your computer... hmm...
+In order to use the maximum of color, I wanted to try to make a cool illustration of Hellboy. Mignola have a perfect sharp black and white style that will fit perfectly for the vinyl cutter.
+
+ | Sketch including color we have on site ![goal](assets\img\Week4\photoshop screenshot.png) | File 01 - background ![svg](assets\img\Week4\vinyl_cut.svg) |
+| --- | --- |
+| File 02 - background  ![liz](assets\img\Week4\sap3.jpg) | File 03 - background ![a rajouter](assets\img\Week4\sapienShirt.jpg) |
+| Parametre of the vinylcutter - parameters are speed 15 and force 63  | ![missed parametres](assets\img\Week4\vinyl_cut4.jpg) |
+| Failure. I didn't let enougth roll on ![asee](assets\img\Week4\vinyl_cut5.jpg) | ![redsult](assets\img\Week4\vinyl_cut6.jpg) |
+| I finally made it through, adding further layer, selecting the sapien character | ![black result](assets\img\Week4\vinyl_cut7.jpg) |
+| ![result](assets\img\Week4\vinyl_cutref06.jpg) | ![result all](assets\img\Week4\finalVinylCutter.jpg) |
