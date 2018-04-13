@@ -10,8 +10,7 @@ void init_io();
 int button_is_pressed();
 void toggle_led();
 
-int
-main (void)
+int main (void)
 {
 	/*
 	Sections :
@@ -85,14 +84,13 @@ main (void)
 			init = 0;
 			score1 = 0;
 			score2 = 0;
-			return;
 		}
 		// Reset
 		if ((PINA & (1 << PA3)) == (1 << PA3) && (PINB & (1 << PB2)) == (1 << PB2)) {
 			_delay_ms(500);
 			if ((PINA & (1 << PA3)) == (1 << PA3) && (PINB & (1 << PB2)) == (1 << PB2)) {
 				init = 1;
-				return;
+				continue;
 			}
 		}
 		// Display points
@@ -108,7 +106,6 @@ main (void)
 					_delay_ms( 250 );
 					PORTA &= ~( 1<<PA2 );
 				}
-				return;
 			}
 			if( (PINB & (1 << PB2)) == (1 << PB2) ){
 				// Blink once for a point
@@ -120,7 +117,6 @@ main (void)
 					_delay_ms( 250 );
 					PORTA &= ~( 1<<PA7 );
 				}
-				return;
 			}
 		}
 		// Trigger function
@@ -150,7 +146,6 @@ main (void)
 				}
 			} else {
 				trigger();
-				return;
 			}
 		}
 		// Winner State
@@ -165,6 +160,7 @@ main (void)
 			if((PINA & (1 << PA3)) != (1 << PA3) && (PINB & (1 << PB2)) != (1 << PB2)){
 				winner(led);
 			}
+			return;
 		}
 		// Round function
 		void round ( ) {
@@ -185,12 +181,11 @@ main (void)
 					_delay_ms(250);
           // srand(time(NULL));
 					int r =  rand() % 1000;
-					// int q;
-					// for(q=0; q<r; q=q+1){
-					// 	// random delay;
-					// 	_delay_ms(1);
-					// }
-					_delay_ms(r);
+					int q;
+					for(q=0; q < r; q=q+1){
+						// random delay;
+						_delay_ms(1);
+					}
 				}
 			}
 			trigger();
