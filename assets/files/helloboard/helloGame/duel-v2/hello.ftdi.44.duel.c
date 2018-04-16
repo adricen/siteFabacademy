@@ -90,12 +90,12 @@ int main (void)
 			_delay_ms(500);
 			if ((PINA & (1 << PA3)) == (1 << PA3) && (PINB & (1 << PB2)) == (1 << PB2)) {
 				init = 1;
-				continue;
+				return;
 			}
 		}
 		// Display points
 		if(((PINA & (1 << PA3)) == (1 << PA3) || (PINB & (1 << PB2)) == (1 << PB2)) && !((PINA & (1 << PA3)) == (1 << PA3) && (PINB & (1 << PB2)) == (1 << PB2)) ) {
-			_delay_ms( 200 );
+		 	_delay_ms( 200 );
 			if( (PINA & (1 << PA3)) == (1 << PA3) ){
 				// Blink once for a point
 				int a;
