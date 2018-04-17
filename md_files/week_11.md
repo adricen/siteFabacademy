@@ -2,6 +2,11 @@
 
 ## Assignement
 
+individual assignment:
+   measure something: add a sensor to a microcontroller board that you have designed and read it
+group assignment:
+   measure the analog levels and digital signals in an input device
+
 ## result
 
 It's time to work fully on my final project, so I choose two input device for now, the first one is the inductance table and the seconde one is the distance detector. The objective is to make a fully fonctionnal beatbox machin at the end using buttons and distance sonar to detect if someone is here.
@@ -50,4 +55,39 @@ sudo apt-get install python-pip
 
 ![python first success](assets\img\week11\goPython02.jpg)
 
-For now, *the display freeze* and have only display one parametres so it seems that I have a communication probleme between my computer and my board. I am assuming that it is probably a bad bauderate configuration.
+> For now, *the display freeze* and have only display one parametres so it seems that I have a communication probleme between my computer and my board.
+
+---
+
+Before going further on this board, I wanted to be sure that I get the good information for the HC-SR4 input. So I started a quick setup on Arduino to try it out. After few minutes I had something on the serial monitor, equivalente to the mesured distance.
+
+![arduino](assets\img\week11\arduino.jpg)
+
+---
+
+I finaly make it through. As I am quite a beginner in all this I didn't saw that you had to put the serial port as an argument when you load your file so that your python file can connect to your board. So the good procedure on unix system is :
+
+```
+python hello.HC-SR04.py /dev/ttyUSB0
+
+```
+
+And that's it, I finaly made it through. **Just needed the serial input as argument**.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bEILOzVIXts" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+---
+
+### The step response
+
+My final project include a pad with a musical output. In order to succeed, I wanted to try the capacitance board to see how it's work and what kind of output you get.
+
+| The board mounted | ![capacitance board](assets\img\week11\helloCapacitance.jpg) |
+| --- | --- |
+| The capacitance board made of a sheet of cardboard with sticky copper soder to cable. One for each pin to start with. | ![capacitance board](assets\img\week11\capaBoard.jpg) |
+| I flashed it with make file and C program with success. | ![make program](assets\img\week11\inputLoad-program.jpg) |
+| I managed to load my Gui fine this time using comand line I found on the precedent board. `python hello` | ![make program](assets\img\week11\inputLoad-gui.jpg) |
+
+Finally I have my pad and managed to make it work properly and study it's responses.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vZlx6Mp3qh8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
