@@ -23,35 +23,33 @@ main (void)
 
 
 
-        while (1) {
-            //check if button is pressed
-          // if ((PINB & (1<<PB2)) == (1 << PB2)) {
-	         if ((PINA & (1<<PA3)) == (1 << PA3)) {
-                //blink faster
-                PORTA &= ~(1<<PA7);
-                _delay_ms(25);
-                PORTA |= (1<<PA7);
-                _delay_ms(25);
-	              PORTA &= ~(1<<PA7);
-                _delay_ms(25);
-                PORTA |= (1<<PA7);
-                _delay_ms(150);
-
-
-            } else {
-                //blink normal
-                PORTA &= ~(1<<PA7);
-                _delay_ms(25);
-                PORTA |= (1<<PA7);
-                _delay_ms(75);
-	              PORTA &= ~(1<<PA7);
-                _delay_ms(25);
-                PORTA |= (1<<PA7);
-                _delay_ms(250);
-	              PORTA &= ~(1<<PA7);
-                _delay_ms(25);
-                PORTA |= (1<<PA7);
-                _delay_ms(750);
-            }
-        }
+  while (1) {
+    //check if button is pressed
+  	// if ((PINB & (1<<PB2)) == (1 << PB2)) {
+    if ((PINA & (1<<PA3)) == (1 << PA3)) {
+      //blink faster
+      PORTA &= ~(1<<PA7);
+      _delay_ms(25);
+      PORTA |= (1<<PA7);
+      _delay_ms(25);
+      PORTA &= ~(1<<PA7);
+      _delay_ms(25);
+      PORTA |= (1<<PA7);
+      _delay_ms(150);
+    } else {
+      //blink normal
+      PORTA &= ~(1<<PA7);
+      _delay_ms(25);
+      PORTA |= (1<<PA7);
+      _delay_ms(75);
+      PORTA &= ~(1<<PA7);
+      _delay_ms(25);
+      PORTA |= (1<<PA7);
+      _delay_ms(250);
+      PORTA &= ~(1<<PA7);
+      _delay_ms(25);
+      PORTA |= (1<<PA7);
+      _delay_ms(750);
     }
+  }
+}

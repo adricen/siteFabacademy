@@ -11,7 +11,11 @@
 
 ## Work out
 
-### Read a microcontroler data sheet : ATtiny44A
+### Read a microcontroler data sheet
+
+#### ATtiny44A
+
+![Attiny44A](http://fabacademy.org/archives/2013/students/saguar.ruben/pics/ATinny44-Datasheet.PNG)
 
 | Feature | Explaination |
 | --- | --- |
@@ -26,6 +30,24 @@
 | AINO | Analog Comparator Positive Input. Configure the port pin as input with the internal pull-up switched off to avoid the digital port function from interfering with the function of the Analog Comparator |
 | DDRA / DDRB |  |
 | PORTA / PORTB |  |
+
+#### ATtiny45S
+
+I focused myself on the ATtiny45 that have a simpler architecture that the ATtiny44 so that I could make differents test.
+
+> The ATtiny45 have 6-bit by registry
+
+
+![ATtiny45 Schematique](http://www.hobbytronics.co.uk/image/data/atmel/attiny85-pinout.jpg)
+
+| VCC / GND | The VCC => Supply + voltage / GND => ground voltage  -  |
+| --- | --- |
+| **RESET** | The RESET Pin detect if current is High or Low. Will current stay high, the RESET state stay unaffected. It wait a low current during more than a clock tick to be activated. When it's activated it reset all registry to default states. Desactivate the RESET PIN make it complicated to reprogram. |
+| **PCINT**  | The PCINT registry is for interuption, wake up mode or idle mode. It allow you to change the state of the chip. On / Off button basically |
+| **MOSI** | Master Output Slave In - On a bus configuration the Mosi is used to send information from the master of the bus. A good ressources that explain it  [here](https://hackaday.com/2016/07/01/what-could-go-wrong-spi/) |
+| **MISO ** | Master Input Slave Out. Allow the slave chips to send back informations - see --> [here](https://hackaday.com/2016/07/01/what-could-go-wrong-spi/) |
+| **ADC** | [*wikipedia page*](https://en.wikipedia.org/wiki/Analog-to-digital_converter) Analog to digital converter. It allow to convert |
+| **XTAL1 an XTAL2** | |
 
 ### Echo Helloboard !
 
@@ -270,7 +292,7 @@ void round ( score1, score2 ) {
     }
   }
   return;
-  
+
 }
 ```
 > The round function is called at each turn. This is the main core of the game that count turn and deal with victory states.
