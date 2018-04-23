@@ -27,6 +27,7 @@
 
 int main(void) {
 
+  static uint16_t cycle,cycles,delay,bit,lfsr;
   // Main loop
   CLKPR = (1 << CLKPCE);
   CLKPR = (0 << CLKPS3) | (0 << CLKPS2) | (0 << CLKPS1) | (0 << CLKPS0);
