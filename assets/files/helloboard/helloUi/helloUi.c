@@ -45,29 +45,32 @@ int main(void) {
 
   lfsr = 1;
 
-  while ( PINB & BTN_pin ) {
-     //
-     // update 11 bit LFSR
-     //
-     bit  = ((lfsr >> 0) ^ (lfsr >> 9)) & 1;
-     lfsr =  (lfsr >> 1) | (bit << 10);
-     //
-     // loop over cycles
-     //
-     cycles = (1 << 15) / lfsr;
-     for (cycle = 0; cycle < cycles; ++cycle) {
+  while ( 1 ) {
+    while( PINB & BTN_pin ){
+      //
+      // update 11 bit LFSR
+      //
+      bit  = ((lfsr >> 0) ^ (lfsr >> 9)) & 1;
+      lfsr =  (lfsr >> 1) | (bit << 10);
+      //
+      // loop over cycles
+      //
+      cycles = (1 << 15) / lfsr;
+      for (cycle = 0; cycle < cycles; ++cycle) {
         //
         // set PWM current on and delay
         //
         OCR0B = current;
         for (delay = 0; delay < lfsr; ++delay)
-           cycle_delay();
+        cycle_delay();
         //
         // set PWM current off and delay
         //
         OCR0B = off;
         for (delay = 0; delay < lfsr; ++delay)
-           cycle_delay();
+        cycle_delay();
+
         }
-     }
+      }
+   }
 }
