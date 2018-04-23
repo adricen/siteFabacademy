@@ -57,6 +57,38 @@ git checkout -b <name of your branch>
 
 The result is the same, in both case you will swith your branch. When it's a fresh branch, you files are the same as the master branch but now, you can change them as far as you want.
 
+##### Merging history from Gitlab to Github
+
+One of a cool feature of git is the history in your dashboard page. When it comes to recrutement, it's your history of coding and how participate to programmer community.
+
+Github is kind of the facebook of coding so, as a developper, you want to be on this plateform and show that you know this tool. So in order to merge your two history here is the procedure :
+
+```
+git remote add github https://github.com/user/repo.git
+
+```
+
+the parametre afte add is the name of your new remote and could be whatever you want. As in developpement convention, try to give it an explicite name, you don't know if you're going to add some more in the future, so, keep it clear.
+
+You can list all your remote like that :
+
+```
+
+git remote -v
+
+```
+
+ So now you can push to your new empty remote using. Put -f if it's your first push, then push normaly :
+
+```
+git push -f githug master
+
+```
+
+There is a way to push in multiple remote at one time, [see here](https://stackoverflow.com/questions/849308/pull-push-from-multiple-remote-locations/12795747#12795747)
+
+
+
 ##### Let's see how it work for real !
 
 Before we start, I have to say that I work with [Atom](https://atom.io/) as IDE, [git bash](https://gitforwindows.org/) for windows and [xampp](https://www.apachefriends.org/fr/index.html) in case I need to use server language like Php.
@@ -77,8 +109,6 @@ As a xampp user, my root directory will be my htdocs file, where xampp can emula
 
 
 #### 2. assignement for Git1
-
-
 
 Everything you need to no to start with git is well explain here by [@fiore](https://gitlab.fabcloud.org/fibasile) :  
 

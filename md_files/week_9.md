@@ -28,8 +28,9 @@
 | Registers | Every pin have a register referenced in the datasheet. For the PAx or PBx. Each Pin have DDxn, PORTxn, and PINxn that are setable |
 | AREF |  External Analog Reference for ADC. Pullup and output driver are disabled on PA0 when the pin is used as an external reference or Internal Voltage Reference with external capacitor at the AREF pin by setting (one) the bit REFS0 in the ADC Multiplexer Selection Register (ADMUX).|
 | AINO | Analog Comparator Positive Input. Configure the port pin as input with the internal pull-up switched off to avoid the digital port function from interfering with the function of the Analog Comparator |
-| DDRA / DDRB |  |
-| PORTA / PORTB |  |
+| DDRA / DDRB | Control what pin are Input or Output - 1 for output, 0 for input |
+| PORTA / PORTB | Control what voltage level for the pins - 0 for 0and 1 for 5v |
+| PINA / PINB | To read wich voltage are low or high |
 
 #### ATtiny45S
 
@@ -42,12 +43,12 @@ I focused myself on the ATtiny45 that have a simpler architecture that the ATtin
 
 | VCC / GND | The VCC => Supply + voltage / GND => ground voltage  -  |
 | --- | --- |
-| **RESET** | The RESET Pin detect if current is High or Low. Will current stay high, the RESET state stay unaffected. It wait a low current during more than a clock tick to be activated. When it's activated it reset all registry to default states. Desactivate the RESET PIN make it complicated to reprogram. |
-| **PCINT**  | The PCINT registry is for interuption, wake up mode or idle mode. It allow you to change the state of the chip. On / Off button basically |
-| **MOSI** | Master Output Slave In - On a bus configuration the Mosi is used to send information from the master of the bus. A good ressources that explain it  [here](https://hackaday.com/2016/07/01/what-could-go-wrong-spi/) |
+| **RESET** | The RESET Pin detect if current is High or Low. Will current stay high, the RESET state stay unaffected. It wait a low current during more than a clock tick to be activated. When it's activated it reset all registry to default states. Desactivate the RESET PIN make it impossible to reprogram, (as far as I know, but there is brobably a way to overload it but I don't know it). For what I see, there is generaly an 100k resistor between vcc ad reset pinnext to a pull-up capacitor. |
+| **PCINT**  | The PCINT registry is for interuption, wake up mode or idle mode. It allow you to change the state of the chip. On / Off button basically. It is possible to bind some c function asyncronously to activate the pcint. |
+| **MOSI** | Master Output Slave In - On a bus configuration the Mosi is used to send information from the master of the bus. A good ressources that explain it and how to make a master/slave bus  [here](https://hackaday.com/2016/07/01/what-could-go-wrong-spi/) |
 | **MISO ** | Master Input Slave Out. Allow the slave chips to send back informations - see --> [here](https://hackaday.com/2016/07/01/what-could-go-wrong-spi/) |
 | **ADC** | [*wikipedia page*](https://en.wikipedia.org/wiki/Analog-to-digital_converter) Analog to digital converter. It allow to convert |
-| **XTAL1 an XTAL2** | |
+| **XTAL1 an XTAL2** | input for an external clock. Allow you to change the clock frequency with another rythme |
 
 ### Echo Helloboard !
 
@@ -99,7 +100,7 @@ I tryed to make a simple game with the thing I learned so far. Designing a board
 
 #### Duel- the game
 
-Thinking gameprogramming is a really simple way to approche programming languae using the oldest way we know about learning, play. Everything begin with some rules and consequence.
+Thinking gameprogramming is a really simple way to approche programming language using the oldest way we know about learning, play. Everything begin with some rules and consequence.
 
 Let's break it down !
 
