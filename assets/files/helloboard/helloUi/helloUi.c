@@ -1,8 +1,3 @@
-#
-# hello.HC-SR04.py
-#
-#
-
 #include <avr/io.h>
 #include <util/delay.h>
 
