@@ -27,3 +27,9 @@ I decided to do it again but this time without any ground mass
 | ![design](assets\img\week13\eagleSchem.png) | ![board](assets\img\week13\eagleBoard.png)  |
 | --- | --- |
 | | ![result](assets\img\week13\t45Master-v2.png) | ![pcb](assets\img\week13\20180424_102024.jpg) |
+
+This time, I was able to fuse programm it and load my pre-programme to check if it work. But it started to heat.
+
+![programming](assets\img\week13\screenFuse.png)
+
+I was finally able to programm it, but it steal heated a lot. So I started to remove composante part by part. First, speakers... still heated
