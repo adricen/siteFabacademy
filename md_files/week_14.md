@@ -1,28 +1,11 @@
-# Fabacademy : *Week 14*
+# Fabacademy : *Week 14* **25/18/2018**
 
-## Mechanical design
+## Assignment
+   individual assignment:
+      design and build a wired &/or wireless network connecting at least two processors
+   group assignment:
+      send a message between two projects
 
-* Que fait la machine ?
-* Quel taille
-* Quel format ?
-* Quel mouvement ?
-Resultats attendus ?
-Etat de l'art ?
+## Make it Work
 
----
-
-Sur la vidéo aéromorphe, la machine parait un peu overkill, oui ?
-
-Veut-on chauffer autre choses.
-
-Fer à souder => Création d'un fer à main, est-il possible d'utiliser plusieurs piles à inductions?
-
-Taille de la bille ?
-
-axe X + y + faux Z
-
-Fer à souder avec embout adapté pour le heatsealing
-
-En parrallèle, reflexion pour remplacer completement le fer.
-
-1er semaine, actu à la main
+I made the simple exemple of the bus communication for this assignement, to be able to understand the concept and be able to reproduce it. 
