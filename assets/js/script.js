@@ -66,7 +66,7 @@ var layout_page = new Vue({
         content: ""
       },
       week_6: {
-        title : 'Scanning and printing',
+        title : '3D Scanning and printing',
         index: "week_6.md",
         content: ""
       },
@@ -101,27 +101,27 @@ var layout_page = new Vue({
         content: ""
       },
       week_13: {
-        title : 'Molding and casting',
+        title : 'Interface and Application programming',
         index: "week_13.md",
         content: ""
       },
       week_14: {
-        title : 'Input devices',
+        title : 'Networking and communications',
         index: "week_14.md",
         content: ""
       },
       week_15: {
-        title : 'Wildcard week',
+        title : 'Mechanical design',
         index: "week_15.md",
         content: ""
       },
       week_16: {
-        title : 'Networking and communications',
+        title : 'Machine design',
         index: "week_16.md",
         content: ""
       },
       week_17: {
-        title : 'Interface and application programming',
+        title : 'Wildcard week',
         index: "week_17.md",
         content: ""
       },
