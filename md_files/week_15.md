@@ -74,3 +74,5 @@ I start to mill a simple rack and pinion to better visualize what it should look
 
 Then starting to design. My first objective was to adapte the machinery to the size of the Facom table we have here at **Fabaab Digiscope**.
 So I tryed to adapte a rack ad pinion design from .. and made a quick sketch => ![machin design](assets\img\week15\design01.png)
+
+I wasn't satisfied by the working surface and the quantity of material I would need to do it. I changed and start to work with another model, I choose to work from the basis of Jacob
