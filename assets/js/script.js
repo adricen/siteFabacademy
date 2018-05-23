@@ -21,7 +21,7 @@ var layout_page = new Vue({
       modal : false,
     },
     template: {
-      nav : '<header class="nav-theme-1"><nav class="container "><ul class="row"><li class="col"><a href="index.html">Home</a></li><li class="col"><a href="assignement.html?page=documentation">Weekly Assignement</a></li><li class="col"><a href="assignement.html?page=week_11">Group Project</a></li><li class="col"><a href="assignement.html?page=finalProject">Final Project</a></li></ul></nav></header>',
+      nav : '<header class="nav-theme-1"><nav class="container "><ul class="row"><li class="col"><a href="index.html">Home</a></li><li class="col"><a href="assignement.html?page=week_0">Weekly Assignement</a></li><li class="col"><a href="assignement.html?page=week_11">Group Project</a></li><li class="col"><a href="assignement.html?page=finalProject">Final Project</a></li></ul></nav></header>',
       imgSrc_modal : '',
     },
     markdown: {
