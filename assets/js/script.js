@@ -30,11 +30,11 @@ var layout_page = new Vue({
         index : "finalProject.md",
         content: ''
       },
-      documentation: {
-        title: "Home - Readme",
-        index : "readme.md",
-        content: ''
-      },
+      // documentation: {
+      //   title: "Home - Readme",
+      //   index : "readme.md",
+      //   content: ''
+      // },
       week_0: {
         title: "Pre-Fabacademy",
         index : "week_0.md",

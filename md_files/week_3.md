@@ -10,9 +10,46 @@ The goal is to make a prototype of my final project, wich is there : [Final Proj
 
 Let's work on the entire production chain and explore some soft I don't know. As a 3D artist, I am already used to Maya, 3Dsmax, Zbrush, Photoshop
 
-## Work...
+## Model and raster a potentiel Final project
 
-[xnview](#xnview-by-softtonic-) / [Gimp 2.0](#gimp-2-) / [Fusion360](#fusion-360-free-autodesk-software-for-teacher-and-student) / [Solidworks](#solidworks) / [Antimony](#antimony) / [Antimony with Maya](#antimony-with-maya-and-other-soft) / [Rhino et Grasshoper](rinho-3d-and-grasshoper)
+| | Description |
+|---|---|
+| **Final project V02** | Beatmachin doorbell |
+| **What will it do?** | Allow users to composed and make a doorbell music, save it, play the next time you come, share it with friends around social networks |
+| **Who's done what beforehand?** | links: [beatmachin music possibility](https://www.careersinmusic.com/beat-maker)</br>![ beatmachine music ](https://cdn.careersinmusic.com/wp-content/uploads/2017/07/beat-maker-boxes.jpg) |
+| **What will you design?** | A beatmachin pad and a sound buffer. All the embed electronics |
+| **What materials and components will be used?** | Silicon for buttons, machinning for beatmachin box. |
+| **How much will they cost?** | 100€ for the electronics and use of machines |
+| **What parts and systems will be made?** | The device, the electronic response, the interface |
+| **What processes will be used?** | 3D printing for prototyping</br>Milling machin for molding the buttons</br>Milling machin for box of beatacin |
+| **What questions need to be answered?** | How does bluetooth work?</br> How to translate accelerometre signale to something useable?</br> How to Embed electronic with 3D printed device?</br> How to programme with Python? |
+|**How to use it?**| It have to be attached to the side of the door. People come by, compose a ringtone and then choose to save it, share it or just play it. |
+| **What's it look?** | Made with Maya ![sketch](assets\img\finalProject\beatboxMachin.jpg) |
+
+
+<!-- [xnview](#xnview-by-softtonic-) / [Gimp 2.0](#gimp-2-) / [Fusion360](#fusion-360-free-autodesk-software-for-teacher-and-student) / [Solidworks](#solidworks) / [Antimony](#antimony) / [Antimony with Maya](#antimony-with-maya-and-other-soft) / [Rhino et Grasshoper](rinho-3d-and-grasshoper) -->
+
+### Fusion 360 - free autodesk software for teacher and student
+
+Fusion 360 have the adventage to be free for uses and seams to offert really good modelisation and design features.
+
+I started to model differents project around fusion. I tryed to think about a final project, centered on electronic design to make a futur open source console.
+![console box](assets\img\week3\main_box.jpg) ![](assets\img\week3\finalProjectPackshot.jpg)
+
+#### Experienced the parametric designed with fusion 360
+
+| Using sketch on different surfaces ![sketch parametre](assets\img\week3\parameters.png) | Using "components" in fusion allow you to work on multiple component will you work only on one. ![working in fusion](assets\img\week3\parametric_design_00.png) |
+|---|---|
+| ![working in fusion](assets\img\week3\parametric_design_01.png) | ![working in fusion](assets\img\week3\parametric_design_02.png) |
+| ![working in fusion](assets\img\week3\parametric_design_03.png) | ![working in fusion](assets\img\week3\parametric_design_04.png) |
+| ![working in fusion](assets\img\week3\parametric_design_05.png) | ![working in fusion](assets\img\week3\parametric_design_06.png) |
+| ![working in fusion](assets\img\week3\parametric_design_07.png) | ![working in fusion](assets\img\week3\parametric_design_08.png) |
+| ![working in fusion](assets\img\week3\parametric_design_09.png) | ![working in fusion](assets\img\week3\parametric_design_10.png) |
+| ![working in fusion](assets\img\week3\parametric_design_11.png) | ![working in fusion](assets\img\week3\parametric_design_12.png) |
+| ![working in fusion](assets\img\week3\parametric_design_13.png) | ![working in fusion](assets\img\week3\parametric_design_14.png) |
+
+> I used fusion later for a middle project : [machin design](http://fab.academany.org/2018/labs/fablabdigiscope/group2018/)
+![machin design](http://fab.academany.org/2018/labs/fablabdigiscope/group2018/files/Adricen/img/machinRender01.png)
 
 ### Antimony
 
@@ -117,28 +154,18 @@ cp fabLogo.stl /mnt/c/Users/[your user name]/Documents/
 
 // Presse enter and that's it! Your file is now available in Documents directory or wherever you need.
 ```
-
+<!--
 ### Gimp 2 :
 
 Last Time I opened Gimp, it was like time traveling. The interface was look like the one of photoshop 6... Since the ux design and interface standart hagve moved on to a greater level and became central to app developpement.
 
 So first impression is pretty cool regarding the progress they've done so far.
 
-![openingGimp](assets\img\week3\gimpOpen.jpg)
+![openingGimp](assets\img\week3\gimpOpen.jpg) -->
 
+#### f. Futur developpements :
 
-### Fusion 360 - free autodesk software for teacher and student
-
-Fusion 360 have the adventage to be free for uses and seams to offert really good modelisation and design features.
-
-#### Let's Jump!
-
-Once my soft was installed, I started to play around with it.
-
-| def | pics |
-| --- | --- |
-| Trying some simple shapes | ![fusion](assets\img\week3\Fusion360-00.png) |
-| I have done the [Sketch tutorial](http://help.autodesk.com/view/fusion360/ENU/?utm_medium=product&utm_source=fusion360&utm_campaign=help-and-training&utm_id=662996&mktvar002=662996&fgvid=04ab374d-684f-48c0-be4a-091b2c8a681d#sketch), and I think I wil go further on this course later | ![fusion](assets\img\week3\Fusion360-02.png) |
+Antimony give you an outpuy file that could be exploited via other software that use python as developpement bae language. I would like to be able to use something like that into a context like maya software wich is limited when it goes to parametric design if you want to have an insite into file history.
 
 ### Solidworks
 
@@ -155,12 +182,6 @@ Let's face it... I am not gonna became a fabulous user of this soft just at look
 | ![tuto01](assets\img\week3\solid01.jpg) | ![tuto02](assets\img\week3\solid02.jpg) |
 | ![tutoSolid3](assets\img\week3\solid03.jpg)| ![solid4](assets\img\week3\solid04.jpg)|
 ![solidResulta](assets\img\week3\PlateauDePression_04.JPG)
-
-
-
-
-
-
 
 
 <!-- ### Antimony with maya

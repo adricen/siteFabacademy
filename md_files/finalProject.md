@@ -1,6 +1,6 @@
-# Final Project Developpement - 3D mouse wristband
-
-<!-- ## Concept :
+# Final Project Developpement
+## <u>V1 - 3D mouse wristband</u>
+### Concept :
 
 **3D Mouse** - a wristband that track my hands and fingers and allow me to work within a 3D modeler, interact and sculpt objects with my right hand.
 
@@ -11,10 +11,12 @@
 * Moving his hand in virtual world for desable people with hand cut.
 * Work inside 3D software -->
 
-## Project thinking
+### Project thinking
 
-<!-- Version 2 -->
-<!-- ### <u>Beatmachine Doorbell - *now you can ring my bell*</u>
+---
+
+## <u>V2 - Beatmachine Doorbell</u>
+ ### Beatmachine Doorbell - *now you can ring my bell*
 
 * Touch pad with glowing button
   * Leave a message

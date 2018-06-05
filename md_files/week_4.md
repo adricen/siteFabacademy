@@ -13,6 +13,12 @@
 
 ## I. Design, make and document a parametric press-fit construction kit
 
+Files ( right clic + download ):
+
+[fusion360 scene](assets\files\Parametric_object v1.f3d) / [![DXF cutting file](assets\img\Week4\parametricDesign10.dxf)](assets\img\Week4\parametricDesign10.dxf)
+
+![parametricDesign](assets\img\Week4\paremtricDesign1.jpg)
+
 ### <u>1. Defining a parametric shape</u>
 
 Starting by that question, what could look like a parametric shape, fabric or building. Fastest way I know *ask google*.
@@ -97,13 +103,26 @@ need parametres
 <!-- Model of the vinyl cutter Knkmax hair  ![pics]()
 Miss - pics of the software -->
 
-Make something for your computer... hmm...
-In order to use the maximum of color, I wanted to try to make a cool illustration of Hellboy. Mignola have a perfect sharp black and white style that will fit perfectly for the vinyl cutter.
+|||
+|---|---|
+| [background](assets\img\Week4\vinyl_cut.svg) ![background](assets\img\Week4\vinyl_cut.svg) | [liz Sherman](assets\img\Week4\liz.svg) ![liz Sherman](assets\img\Week4\liz.svg) |
+| [sapien shirt](assets\img\Week4\sapienShirt.svg) ![sapien shirt](assets\img\Week4\sapienShirt.svg) | [sapien flesh](assets\img\Week4\blueSapienTry.svg) ![sapien flesh](assets\img\Week4\blueSapienTry.svg) |
 
- | Sketch including color we have on site ![goal](assets\img\Week4\photoshop screenshot.png) | File 01 - background ![svg](assets\img\Week4\vinyl_cut.svg) |
+Make something for your computer... hmm...
+In order to use multiple color, I tryed to make a cool illustration of Hellboy. Mignola have a perfect sharp black and white style that will fit perfectly for the vinyl cutter. In a first sketch I started to work on multiple character and came up with this : ![goal](assets\img\Week4\photoshop screenshot.png).
+
+Will I was aworking on it I decided to change my composition and remove 2 character to keep my favorite one. ![goal](assets\img\Week4\contourSimplification.jpg)
+
+| Parameters for this blade is :</br>Force: 65</br>Speed: 15 ![missed parametres](assets\img\Week4\vinyl_cut4.jpg) | Failure. I didn't let enougth roll on ![asee](assets\img\Week4\vinyl_cut5.jpg) |
 | --- | --- |
-| File 02 - background  ![liz](assets\img\Week4\sap3.jpg) | File 03 - background ![a rajouter](assets\img\Week4\sapienShirt.jpg) |
-| Parametre of the vinylcutter - parameters are speed 15 and force 63  | ![missed parametres](assets\img\Week4\vinyl_cut4.jpg) |
-| Failure. I didn't let enougth roll on ![asee](assets\img\Week4\vinyl_cut5.jpg) | ![redsult](assets\img\Week4\vinyl_cut6.jpg) |
-| I finally made it through, adding further layer, selecting the sapien character | ![black result](assets\img\Week4\vinyl_cut7.jpg) |
+| ![redsult](assets\img\Week4\vinyl_cut6.jpg) | I finally made it through, adding further layer, selecting the sapien character ![black result](assets\img\Week4\vinyl_cut7.jpg) |
 | ![result](assets\img\Week4\vinyl_cutref06.jpg) | ![result all](assets\img\Week4\finalVinylCutter.jpg) |
+
+### Inside job
+
+| ![liz00](assets\img\Week4\liz00.jpg) | ![liz00](assets\img\Week4\liz01.jpg) |
+|---|---|
+| ![liz00](assets\img\Week4\liz02.jpg) | ![liz00](assets\img\Week4\liz03.jpg) |
+| ![liz00](assets\img\Week4\liz04.jpg) | ![liz00](assets\img\Week4\liz05.jpg) |
+
+![liz00](assets\img\Week4\liz06.jpg)

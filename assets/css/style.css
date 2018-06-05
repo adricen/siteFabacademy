@@ -212,7 +212,7 @@ a.nope:hover {
 	padding-top: 9em;
   transition: 0.5s;
 }
-.markdown-body h3 {
+.markdown-body h2 {
 	font-size: 1.25em;
 	background-color: black;
 	color: white;
