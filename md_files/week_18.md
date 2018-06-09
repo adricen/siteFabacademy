@@ -27,13 +27,13 @@
 
 ---
 
-## The Webgame Controler
+## The Game Controler
 
 ![gameControler](assets/img/week18/finalProjectPackshot.jpg)
 
 #### <a name="what"></a>What will it do ?
 
-The webgame controler is a little dock station where you can plug-in differents controlers. The main idea is to be able to plug-in some simple and more complex controlers to play with web games.
+The Game controler is a little dock station where you can plug-in differents controlers. The main idea is to be able to plug-in some simple and more complex controlers to play with games like unity or web.
 
 #### <a name="who"></a>Who's done what beforehand ?
 
@@ -56,7 +56,7 @@ The webgame controler is a little dock station where you can plug-in differents 
 * ATMega32 --> on the mother box
 * ATtiny45 on game controler
 * I2C as communication protocole
-* Web interface HTML / CSS / Javascript
+* Processing interface or web interface HTML / CSS / Javascript
 
 #### <a name="come"></a>Where will it come from ?
 

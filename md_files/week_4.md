@@ -18,6 +18,7 @@ Files ( right clic + download ):
 [fusion360 scene](assets\files\Parametric_object v1.f3d) / [![DXF cutting file](assets\img\Week4\parametricDesign10.dxf)](assets\img\Week4\parametricDesign10.dxf)
 
 ![parametricDesign](assets\img\Week4\paremtricDesign1.jpg)
+![cutting parametres](assets\img\Week4\parametre.png)
 
 ### <u>1. Defining a parametric shape</u>
 
@@ -49,10 +50,6 @@ I tryed to understand the concept of binding element together and how I could us
 |--- | --- |
 
 **I cant't editing it anymore** cause I had set the pivot point on the wrong side. Scaling it won't go well.
-
-#### c. A last try
-
-
 
 ##### I finally made it through! I have a parametric design fabrics that adapte its shape to the weight of my material.
 
@@ -87,7 +84,6 @@ Every user must stay next to the laser cutter until the end of the process to be
 
 #### Shape and forms
 
-need parametres
 ![laser](assets/img/Week4/Parametric_wood_06.jpg)
 
 | ![test02](assets\img\Week4\Parametric_wood_14.jpg) | ![test03](assets\img\Week4\Parametric_wood_15.jpg) | ![test04](assets\img\Week4\Parametric_wood_13.jpg) |
@@ -97,6 +93,13 @@ need parametres
 |![test07](assets\img\Week4\Parametric_wood_07.jpg) | ![test11](assets\img\Week4\Parametric_wood_08.jpg) | ![test12](assets\img\Week4\Parametric_wood_09.jpg) |
 | ![test13](assets\img\Week4\Parametric_wood_10.jpg) | ![test14](assets\img\Week4\Parametric_wood_11.jpg) | ![test15](assets\img\Week4\Parametric_wood_12.jpg) |
 
+I finaly retake my model and scale it down a little bit. I made the holes the width of the weight of my fabrics.
+
+|![](assets\img\Week4\P1070168.JPG)|![](assets\img\Week4\P1070169.JPG)|![](assets\img\Week4\P1070170.JPG)|
+|---|---|---|
+
+The final result is really promissing. It allow a new dimention to comes in and allow to go into every direction freely.
+![](assets\img\Week4\P1070171.JPG)
 
 ## II. Cut something on the vinylcutter.
 

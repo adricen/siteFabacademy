@@ -18,7 +18,18 @@
     - [Andy](http://fab.cba.mit.edu/content/archive/projects/fabispkey/index.html)
     - [David](http://fab.cba.mit.edu/content/archive/projects/fabisp/)
 
-## 1. ** group assignment: ** -- Caracterize the specification of your PCB production process
+
+## 1. **Personnal Assignement** -- Making a FabISP
+
+I started to work on my fabISP before making the fabacademy. So I made it in two time. First try was this board :
+
+![first fabISP]assets\img\fabIsp\ISP.jpg)
+
+It appears that I had a short circuit on this board and was inable to find it.
+
+Then I made the fabOptimus. In the process of creating my board, I used a volmetre to be sure of the insulation of each eement before solder the pcb.
+
+## 2. **Group assignment :** -- Caracterize the specification of your PCB production process
 
 ### a. Fablab 503
 
@@ -27,10 +38,11 @@ It was highly equiped for electronics.
 
 ![fablab](assets\img\week5\fabLab503.jpg)
 
-Here the process of making PCB is more by laser cutting than milling machin. **We choose, in accord with our local instructor, to make the milling mire on another assignement**.
+Here the process of making PCB is more by laser cutting than milling machin. **We choose, in accord with our local instructor, to make the milling sight on another assignement**.
 
-#### <u>Making the Mire</u>
+#### <u>Making the sight</u>
 
+> Machin : Trotek fiber laser 30 watts
 > Parametres :
 * **Cut** : puissance - 40% / speed - 0.5% / 20khz
 * **Engrave** : puissance - 100% / speed - 20% / 20khz
@@ -39,9 +51,9 @@ Here the process of making PCB is more by laser cutting than milling machin. **W
 
 | ![engrave5](assets\img\week5\mireEngrave4.jpg) laser Trotec fusion 75watt |![engrave6](assets\img\week5\mireEngrave5.jpg) gluing the pcb so it won't move | ![engrave7](assets\img\week5\mireEngrave6.jpg) setup focus |
 | --- | --- | --- |
-| ![focus](assets\img\week5\mireEngrave20.jpg) Setup and test Focus of the laser cut | ![engrave](assets\img\week5\mireEngrave.jpg) Engraving first Mire - cut + engrave | ![engrave12](assets\img\week5\mireEngrave11.jpg) Few passes done cut + engrave |
+| ![focus](assets\img\week5\mireEngrave20.jpg) Setup and test Focus of the laser cut | ![engrave](assets\img\week5\mireEngrave.jpg) Engraving first sight - cut + engrave | ![engrave12](assets\img\week5\mireEngrave11.jpg) Few passes done cut + engrave |
 | ![file](assets\img\week5\mireFile2.jpg) | ![file](assets\img\week5\mireFile1.jpg) | ![](assets\img\week5\MireFile.jpg) in the middle of the process we realized that we made a mistacs and suppressed the white shannel si it won't made two passes |
-| ![engrave15](assets\img\week5\mireEngrave14.jpg) last passes |![engrave13](assets\img\week5\mireEngrave12.jpg) first mire done | ![engrave16](assets\img\week5\mireEngrave15.jpg) checking the laser |
+| ![engrave15](assets\img\week5\mireEngrave14.jpg) last passes |![engrave13](assets\img\week5\mireEngrave12.jpg) first sight done | ![engrave16](assets\img\week5\mireEngrave15.jpg) checking the laser |
 | ![engrave11](assets\img\week5\mireEngrave10.jpg) second passe of fusion engrave | ![engrave10](assets\img\week5\mireEngrave9.jpg) Last passes | ![engrave4](assets\img\week5\mireEngrave3.jpg) cut holes passes |
 | ![engrave1](assets\img\week5\mireEngrave0.jpg) Test of cut through - left 2 passes right 4 passes | ![engrave9](assets\img\week5\mireEngrave8.jpg) holes done |![engrave2](assets\img\week5\mireEngrave1.jpg) Result of the test Cut |
 | ![clean](assets\img\week5\mireClean.jpg) | ![clean](assets\img\week5\mireClean2.jpg) | ![clean](assets\img\week5\mireTest.jpg) |
@@ -64,7 +76,7 @@ Here the process of making PCB is more by laser cutting than milling machin. **W
 
 After the computer controlled week, we tryed to make a fabIsp board with the vinyl cutter and some copper surface. In the time I had, I didn't found the good parametres for this purpuses, but I am sure it's something possible, I'll investigate later on this. Here is what it give
 ![vinyl cut test](assets\img\week5\copperLayer.jpg)
-
+<!--
 ### Making an Accelerometre board
 
 I made my fabISP on the pre fabacademy I did with Romain. You can see it there : [fabISP Optimus](assignement.html?page=week_0)
@@ -77,4 +89,4 @@ For this assignement, I choose to make an accelerometre input from the [input de
 |  ![laser](assets\img\week5\laser03.jpg) | ![laser](assets\img\week5\laser04.jpg) | ![laser](assets\img\week5\laser05.jpg) |
 |  ![laser](assets\img\week5\laser06.jpg) | ![laser](assets\img\week5\laser07.jpg) | ![laser](assets\img\week5\laser08.jpg) |
 
-After investigation, it seams that I made an error in my setup and over past the frequency. put it on ten insted of one so it grilled my pcb.
+After investigation, it seams that I made an error in my setup and over past the frequency. put it on ten insted of one so it grilled my pcb. -->
