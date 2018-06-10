@@ -21,7 +21,7 @@ var layout_page = new Vue({
       modal : false,
     },
     template: {
-      nav : '<header class="nav-theme-1"><nav class="container "><ul class="row"><li class="col"><a href="index.html">Home</a></li><li class="col"><a href="assignement.html?page=week_0">Weekly Assignement</a></li><li class="col"><a href="http://fab.academany.org/2018/labs/fablabdigiscope/group2018/index.html">Group Project</a></li><li class="col"><a href="assignement.html?page=finalProject">Final Project</a></li></ul></nav></header>',
+      nav : '<header class="nav-theme-1"><nav class="container "><ul class="row"><li class="col"><a href="index.html">Home</a></li><li class="col"><a href="assignement.html?page=week_1">Weekly Assignement</a></li><li class="col"><a href="http://fab.academany.org/2018/labs/fablabdigiscope/group2018/index.html">Group Project</a></li><li class="col"><a href="assignement.html?page=finalProject">Final Project</a></li></ul></nav></header>',
       imgSrc_modal : '',
     },
     markdown: {
@@ -166,7 +166,7 @@ var layout_page = new Vue({
     },
     // Aside Nav => assignement.html
     doc_nav: function() {
-      var  nb = 0
+      var  nb = 1
       var doc_nav = '<div class="main aside-them-2"><ul><li></li>';
           doc_nav += '<li><h3>Fabacademy2018</h3></li>';
           doc_nav += '<li><h4>Documentation</h4></li><li><ul>';

@@ -20,9 +20,6 @@ I made the simple exemple of the bus communication for this assignement, to be a
 |![master laser cut](assets\img\week14\hello-master-laserr-cut.jpg)|![master engrave](assets\img\week14\hello-blink-master-engrave.jpg)|
 
 
-
-
-
 #### Slaves
 
 |![slave board](assets\img\week14\hello-blink-slave-design.png)|![slave board](assets\img\week14\hello-blink-slqve-pcb.png)|

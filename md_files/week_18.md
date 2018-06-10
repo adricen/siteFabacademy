@@ -80,7 +80,7 @@ I have to do everything, from product packaging to web developpement passing by 
 #### <a name="question"></a>What questions need to be answered ?
 
 * How can I make it scalable, having unlimited amount of controler
-* How do I make My game controler communicate with a website ? --> protocole souris / web
+* How do I make My game controler communicate with a website ? --> protocole mouse / web
 * Will communication process will be quick enought to be playable ?
 
 #### <a name="evaluated"></a>How will it be evaluated?
