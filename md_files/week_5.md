@@ -47,6 +47,8 @@ I left the outline on the board, thinking it was better this way. But apparently
 
 ### Then succeed
 
+![mounted](assets/img/fabIsp/component.jpg)
+
 > I choose the second blueprint of this otherone named `Fab Optimus` : [**Demystifying the FabISP and Designing the FabOptimus**](http://fab.cba.mit.edu/classes/863.16/doc/tutorials/FabISP/FabISP_Demystified.html)
 
 **Files :**
