@@ -13,7 +13,17 @@
 
 ## working
 
+> Files links : [hello-speaker.sch](assets\files\Sound\hello.speaker.45.sch) / [hello-speaker.brd](assets\files\Sound\speakerSCH.brd) / [hello-speaker.png](assets\img\week12\speaker.phone.png)
+
+
 For this assignement I choose to work on the speaker board, because I am probably going to need something like that.
+![hello speaker schematic](assets\img\week12\hello-speaker-schematic.png)
+![hello speaker pcb](assets\img\week12\hello-speaker-pcb.png)
+
+![hello speaker pcb](assets\img\week12\hello-speaker-laserr-cut.jpg)
+![hello speaker pcb](assets\img\week12\hello-speaker-engrave.jpg)
+
+> I had a problem that I didn't detect during the engraving of the first PCB that made a lot of short circuit, for security I had engrave the hello-distance from the fabacademy. I was able to solder it and make it work.
 
 | ![helloSpeak](assets\img\week12\hellospeaker1.jpg) | ![helloSpeak sodering](assets\img\week12\helloSpeaker.jpg) |
 | --- | --- |

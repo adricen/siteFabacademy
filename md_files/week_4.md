@@ -106,10 +106,8 @@ The final result is really promissing. It allow a new dimention to comes in and 
 <!-- Model of the vinyl cutter Knkmax hair  ![pics]()
 Miss - pics of the software -->
 
-|||
-|---|---|
-| [background](assets\img\Week4\vinyl_cut.svg) ![background](assets\img\Week4\vinyl_cut.svg) | [liz Sherman](assets\img\Week4\liz.svg) ![liz Sherman](assets\img\Week4\liz.svg) |
-| [sapien shirt](assets\img\Week4\sapienShirt.svg) ![sapien shirt](assets\img\Week4\sapienShirt.svg) | [sapien flesh](assets\img\Week4\blueSapienTry.svg) ![sapien flesh](assets\img\Week4\blueSapienTry.svg) |
+| [background](assets\img\Week4\vinyl_cut.svg) ![background](assets\img\Week4\vinyl_cut.svg) | [liz Sherman](assets\img\Week4\liz.svg) ![liz Sherman](assets\img\Week4\liz.svg) | [sapien shirt](assets\img\Week4\sapienShirt.svg) ![sapien shirt](assets\img\Week4\sapienShirt.svg) | [sapien flesh](assets\img\Week4\blueSapienTry.svg) ![sapien flesh](assets\img\Week4\blueSapienTry.svg) |
+|---|---|---|---|
 
 Make something for your computer... hmm...
 In order to use multiple color, I tryed to make a cool illustration of Hellboy. Mignola have a perfect sharp black and white style that will fit perfectly for the vinyl cutter. In a first sketch I started to work on multiple character and came up with this : ![goal](assets\img\Week4\photoshop screenshot.png).

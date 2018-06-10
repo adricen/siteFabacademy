@@ -13,6 +13,17 @@ It's time to work fully on my final project, so I choose two input device for no
 
 ### The sonar distance
 
+#### Design
+
+files links : [hello-distance.sch](assets\files\Distance\distanceSCH.sch) / [hello-distance.brd](../assets\files\Distance\distanceSCH.brd) / [hello-distance-engrave.png]( ../assets\img\week11\Hello.distance.png)
+
+|![hello-distance-schematic.png](assets\img\week11\hello-distance-schematic.png)|![hello-distance-board](assets\img\week11\hello-distance-board.png)|![board](assets\img\week11\Hello.distance.png)|
+|---|---|---|
+||||
+
+
+
+
 For now I just took the initial board and craft them directly to see how they work.
 
 | engraving | ![engrave1](assets\img\week11\engrave01.jpg) |
