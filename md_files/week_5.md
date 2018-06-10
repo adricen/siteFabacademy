@@ -25,6 +25,9 @@ I started to work on my fabISP before making the fabacademy. So I made it in two
 
 ![first fabISP]assets\img\fabIsp\ISP.jpg)
 
+> I don't have any picture of my fabISP at that state but it's fully fonctionnal
+![fabisp fonctionnement](assets\img\week9\helloWire.jpg)
+
 It appears that I had a short circuit on this board and was inable to find it.
 
 Then I made the fabOptimus. In the process of creating my board, I used a volmetre to be sure of the insulation of each eement before solder the pcb.
