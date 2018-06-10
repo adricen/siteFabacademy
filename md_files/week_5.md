@@ -21,10 +21,7 @@
 
 ## 1. **Personnal Assignement** -- Making a FabISP
 
-I started to work on my fabISP before making the fabacademy. So I made it in two time. First try was this board :
-
-![first fabISP](assets\img\fabIsp\ISP.jpg)
-
+I started to work on my fabISP before making the fabacademy. So I made it in two time.
 It appears that I had a short circuit on this board and was inable to find it.
 
 Then I made the fabOptimus. In the process of creating my board, I used a volmetre to be sure of the insulation of each eement before solder the pcb.
@@ -39,7 +36,7 @@ As a first job, I had to work on the FabISP. An initial PCB that should allow me
 
 | def | pics |
 | --- | --- |
-| Tadaaa ! But it's a failure... even after install and trying to debug it...  | ![isp](assets/img/fabIsp/ISP.jpg) |
+| I started to work on my fabISP before making the fabacademy. So I made it in two time. It appears that I had a short circuit on this board and was inable to find it. Then I made the fabOptimus. In the process of creating my board, I used a volmetre to be sure of the insulation of each eement before solder the pcb.  | ![isp](assets/img/fabIsp/ISP.jpg) |
 
 After different trial and on the advice of my instructor we choose an other board and make it.
 
