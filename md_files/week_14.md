@@ -1,6 +1,6 @@
 # Fabacademy : *Week 14* **25/18/2018**
 
-## Assignment - Networking and Communications - [schedule]()
+## Assignment - Networking and Communications - [schedule](http://academy.cba.mit.edu/classes/networking_communications/index.html)
    individual assignment:
       design and build a wired &/or wireless network connecting at least two processors
    group assignment:

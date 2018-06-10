@@ -1,6 +1,6 @@
 # Fabacademy : *Week 15* **May 02/2018**
 
-## Mechanical design
+## Assignement - Mechanical design - [schedule](http://academy.cba.mit.edu/classes/mechanical_design/index.html)
 
 <!-- * Que fait la machine ?
 * Quel taille

@@ -15,7 +15,7 @@
 
 Files ( right clic + download ):
 
-[fusion360 scene](assets\files\Parametric_object v1.f3d) / [![DXF cutting file](assets\img\Week4\parametricDesign10.dxf)](assets\img\Week4\parametricDesign10.dxf)
+[fusion360 scene](assets\files\Parametric_object v1.f3d) / [DXF cutting file](assets\img\Week4\parametricDesign10.dxf)
 
 ![parametricDesign](assets\img\Week4\paremtricDesign1.jpg)
 ![cutting parametres](assets\img\Week4\parametre.png)
@@ -128,4 +128,4 @@ Will I was aworking on it I decided to change my composition and remove 2 charac
 | ![liz02](assets/img/Week4/liz02.jpg) | ![liz03](assets/img/Week4/liz03.jpg) |
 | ![liz04](assets/img/Week4/liz04.jpg) | ![liz05](assets/img/Week4/liz05.jpg) |
 
-![liz06](assets\img\Week4\Liz06.jpg)
+![liz06](assets\img\Week4\liz06.jpg)

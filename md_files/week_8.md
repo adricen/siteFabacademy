@@ -1,12 +1,12 @@
 # Fabacademy : *Week 8* **March 07/2018**
 
-### Assignement - Make something Big ! - [schedule](http://academy.cba.mit.edu/classes/computer_machining/index.html)
+## Assignement - Make something Big ! - [schedule](http://academy.cba.mit.edu/classes/computer_machining/index.html)
 
 
-## group assignment
-  test runout, alignment, speeds, feeds, and toolpaths for your machine
-## individual assignment
-  make something big - Working on a stool
+* group assignment
+  * test runout, alignment, speeds, feeds, and toolpaths for your machine
+* individual assignment
+  * make something big - Working on a stool
 
 
 ![workStation](assets\img\week8\cnc00.jpg)

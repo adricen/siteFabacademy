@@ -1,9 +1,7 @@
 # Fabacademy : *Week 18* **May 23 2018**
 
-## Applications and implications
-
-### assignment
-   Propose a final project that integrates the range of units covered,
+## Assignment - Applications and implications - [schedule](http://academy.cba.mit.edu/classes/applications_implications/index.html)
+### Propose a final project that integrates the range of units covered
 * answering:
   * [What will it do?](#what)
   * [Who's done what beforehand?](#who)
