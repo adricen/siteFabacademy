@@ -6,7 +6,7 @@
 
 This project have the goal to extend game controlers for computer to be able to try and design differents input and output through game design. It's design to become a console extension for computers. A plug and play device
 
-![](../assets\img\finalProject\finalProjectPackshot.jpg)
+![](assets\img\finalProject\finalProjectPackshot.jpg)
 
 #### <a name="what"></a>What will it do ?
 
@@ -68,13 +68,13 @@ I have to do everything, from product packaging to web developpement passing by 
 
 ### Prototyping
 
-| ![printing base](../assets\img\finalProject\20180523_111517.jpg) | ![printing top](../assets\img\finalProject\20180523_111514.jpg) |
+| ![printing base](assets\img\finalProject\20180523_111517.jpg) | ![printing top](assets\img\finalProject\20180523_111514.jpg) |
 |---|---|
-| ![printing object](../assets\img\finalProject\20180523_112028.jpg) | !![printing object](../assets\img\finalProject\20180523_112049.jpg)|
+| ![printing object](assets\img\finalProject\20180523_112028.jpg) | !![printing object](assets\img\finalProject\20180523_112049.jpg)|
 
 > I have a esign problem, my clips are too fit probably, I should have another try to make them better. Maybe by changing the printed orientation.
 
-![printing problems](../assets\img\finalProject\20180523_112054.jpg)
+![printing problems](assets\img\finalProject\20180523_112054.jpg)
 
 ---
 > Other Potential final projects
