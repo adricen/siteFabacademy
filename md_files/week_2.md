@@ -2,7 +2,7 @@
 
 
 
-## Assignement - Project management
+## Assignement - Project management - [schedule](http://academy.cba.mit.edu/classes/project_management/index.html)
 
 * [I. Work through a git tutorial](#i-work-through-a-git-tutorial)
 * [II. Build a personal site in the class archive describing you and your final project](#ii-build-a-personnal-web-site)

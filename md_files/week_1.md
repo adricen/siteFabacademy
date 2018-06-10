@@ -2,7 +2,7 @@
 
 * **January 22 recitation: [version control (Fiore Basile)](http://fab.academany.org/2018/recitations/version-control.html#1)**
 
-## Assignement - principles and practices
+## Assignement - principles and practices - [schedule](http://academy.cba.mit.edu/classes/principles_practices/index.html)
 
         plan and sketch a potential final project
 
@@ -33,7 +33,10 @@
 | **What's it look?** | ![sketch](assets\img\week1\handsDraw.jpg) |
 
 #### Project management
+
 [<u>Trello boar link</u>](https://trello.com/b/aCXozFJu/final-roject-developpement-v01)
+<!-- <iframe src="https://trello.com/b/aCXozFJu/final-roject-developpement-v01"></iframe> -->
+
 ![dashboard](assets\img\week1\trelloDashboard.jpg)
 ![trelloBoard](assets/img/week1/trelloProjectManagement.png)
 

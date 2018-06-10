@@ -1,6 +1,6 @@
 # Fabacademy : *Week 4* - **February 07/2018**
 
-## Assignement - computer-controlled cutting
+## Assignement - computer-controlled cutting - [schedule]()
 
 > * I. Group assignment:
       characterize your lasercutter
@@ -121,9 +121,9 @@ Will I was aworking on it I decided to change my composition and remove 2 charac
 
 ### Inside job
 
-| ![liz00](assets\img\Week4\liz00.jpg) | ![liz00](assets\img\Week4\liz01.jpg) |
+| ![liz00](assets\img\Week4\liz00.jpg) | ![liz00](assets\img\Week4\Liz01.jpg) |
 |---|---|
-| ![liz00](assets\img\Week4\liz02.jpg) | ![liz00](assets\img\Week4\liz03.jpg) |
+| ![liz00](assets\img\Week4\Liz02.jpg) | ![liz00](assets\img\Week4\liz03.jpg) |
 | ![liz00](assets\img\Week4\liz04.jpg) | ![liz00](assets\img\Week4\liz05.jpg) |
 
 ![liz00](assets\img\Week4\liz06.jpg)
