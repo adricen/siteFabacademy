@@ -1,6 +1,6 @@
 # Fabacademy : *Week 11* **April 04/2018**
 
-## Assignement
+## Assignement - Input Devices - [schedule](http://academy.cba.mit.edu/classes/input_devices/index.html)
 
 individual assignment:
    measure something: add a sensor to a microcontroller board that you have designed and read it

@@ -1,6 +1,6 @@
 # Fabacademy : *Week 10* **March 21/2018**
 
-## Assignements :
+## Assignements - Molding and Casting - [schedule](http://academy.cba.mit.edu/classes/molding_casting/index.html)
 
 group assignment:
    review the safety data sheets for each of your molding and casting materials,

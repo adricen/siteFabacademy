@@ -31,6 +31,8 @@ Let's work on the entire production chain and explore some soft I don't know. As
 
 ### Fusion 360 - free autodesk software for teacher and student
 
+files : [base.stl](assets\files\final_project\base.stl) / [clapet.stl](assets\files\final_project\clapet.stl)
+
 Fusion 360 have the adventage to be free for uses and seams to offert really good modelisation and design features.
 
 I started to model differents project around fusion. I tryed to think about a final project, centered on electronic design to make a futur open source console.

@@ -1,6 +1,6 @@
 # Fabacademy : *Week 4* - **February 07/2018**
 
-## Assignement - computer-controlled cutting - [schedule]()
+## Assignement - computer-controlled cutting - [schedule](http://academy.cba.mit.edu/classes/computer_cutting/index.html)
 
 > * I. Group assignment:
       characterize your lasercutter
@@ -106,6 +106,8 @@ The final result is really promissing. It allow a new dimention to comes in and 
 <!-- Model of the vinyl cutter Knkmax hair  ![pics]()
 Miss - pics of the software -->
 
+> I don't have the files of the vinyl cutter, I putted the original pictures files in this documents.
+
 | [background](assets\img\Week4\vinyl_cut.svg) ![background](assets\img\Week4\vinyl_cut.svg) | [liz Sherman](assets\img\Week4\liz.svg) ![liz Sherman](assets\img\Week4\liz.svg) | [sapien shirt](assets\img\Week4\sapienShirt.svg) ![sapien shirt](assets\img\Week4\sapienShirt.svg) | [sapien flesh](assets\img\Week4\blueSapienTry.svg) ![sapien flesh](assets\img\Week4\blueSapienTry.svg) |
 |---|---|---|---|
 
@@ -121,9 +123,9 @@ Will I was aworking on it I decided to change my composition and remove 2 charac
 
 ### Inside job
 
-| ![liz00](assets\img\Week4\liz00.jpg) | ![liz00](assets\img\Week4\Liz01.jpg) |
+| ![liz00](assets/img/Week4/liz00.jpg) | ![liz01](assets/img/Week4/liz01.jpg) |
 |---|---|
-| ![liz00](assets\img\Week4\Liz02.jpg) | ![liz00](assets\img\Week4\liz03.jpg) |
-| ![liz00](assets\img\Week4\liz04.jpg) | ![liz00](assets\img\Week4\liz05.jpg) |
+| ![liz02](assets/img/Week4/liz02.jpg) | ![liz03](assets/img/Week4/liz03.jpg) |
+| ![liz04](assets/img/Week4/liz04.jpg) | ![liz05](assets/img/Week4/liz05.jpg) |
 
-![liz00](assets\img\Week4\liz06.jpg)
+![liz00](assets\img\Week4\Liz06.jpg)

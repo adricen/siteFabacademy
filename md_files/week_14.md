@@ -1,6 +1,6 @@
 # Fabacademy : *Week 14* **25/18/2018**
 
-## Assignment
+## Assignment - Networking and Communications - [schedule]()
    individual assignment:
       design and build a wired &/or wireless network connecting at least two processors
    group assignment:

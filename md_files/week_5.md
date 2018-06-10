@@ -2,7 +2,7 @@
 
 
 
-## Assignement - electronics production
+## Assignement - electronics production - [schedule](http://academy.cba.mit.edu/classes/electronics_production/index.html)
 
 * ** group assignment: **
   - > characterize the specifications of your PCB production process

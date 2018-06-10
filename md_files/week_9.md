@@ -1,6 +1,6 @@
 # Fabacademy : *Week 9* **March 14/2018**
 
-## assignment
+## assignment - Embedded Programming - [schedule](http://academy.cba.mit.edu/classes/embedded_programming/index.html)
 * individual assignment:
   * read a microcontroller data sheet
   * program your board to do something,

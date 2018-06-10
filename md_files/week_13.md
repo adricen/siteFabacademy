@@ -1,6 +1,6 @@
 # Fabacademy : *Week 13* **April 11/2018**
 
-## Interface programming
+## Assignement - Interface and application programming - [schedule](http://academy.cba.mit.edu/classes/interface_application_programming/index.html)
 
 Making a PCB with using input distance, oone input button and two speaker output
 

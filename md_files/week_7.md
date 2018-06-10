@@ -1,7 +1,7 @@
 # Fabacademy : *Week 7* - **February 28/2018**
 
 
-## Assignment - Electronics Design
+## Assignment - Electronics Design - [schedule](http://academy.cba.mit.edu/classes/electronics_design/index.html)
 
 ### group project:
    use the test equipment in your lab to observe the operation

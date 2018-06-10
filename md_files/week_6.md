@@ -1,5 +1,5 @@
 # Fabacademy : *Week 6* **February 21/2018**
-## Assignement - 3D scanning and printing
+## Assignement - 3D scanning and printing - [schedule](http://academy.cba.mit.edu/classes/scanning_printing/index.html)
 
 * ** group assignment: **
   - > test the design rules for your 3D printer(s)

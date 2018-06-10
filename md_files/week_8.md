@@ -1,6 +1,6 @@
 # Fabacademy : *Week 8* **March 07/2018**
 
-### Assignement - Make something Big !
+### Assignement - Make something Big ! - [schedule](http://academy.cba.mit.edu/classes/computer_machining/index.html)
 
 
 ## group assignment

@@ -60,7 +60,7 @@ The Game controler is a little dock station where you can plug-in differents con
 
 #### <a name="come"></a>Where will it come from ?
 
-This project come from a desire to explore electronic through a subject I know well. The embed electronic are designed to be the simpler as possible to fully understand what's up under the hood and be able to play with it in designing new and other game controler. It must be fully interfaced with internet so that it could interacte with web content.
+This project come from a desire to explore electronic through a well known subject. The embed electronic are designed to be the simple as possible to fully understand what's up under the hood and to play with it in designing new and other game controler. It must be fully interfaced with internet so that it could interacte with web content.
 
 #### <a name="cost"></a> How much will they cost ?
 

@@ -1,6 +1,6 @@
 # Fabacademy : *Week 12* **April 11/2018**
 
-## assignment
+## assignment - Output devices - [schedule](http://academy.cba.mit.edu/classes/output_devices/index.html)
 
 ### individual assignment:
 
