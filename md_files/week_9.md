@@ -89,6 +89,7 @@ Let's play with this led ! I found a basic C file for the blink on a past studen
 | then push it on your board | `make -f hello.ftdi.44.blink.c.make program-usbtiny` |
 | if everything work correctly you should have your led blinking | ![trih](assets\img\week9\20180319_201219.jpg) |
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TCyvxAHU0_g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ### HelloGame - Duel
 
@@ -98,8 +99,15 @@ This programme is made for the [helloGame board]()
 
 I tryed to make a simple game with the thing I learned so far. Designing a board, using and reading datasheet, making my PCB, mount it, make my programme and hopefully download it on my helloGame board and play with it.
 
+|![duel game](assets\img\week9\P1070177.JPG) | ![duel game 2](assets\img\week9\P1070179.JPG) |
+|---|---|
+
+![duel game](assets\img\week9\P1070181.JPG)
+
 #### Duel- the game
 
+|<iframe width="560" height="315" src="https://www.youtube.com/embed/H5XTcAKtRkw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>|<iframe width="560" height="315" src="https://www.youtube.com/embed/sn6Rr_OXa0k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>|
+|---|---|
 Thinking gameprogramming is a really simple way to approche programming language using the oldest way we know about learning, play. Everything begin with some rules and consequence.
 
 Let's break it down !
