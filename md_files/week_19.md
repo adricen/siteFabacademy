@@ -32,6 +32,6 @@ Game controler with conecting base.
 
 > Go to [this link](https://creativecommons.org/choose/#metadata) and read through the questionary to select your license.
 
-|![creative common 01](assets\img\week19\creativeCommons00.png)|![creative common 02](assets\img\week19\creativeCommons01.png)|
+|![creative common 01](../assets\img\week19\creativeCommons00.png)|![creative common 02](../assets\img\week19\creativeCommons01.png)|
 |---|---|
-|![creative common 03](assets\img\week19\creativeCommons02.png)|![creative common 04](assets\img\week19\creativeCommons03.png)|
+|![creative common 03](../assets\img\week19\creativeCommons02.png)|![creative common 04](../assets\img\week19\creativeCommons03.png)|

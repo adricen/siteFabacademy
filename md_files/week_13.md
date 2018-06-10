@@ -10,6 +10,8 @@ On the precedent assignement, I just remake the board provided by Neil G. to div
 
 So to complete all assignement I made a new board, compiling input and output that I have done, on the same board. I choose to work with the ATtiny45 as this is the simplest microcontroler we have here, as far as I know. So to really understand microchip architecture, I wanted to overkill a chip. So I choose to put an distance detector, a button and a speaker on the same board.
 
+
+
 #### First try...
 
 I designed my pcb on eagle and choose to make a global ground.
