@@ -5,8 +5,14 @@
 ### Concept
 
 This project have the goal to extend game controlers for computer to be able to try and design differents input and output through game design. It's design to become a console extension for computers. A plug and play device
+![scene2](assets\img\finalProject\finalProjectPackshot.jpg)
 
-![](assets\img\finalProject\finalProjectPackshot.jpg)
+### the Base
+
+The base is the master of all the system. It allow the user to plug his controler and play to the game he selected. In the end the controler could as the user want it to be. I want to be able to experiment with controlers.
+![scene](assets\img\finalProject\Base_scene.jpg)
+
+I designed a simple base for now, exploiting the japonize join I learned on the machin design assignements.
 
 #### <a name="what"></a>What will it do ?
 
@@ -124,20 +130,6 @@ I choose to break it down a little bit for the final project. Two device, one in
 It can be break down from the minimum, the beatachin, to the full project, a beatmachin, with a bluetoth speaker where you can deal with your content on your mobile phone or a web interface. -->
 
 After a lot of different iteration, and looking at the time left, I watch back my course and found out that I had already begin to work on differents side project. My favorite one was a little electronic game I started to do with a simple ATtiny45, buttons and LEDs. After reflexion and regarding what I come through, I though about a minimum game console I could make to ba able to understand all the process of making an electronic device.
-
-## Design
-
-The goal is to have a base, with two or three controler pluged-in and a connexion to a computer. In the end it shoud be able to communicate with a web application and a simple game. The game controler shoudl have left / right direction and one button.
-
-### the Base
-
-The base is the master of all the system. It allow the user to plug his controler and play to the game he selected. In the end the controler could as the user want it to be. I want to be able to experiment with controlers.
-
-I designed a simple base for now, exploiting the japonize join I learned on the machin design assignements.
-
-![scene](assets\img\finalProject\Base_scene.jpg)
-
-![printedBlock](assets\img\week16\20180523_111517.jpg)
 
 ---
 
