@@ -128,4 +128,4 @@ Will I was aworking on it I decided to change my composition and remove 2 charac
 | ![liz02](assets/img/Week4/liz02.jpg) | ![liz03](assets/img/Week4/liz03.jpg) |
 | ![liz04](assets/img/Week4/liz04.jpg) | ![liz05](assets/img/Week4/liz05.jpg) |
 
-![liz00](assets\img\Week4\Liz06.jpg)
+![liz06](assets\img\Week4\Liz06.jpg)
