@@ -35,11 +35,11 @@ var layout_page = new Vue({
       //   index : "readme.md",
       //   content: ''
       // },
-      week_0: {
-        title: "Pre-Fabacademy",
-        index : "week_0.md",
-        content: ''
-      },
+      // week_0: {
+      //   title: "Pre-Fabacademy",
+      //   index : "week_0.md",
+      //   content: ''
+      // },
       week_1: {
         title : 'Principles and practices',
         index: "week_1.md",

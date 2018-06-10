@@ -23,7 +23,7 @@ For this assignement I choose to work on the speaker board, because I am probabl
 ![hello speaker pcb](assets\img\week12\hello-speaker-laserr-cut.jpg)
 ![hello speaker pcb](assets\img\week12\hello-speaker-engrave.jpg)
 
-> I had a problem that I didn't detect during the engraving of the first PCB that made a lot of short circuit, for security I had engrave the hello-distance from the fabacademy. I was able to solder it and make it work.
+> I had a problem that I didn't detect during the engraving of the first PCB that made a lot of short circuit, for security I had **engrave the hello-distance from the fabacademy**. I was able to solder it and make it work.
 
 | ![helloSpeak](assets\img\week12\hellospeaker1.jpg) | ![helloSpeak sodering](assets\img\week12\helloSpeaker.jpg) |
 | --- | --- |

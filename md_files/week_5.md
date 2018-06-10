@@ -25,12 +25,79 @@ I started to work on my fabISP before making the fabacademy. So I made it in two
 
 ![first fabISP](assets\img\fabIsp\ISP.jpg)
 
-> I don't have any picture of my fabISP at that state but it's fully fonctionnal
-![fabisp fonctionnement](assets\img\week9\helloWire.jpg)
-
 It appears that I had a short circuit on this board and was inable to find it.
 
 Then I made the fabOptimus. In the process of creating my board, I used a volmetre to be sure of the insulation of each eement before solder the pcb.
+
+
+## I. **FabISP** *in-system-programmer*
+
+### First, try and faile
+
+As a first job, I had to work on the FabISP. An initial PCB that should allow me to programme futur PCB.
+> I used this tutorial to fillfull  the board : [**FabISP, a fab-able in-system programmer**](http://fab.cba.mit.edu/content/archive/projects/fabisp/)
+
+| def | pics |
+| --- | --- |
+| Tadaaa ! But it's a failure... even after install and trying to debug it...  | ![isp](assets/img/fabIsp/ISP.jpg) |
+
+After different trial and on the advice of my instructor we choose an other board and make it.
+
+I left the outline on the board, thinking it was better this way. But apparently it's not :smile:
+
+### Then succeed
+
+> I choose the second blueprint of this otherone named `Fab Optimus` : [**Demystifying the FabISP and Designing the FabOptimus**](http://fab.cba.mit.edu/classes/863.16/doc/tutorials/FabISP/FabISP_Demystified.html)
+
+**Files :**
+
+Board : [<u>**board**</u>](assets/img/fabIsp/FabOptimus2.png), [<u>**component**</u>](assets/img/fabIsp/component.jpg), [<u>**trace**</u>](assets/img/fabIsp/FabOptimus_Traces2.png)
+
+Files : [<u>**makefile**</u>](assets/img/fabIsp/programmFiles/Makefile), [<u>**main.hex**</u>](assets/img/fabIsp/programmFiles/main.hex), [<u>**main.c**</u>](assets/img/fabIsp/programmFiles/main.c), [<u>**main.elf**</u>](assets/img/fabIsp/programmFiles/main.elf), [<u>**main.o**</u>](assets/img/fabIsp/programmFiles/main.o)
+
+
+the second blueprint offer to make this ship replacing the 1,5K resistor by a 1k + 0.5k but on site I didn't found it for now so I used a 499 ohm resistor with 1% margin of error (4,99 ohm) wich is great.
+
+| Shape | CorelDraw Settings | Epilog Settings |
+| --- | --- | --- |
+| ![drawing](assets/img/fabIsp/FabOptimus_Traces2-doc.png) | ![corel draw settings](assets/img/fabIsp/corel.jpg) | ![drawing](assets/img/fabIsp/paramEpilog.jpg) |
+| In corel draw, select your blueprint layer. **Right clic** > <u>*make Haireline*</u>. Select all the white layer and delete them. Group your black layer if needed. | In the object manager you should have two object in the end, configured in `haireline` for the red part, and **filled with color and no outline** |  Print settings for the `Epilog Laser Fusion`. Don't forget to add the thickness of your fabric |
+| ![print](assets/img/fabIsp/printedCard.jpg) | ![fabOptimusComponent](assets/img/fabIsp/FabOptimus2.png) | ![mounted](assets/img/fabIsp/component.jpg) |
+
+
+
+Once you have the Board and download the Makefile programme you need another FabISP already made, link the 2 board by the ISP output and start programming on your linux bash.
+
+```
+  USB power
+  make clean
+  make hex
+  (sudo) make fuse (check programmer in Makefile, may need to repeat)
+  (sudo) make program
+  desolder SJ1 and SJ2
+  make IDC ISP cable, connecting header pin 1 to pin 1, check wires
+```
+
+And normaly if you have done the job right, it should work correctly
+
+> You can now program your own board freely
+
+
+```
+  _________                                ._.
+ /   _____/__ __   ____  ____  ____   _____| |
+ \_____  \|  |  \_/ ___\/ ___\/ __ \ /  ___/ |
+ /        \  |  /\  \__\  \__\  ___/ \___ \ \|
+/_______  /____/  \___  >___  >___  >____  >__
+        \/            \/    \/    \/     \/ \/
+
+```
+
+<!-- ## II. **Hello-world Card** *echo hello-world* -->
+
+
+> I don't have any picture of my fabISP at that state but it's fully fonctionnal
+![fabisp fonctionnement](assets\img\week9\helloWire.jpg)
 
 ## 2. **Group assignment :** -- Caracterize the specification of your PCB production process
 
@@ -40,7 +107,6 @@ Entering the fablab 503 was great, seing another space and another configuration
 It was highly equiped for electronics.
 
 ![fablab](assets\img\week5\fabLab503.jpg)
-
 Here the process of making PCB is more by laser cutting than milling machin. **We choose, in accord with our local instructor, to make the milling sight on another assignement**.
 
 #### <u>Making the sight</u>
@@ -79,17 +145,3 @@ Here the process of making PCB is more by laser cutting than milling machin. **W
 
 After the computer controlled week, we tryed to make a fabIsp board with the vinyl cutter and some copper surface. In the time I had, I didn't found the good parametres for this purpuses, but I am sure it's something possible, I'll investigate later on this. Here is what it give
 ![vinyl cut test](assets\img\week5\copperLayer.jpg)
-<!--
-### Making an Accelerometre board
-
-I made my fabISP on the pre fabacademy I did with Romain. You can see it there : [fabISP Optimus](assignement.html?page=week_0)
-![fabOptimus](assets\img\fabIsp\component.jpg)
-
-For this assignement, I choose to make an accelerometre input from the [input devices](http://academy.cba.mit.edu/classes/input_devices/index.html) week. We actualy have a problem to ourfiber laser cutter actualy, so I tryed to make my PCB on it but had some difficulty to make a good output.
-
-| ![laser](assets\img\week5\laser00.jpg) | ![laser](assets\img\week5\laser01.jpg) |  ![laser](assets\img\week5\laser02.jpg) |
-| --- | --- | --- |
-|  ![laser](assets\img\week5\laser03.jpg) | ![laser](assets\img\week5\laser04.jpg) | ![laser](assets\img\week5\laser05.jpg) |
-|  ![laser](assets\img\week5\laser06.jpg) | ![laser](assets\img\week5\laser07.jpg) | ![laser](assets\img\week5\laser08.jpg) |
-
-After investigation, it seams that I made an error in my setup and over past the frequency. put it on ten insted of one so it grilled my pcb. -->
