@@ -21,3 +21,5 @@ As a wildcard and after tchatting with my local instructor, I choose to mill a P
 |---|---|
 | ![](assets\img\week17\P1070199.jpg) | ![](assets\img\week17\P1070201.JPG) |
 |![](assets\img\week17\P1070202.JPG)|![](assets\img\week17\P1070203.JPG)|
+
+![](assets\img\week17\P1070212.jpg)

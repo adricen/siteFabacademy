@@ -72,5 +72,11 @@ Component :
 
 ![mounted](assets\img\week7\mount2.jpg)
 
-| After this first version when I tryed to flash it with my fabISP, it apears that I had conductivity issue probably so this board won't work after all. I made a cleaner version without the big ground plate.S the board look like that after all| ![resultBoard](assets/files/helloboard/helloGame/helloGameBoard.png) |
+| After this first version when I tryed to flash it with my fabISP, it apears that I had conductivity issue probably so this board won't work after all. I made a cleaner version without the big ground plate.S the board look like that after all| ![resultBoard](assets\img\week9\P1070177.JPG) |
 | --- | --- |
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H5XTcAKtRkw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sn6Rr_OXa0k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+You can see it work in [week9 - embed programming]()
