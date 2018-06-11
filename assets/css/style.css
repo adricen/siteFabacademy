@@ -289,12 +289,12 @@ a.nope:hover {
   width: 100%;
 }
 
-.masonry .final {  background-image: url('../img/finalProject/beatboxMachin.jpg'); }
+.masonry .final {  background-image: url('../img/finalProject/finalProjectPackshot.jpg'); }
 .masonry .w0 {  background-image: url('../img/fabIsp/component.jpg'); }
-.masonry .w1 {  color: black;  background-image: url('../img/week3/handsDraw.jpg'); }
+.masonry .w1 {  color: black;  background-image: url('../img/finalProject/beatboxMachin.jpg'); }
 .masonry .w2 {  background-position: bottom; background-image: url('../img/week2/ubuntuBash02.jpg'); }
 .masonry .w3 {  color: black;  background-image: url('../img/week3/PlateauDePression_04.JPG'); }
-.masonry .w4 {  background-image: url('../img/Week4/parametricDesign.jpg'); }
+.masonry .w4 {  background-image: url('../img/Week4/P1070171.JPG'); }
 .masonry .w5 {  background-image: url('../img/week5/accelero06.jpg'); }
 .masonry .w6 {  background-image: url('../img/week6/printCircuit20.jpg'); }
 .masonry .w7 {  background-image: url('../img/week7/accueil.jpg'); }

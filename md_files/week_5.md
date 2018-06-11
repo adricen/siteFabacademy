@@ -98,6 +98,14 @@ And normaly if you have done the job right, it should work correctly
 > I don't have any picture of my fabISP at that state but it's fully fonctionnal
 ![fabisp fonctionnement](assets\img\week9\helloWire.jpg)
 
+### Mesure your board activity with your fablab equipement
+
+![mesurement activity](assets\img\week5\P1070193.JPG)
+
+I mesured the signal in between MOSI pin and SCK pin.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L_OLB3xKvfY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ## 2. **Group assignment :** -- Caracterize the specification of your PCB production process
 
 ### a. Fablab 503
