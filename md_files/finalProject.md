@@ -5,12 +5,12 @@
 ### Concept
 
 This project have the goal to extend game controlers for computer to be able to try and design differents input and output through game design. It's design to become a console extension for computers. A plug and play device
-![scene2](../assets\img\finalProject\finalProjectPackshot.jpg)
+![scene2](assets\img\finalProject\finalProjectPackshot.jpg)
 
 ### the Base
 
 The base is the master of all the system. It allow the user to plug his controler and play to the game he selected. In the end the controler could as the user want it to be. I want to be able to experiment with controlers.
-![scene](../assets\img\finalProject\Base_scene.jpg)
+![scene](assets\img\finalProject\Base_scene.jpg)
 
 I designed a simple base for now, exploiting the japonize join I learned on the machin design assignements.
 
@@ -74,17 +74,38 @@ I have to do everything, from product packaging to web developpement passing by 
 
 ### Prototyping
 
-| ![printing base](../assets\img\finalProject\20180523_111517.jpg) | ![printing top](../assets\img\finalProject\20180523_111514.jpg) |
+| ![printing base](assets\img\finalProject\printingBase.jpg) | ![printing top](assets\img\finalProject\20180523_111514.jpg) |
 |---|---|
-| ![printing object](../assets\img\finalProject\20180523_112028.jpg) | !![printing object](../assets\img\finalProject\20180523_112049.jpg)|
+| ![printing object](assets\img\finalProject\20180523_112028.jpg) | !![printing object](assets\img\finalProject\20180523_112049.jpg)|
 
 > I have a esign problem, my clips are too fit probably, I should have another try to make them better. Maybe by changing the printed orientation.
 
-![printing problems](../assets\img\finalProject\20180523_112054.jpg)
+![printing problems](assets\img\finalProject\20180523_112054.jpg)
 
 ### Circuit prototyping
 
 I started prototying stuf with an arduino kit. I already know make basical stuff with arduino so let's jump directly to working with I2C programmed chips. First I need two ATtiny45 programmed for I2C protocole. Searching for information, My starting point was the wikipedia file of I2C protocole that are pretty well documented. [See it here](https://en.wikipedia.org/wiki/I²C)
 
 I started to do this with a bread board and a Pomona soic-clip.
-![](../assets\img\finalProject\breadboardPrototyping.jpg)
+![prototyping first](assets\img\finalProject\breadboardPrototyping.jpg)
+
+After this I wanted to try to use my Arduino as an ISP. As I wont have my fabISP on me all the time, I wanted to try other way to work with ATtiny. I used the ArduinoISP exemple to transforma my board in an ISP programmer.
+![arduino flash](assets\img\finalProject\arduinoFlashToISP.png)
+
+Then I could work efficiently in testing programming and wirering in the same workflow.
+
+|![arduino proto1](assets\img\finalProject\arduinoPrototyping2.jpg)|![arduino prototyping](assets\img\finalProject\prototyping2.jpg)|
+|---|---|
+
+
+
+Thanks to this wiring, now I can test my program quickly and modify my circuit structure really efficiently. I tryed different configuration. The goal was to test I2C protocole and being able to talk on a screen with processing. But the fact that it was interface with arduino, things I had done pretty lately on the fabacademy programme, gave me plenty of other problems like difficulty to have feedback from my ATtiny.
+
+Once I tryed what I wanted, I designed my futur PCB on Eagle.
+
+|![Schematics](assets\img\finalProject\controlerSchematics.jpg)|![Board](assets\img\finalProject\controlerBoard.jpg)|
+|---|---|
+
+Then used the eagle to fusionSync button (on the right of the screen...) and started to design my futur Pcb for my game controler.
+
+![eagleToFusion](assets\img\finalProject\eagletoFusion.jpg)
