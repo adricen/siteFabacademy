@@ -106,12 +106,11 @@ Once I tryed what I wanted, I designed my futur PCB on Eagle.
 |![Schematics](assets\img\finalProject\controlerSchematics.jpg)|![Board](assets\img\finalProject\controlerBoard.jpg)|
 |---|---|
 
-Then used the eagle to fusionSync button (on the right of the screen...) and started to design my futur Pcb for my game controler.
+Then used the eagle to fusionSync button (on the right of the screen...) and started to design my futur Pcb for my game controler. I didn't have the 3D package and don't have time to figure how it work for now, so I modelized my composente based on the composantes I had in the Fablab.
 
-![eagleToFusion](assets\img\finalProject\eagletoFusion.jpg)
-
-I didn't have the 3D package and don't have time to figure how it work for now, so I modelized my composente based on the composantes I had in the Fablab.
+|![eagleToFusion](assets\img\finalProject\eagletoFusion.jpg) |![controleurModOpacity](assets\img\finalProject\controleurModOpacity.jpg)|
+|---|---|
 
 After this I wanted to rework on my controler design to have something more cloth from a classic controler.
-|![controleurModOpacity](assets\img\finalProject\controleurModOpacity.jpg)|![controler](assets\img\finalProject\controleurMode.jpg)|
-|---|---|
+
+![controler](assets\img\finalProject\controleurMode.jpg)|
