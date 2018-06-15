@@ -147,7 +147,7 @@ To have my button nice and smooth, I wanted to use a mold and cast them with sil
 
 ### Engraving PCB
 
-![put parametres]() and ![PCB pochette avec infos](assets\img\finalProject\engravedPCB.JPG)
+![put parametres]() and ![PCB pochette avec infos](assets\img\finalProject\copperPCB.jpg)
 10 passes of engraving, 20 of cutting parametres
 
 | ![](assets\img\finalProject\engraving.JPG) | ![pcb layout](assets\img\finalProject\combinedPCB.JPG) |
