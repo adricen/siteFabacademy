@@ -72,15 +72,6 @@ I have to do everything, from product packaging to web developpement passing by 
 * Capable of interact with web content
 * Being open source and fully reproductible
 
-### Prototyping
-
-| ![printing base](assets\img\finalProject\printingBase.jpg) | ![printing top](assets\img\finalProject\20180523_111514.jpg) |
-|---|---|
-| ![printing object](assets\img\finalProject\20180523_112028.jpg) | !![printing object](assets\img\finalProject\20180523_112049.jpg)|
-
-> I have a esign problem, my clips are too fit probably, I should have another try to make them better. Maybe by changing the printed orientation.
-
-![printing problems](assets\img\finalProject\20180523_112054.jpg)
 
 ### Circuit prototyping
 
@@ -137,11 +128,21 @@ To have my button nice and smooth, I wanted to use a mold and cast them with sil
 For the cast I used a blue Platinium Silicone Rubber ![silicone reference](assets\img\finalProject\platiniumSilicone.JPG)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6-iJfJ_2hyI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-![cast](assets\img\finalProject\cast.JPG)
-![hero shot](assets\img\finalProject\heroSilicone.JPG)
 
+|![cast](assets\img\finalProject\cast.JPG)|![hero shot](assets\img\finalProject\heroSilicone.JPG)|
+|---|---|
 
 ### 3D print
+### Prototyping
+
+| ![printing base](assets\img\finalProject\printingBase.jpg) | ![printing top](assets\img\finalProject\20180523_111514.jpg) |
+|---|---|
+| ![printing object](assets\img\finalProject\20180523_112028.jpg) | !![printing object](assets\img\finalProject\20180523_112049.jpg)|
+
+> I have a esign problem, my clips are too fit probably, I should have another try to make them better. Maybe by changing the printed orientation.
+
+![printing problems](assets\img\finalProject\20180523_112054.jpg)
+
 
 After a while I started to 3D print my controlers. I wanted to have two controlers to take care of an I2C communication protocole for my controler. I still don't know if the signal is going to be effective enought to have a good responsive feeling for a game controler.
 
@@ -154,11 +155,6 @@ After a while I started to 3D print my controlers. I wanted to have two controle
 |![printing Bed](assets\img\finalProject\printingBed.JPG)|![33dPrinting](assets\img\finalProject\3DprintControler.jpg)|
 |---|---|
 |![controler](assets\img\finalProject\printedControler.JPG)|![controler And Cast](assets\img\finalProject\controlerAndCast.JPG)|
-
-
-
-
-
 
 
 ### Engraving PCB
