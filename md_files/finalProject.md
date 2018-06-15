@@ -5,12 +5,12 @@
 ### Concept
 
 This project have the goal to extend game controlers for computer to be able to try and design differents input and output through game design. It's design to become a console extension for computers. A plug and play device
-![scene2](../assets\img\finalProject\finalProjectPackshot.jpg)
+![scene2](assets\img\finalProject\finalProjectPackshot.jpg)
 
 ### the Base
 
 The base is the master of all the system. It allow the user to plug his controler and play to the game he selected. In the end the controler could as the user want it to be. I want to be able to experiment with controlers.
-![scene](../assets\img\finalProject\Base_scene.jpg)
+![scene](assets\img\finalProject\Base_scene.jpg)
 
 I designed a simple base for now, exploiting the japonize join I learned on the machin design assignements.
 
@@ -74,27 +74,27 @@ I have to do everything, from product packaging to web developpement passing by 
 
 ### Prototyping
 
-| ![printing base](../assets\img\finalProject\printingBase.jpg) | ![printing top](../assets\img\finalProject\20180523_111514.jpg) |
+| ![printing base](assets\img\finalProject\printingBase.jpg) | ![printing top](assets\img\finalProject\20180523_111514.jpg) |
 |---|---|
-| ![printing object](../assets\img\finalProject\20180523_112028.jpg) | !![printing object](../assets\img\finalProject\20180523_112049.jpg)|
+| ![printing object](assets\img\finalProject\20180523_112028.jpg) | !![printing object](assets\img\finalProject\20180523_112049.jpg)|
 
 > I have a esign problem, my clips are too fit probably, I should have another try to make them better. Maybe by changing the printed orientation.
 
-![printing problems](../assets\img\finalProject\20180523_112054.jpg)
+![printing problems](assets\img\finalProject\20180523_112054.jpg)
 
 ### Circuit prototyping
 
-I started prototying stuf with an arduino kit. I already know make basical stuff with arduino so let's jump directly to working with I2C programmed chips. First I need two ATtiny45 programmed for I2C protocole. Searching for information, My starting point was the wikipedia file of I2C protocole that are pretty well documented. [See it here](../https://en.wikipedia.org/wiki/I²C)
+I started prototying stuf with an arduino kit. I already know make basical stuff with arduino so let's jump directly to working with I2C programmed chips. First I need two ATtiny45 programmed for I2C protocole. Searching for information, My starting point was the wikipedia file of I2C protocole that are pretty well documented. [See it here](https://en.wikipedia.org/wiki/I²C)
 
 I started to do this with a bread board and a Pomona soic-clip.
-![prototyping first](../assets\img\finalProject\breadboardPrototyping.jpg)
+![prototyping first](assets\img\finalProject\breadboardPrototyping.jpg)
 
 After this I wanted to try to use my Arduino as an ISP. As I wont have my fabISP on me all the time, I wanted to try other way to work with ATtiny. I used the ArduinoISP exemple to transforma my board in an ISP programmer.
-![arduino flash](../assets\img\finalProject\arduinoFlashToISP.png)
+![arduino flash](assets\img\finalProject\arduinoFlashToISP.png)
 
 Then I could work efficiently in testing programming and wirering in the same workflow.
 
-|![arduino proto1](../assets\img\finalProject\arduinoPrototyping2.jpg)|![arduino prototyping](../assets\img\finalProject\prototyping2.jpg)|
+|![arduino proto1](assets\img\finalProject\arduinoPrototyping2.jpg)|![arduino prototyping](assets\img\finalProject\prototyping2.jpg)|
 |---|---|
 
 
@@ -105,19 +105,19 @@ Once I tryed what I wanted, I designed my futur PCB on Eagle.
 
 #### Electronic design
 
-|![Schematics](../assets\img\finalProject\controlerSchematics.jpg)|![Board](../assets\img\finalProject\controlerBoard.jpg)|
+|![Schematics](assets\img\finalProject\controlerSchematics.jpg)|![Board](assets\img\finalProject\controlerBoard.jpg)|
 |---|---|
 
 Then used the eagle to fusionSync button (on the right of the screen...) and started to design my futur Pcb for my game controler. I didn't have the 3D package and don't have time to figure how it work for now, so I modelized my composente based on the composantes I had in the Fablab.
 
-|![eagleToFusion](../assets\img\finalProject\eagletoFusion.jpg) |![controleurModOpacity](../assets\img\finalProject\controleurModOpacity.jpg)|
+|![eagleToFusion](assets\img\finalProject\eagletoFusion.jpg) |![controleurModOpacity](assets\img\finalProject\controleurModOpacity.jpg)|
 |---|---|
 
 After this I wanted to rework on my controler design to have something more cloth from a classic controler.
 
 ### Designing controlers
 
-|![controler](../assets\img\finalProject\controleurMode.jpg)|![goingOn](../assets\img\finalProject\controleurModOpacity2.jpg)|
+|![controler](assets\img\finalProject\controleurMode.jpg)|![goingOn](assets\img\finalProject\controleurModOpacity2.jpg)|
 |---|---|
 
 #### 3D print
@@ -130,28 +130,30 @@ After a while I started to 3D print my controlers. I wanted to have two controle
 * Wall thikness : 1.6
 * Other are defaults
 
-![33dPrinting](../assets\img\finalProject\3DprintControler.jpg)
+![33dPrinting](assets\img\finalProject\3DprintControler.jpg)
 
-![printing Bed](../assets\img\finalProject\printingBed.JPG)
+![printing Bed](assets\img\finalProject\printingBed.JPG)
 
 ### Milling a mold
 
 To have my button nice and smooth, I wanted to use a mold and cast them with silicones. I had a small piece of wax accessible with the perfect size for this mold.
 
-![mold](../assets\img\finalProject\mold.jpg)
+![mold](assets\img\finalProject\mold.jpg)
 
-|![prepa](../assets\img\finalProject\millingPreparation.jpg)|![](../assets\img\finalProject\pocket.jpg)|![ramp](../assets\img\finalProject\rampPolished.jpg)||
+|Preparation ![prepa](assets\img\finalProject\millingPreparation.jpg)|Pocket![pocket img](assets\img\finalProject\pocket.jpg)|Poliched Ramp![ramp](assets\img\finalProject\rampPolished.jpg)||
 |---|---|---|
+
+![mold](assets\img\finalProject\heroShot.JPG)
 
 ### Engraving PCB
 
 ![put parametres]() and ![PCB pochette avec infos](assets\img\finalProject\engravedPCB.JPG)
 10 passes of engraving, 20 of cutting parametres
 
-| ![](../assets\img\finalProject\engraving.JPG) | ![pcb layout](../assets\img\finalProject\combinedPCB.JPG) |
+| ![](assets\img\finalProject\engraving.JPG) | ![pcb layout](assets\img\finalProject\combinedPCB.JPG) |
 |---|---|
 
-![engravedPCB](../assets\img\finalProject\engravedPCB.JPG)
+![engravedPCB](assets\img\finalProject\engravedPCB.JPG)
 
 ### Soldering
 
