@@ -120,19 +120,6 @@ After this I wanted to rework on my controler design to have something more clot
 |![controler](assets\img\finalProject\controleurMode.jpg)|![goingOn](assets\img\finalProject\controleurModOpacity2.jpg)|
 |---|---|
 
-#### 3D print
-
-After a while I started to 3D print my controlers. I wanted to have two controlers to take care of an I2C communication protocole for my controler. I still don't know if the signal is going to be effective enought to have a good responsive feeling for a game controler.
-
-* Material : PLA Dark Green Transparent
-* Scene parametre :
-* Bed temperature : 70°
-* Wall thikness : 1.6
-* Other are defaults
-
-![33dPrinting](assets\img\finalProject\3DprintControler.jpg)
-
-![printing Bed](assets\img\finalProject\printingBed.JPG)
 
 ### Milling a mold
 
@@ -152,6 +139,27 @@ For the cast I used a blue Platinium Silicone Rubber ![silicone reference](asset
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6-iJfJ_2hyI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 ![cast](assets\img\finalProject\cast.JPG)
 ![hero shot](assets\img\finalProject\heroSilicone.JPG)
+
+
+### 3D print
+
+After a while I started to 3D print my controlers. I wanted to have two controlers to take care of an I2C communication protocole for my controler. I still don't know if the signal is going to be effective enought to have a good responsive feeling for a game controler.
+
+* Material : PLA Dark Green Transparent
+* Scene parametre :
+* Bed temperature : 70°
+* Wall thikness : 1.6
+* Other are defaults
+
+|![printing Bed](assets\img\finalProject\printingBed.JPG)|![33dPrinting](assets\img\finalProject\3DprintControler.jpg)|
+|---|---|
+|![controler](assets\img\finalProject\printedControler.JPG)|![controler And Cast](assets\img\finalProject\controlerAndCast.JPG)|
+
+
+
+
+
+
 
 ### Engraving PCB
 
