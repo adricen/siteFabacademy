@@ -145,6 +145,14 @@ To have my button nice and smooth, I wanted to use a mold and cast them with sil
 
 ![mold](assets\img\finalProject\heroShot.JPG)
 
+#### Casting my buttons
+
+For the cast I used a blue Platinium Silicone Rubber ![silicone reference](assets\img\finalProject\platiniumSilicone.JPG)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6-iJfJ_2hyI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+![cast](assets\img\finalProject\cast.JPG)
+![hero shot](assets\img\finalProject\heroSilicone.JPG)
+
 ### Engraving PCB
 
 ![put parametres]() and ![PCB pochette avec infos](assets\img\finalProject\copperPCB.jpg)
