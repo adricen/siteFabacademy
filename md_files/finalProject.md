@@ -103,6 +103,8 @@ Thanks to this wiring, now I can test my program quickly and modify my circuit s
 
 Once I tryed what I wanted, I designed my futur PCB on Eagle.
 
+#### Electronic design
+
 |![Schematics](../assets\img\finalProject\controlerSchematics.jpg)|![Board](../assets\img\finalProject\controlerBoard.jpg)|
 |---|---|
 
@@ -113,35 +115,58 @@ Then used the eagle to fusionSync button (on the right of the screen...) and sta
 
 After this I wanted to rework on my controler design to have something more cloth from a classic controler.
 
+### Designing controlers
+
 |![controler](../assets\img\finalProject\controleurMode.jpg)|![goingOn](../assets\img\finalProject\controleurModOpacity2.jpg)|
 |---|---|
 
-#### 3D printing
+#### 3D print
 
-After a while I started to 3D print my controlers. I wanted to have two to take care of an I2C communication protocole for my controler. I still don't know if the signal is going to be affective enought to have a goo responsive feeling for a game controler.
+After a while I started to 3D print my controlers. I wanted to have two controlers to take care of an I2C communication protocole for my controler. I still don't know if the signal is going to be effective enought to have a good responsive feeling for a game controler.
+
+* Material : PLA Dark Green Transparent
+* Scene parametre :
+* Bed temperature : 70°
+* Wall thikness : 1.6
+* Other are defaults
 
 ![33dPrinting](../assets\img\finalProject\3DprintControler.jpg)
 
-Material : PLA Dark Green Transparent
-Scene parametre :
-  bed temperature : 70°
-  wall thikness : 1.6
-  other are defaults
+![printing Bed](../assets\img\finalProject\printingBed.JPG)
 
-![](../assets\img\finalProject\printingBed.JPG)
-
-#### Milling a mold
+### Milling a mold
 
 To have my button nice and smooth, I wanted to use a mold and cast them with silicones. I had a small piece of wax accessible with the perfect size for this mold.
 
 ![mold](../assets\img\finalProject\mold.jpg)
 
-#### Engraving PCB with laser cut
+|![prepa](../assets\img\finalProject\millingPreparation.jpg)|![](../assets\img\finalProject\pocket.jpg)|![ramp](../assets\img\finalProject\rampPolished.jpg)||
+|---|---|---|
 
-![put parametres]() and ![PCB pochette avec infos]()
+### Engraving PCB
+
+![put parametres]() and ![PCB pochette avec infos](assets\img\finalProject\engravedPCB.JPG)
 10 passes of engraving, 20 of cutting parametres
 
 | ![](../assets\img\finalProject\engraving.JPG) | ![pcb layout](../assets\img\finalProject\combinedPCB.JPG) |
 |---|---|
 
 ![engravedPCB](../assets\img\finalProject\engravedPCB.JPG)
+
+### Soldering
+
+* Fab Console BOM :
+  * 10k resistor x1
+  * 500ohm resistor x1
+  * 1uf capacitor x1
+  * 1x red LED x1
+  * 20 mhz resonator x1
+  * ISP connector x1
+  * button x1
+  * FTDI connector x1
+
+* Controler BOM :
+  * Button x3
+  * ATtiny45 x1
+  * 10k resistor
+  * 1uf capacitor
