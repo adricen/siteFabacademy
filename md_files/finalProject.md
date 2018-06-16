@@ -118,6 +118,32 @@ To have my button nice and smooth, I wanted to use a mold and cast them with sil
 
 ![mold](assets\img\finalProject\mold.jpg)
 
+#### Setting Up CAM module for Fusion360
+
+##### Setup Stock
+
+Once I had my mold, I modeled a block the size of my stock of wax, the same that I used for my model mold.  
+
+
+
+|On your tool palette clique on new setp up| Stock panel, dropdown list, select `from solid` and select your the stock you previously modeled | Once it's done, in the first panel, you have to select the good orientation of your job. The Z axis have to go by the top and X on the right so your job will begin from the lower left corner. Set it up correctly and press ok |
+|---|---|
+|![CAM setup](assets\img\finalProject\camSetup00.jpg)| ![camSetup02](assets\img\finalProject\camSetup02.jpg)| ![camSetup01](assets\img\finalProject\camSetup01.jpg)  |
+
+##### Pockets
+
+| 2D panel > 2D pocket</br>Select your tool for your pocket job. I'll use a 1/8in endmill with two flutes, it's kind of a basic on that every mill have I think. | Geometry Panel</br>Select your stock contour and  | In this panel you can deal with the `maximum rough preparation`. This way you can control the height of the first passes. As it's some wax I putted 4mm so it will make the hole in two passes |Press `Ok`, you should have something like that. If not, you probably have a different setting of mine so try to adapt it.|
+|---|---|---|
+|![pocket](assets\img\finalProject\camPocket00.jpg)| ![geometry pocket](assets\img\finalProject\camPocket01.jpg) | ![pocket](assets\img\finalProject\camPocket02.jpg) | ![](assets\img\finalProject\camPocket03.jpg) |
+
+##### Polished Ramp
+
+|![camRamp](assets\img\finalProject\camRamp00.jpg)| ![](assets\img\finalProject\camRamp01.jpg)|![](assets\img\finalProject\camRamp02.jpg)|![](assets\img\finalProject\camRamp025.jpg)|![](assets\img\finalProject\camRamp03.jpg)|
+|---|---|---|
+||||
+
+#### Engraving
+
 |Preparation ![prepa](assets\img\finalProject\millingPreparation.jpg)|Pocket![pocket img](assets\img\finalProject\pocket.jpg)|Poliched Ramp![ramp](assets\img\finalProject\rampPolished.jpg)||
 |---|---|---|
 
@@ -133,6 +159,7 @@ For the cast I used a blue Platinium Silicone Rubber ![silicone reference](asset
 |---|---|
 
 ### 3D print
+
 ### Prototyping
 
 | ![printing base](assets\img\finalProject\printingBase.jpg) | ![printing top](assets\img\finalProject\20180523_111514.jpg) |
@@ -162,25 +189,22 @@ After a while I started to 3D print my controlers. I wanted to have two controle
 ![put parametres]() and ![PCB pochette avec infos](assets\img\finalProject\copperPCB.jpg)
 10 passes of engraving, 20 of cutting parametres
 
-| ![](assets\img\finalProject\engraving.JPG) | ![pcb layout](assets\img\finalProject\combinedPCB.JPG) |
-|---|---|
+| ![](assets\img\finalProject\engraving.JPG) | ![pcb layout](assets\img\finalProject\combinedPCB.JPG) | ![engravedPCB](assets\img\finalProject\engravedPCB.JPG)|
+|---|---|---|
 
-![engravedPCB](assets\img\finalProject\engravedPCB.JPG)
+
+
+So far, I have engraving problem with this copper. It appears that the previous tests done in the past was on another style of copper coming from another store, so parameters I had won't work with this one. At the end the engraved side is fully conductive, so my circuit won't work at all, whatever I'll do. After investigating the good parameters for the copper presented before, It finally worked (see the parameters at the beginning of this paragraph).
+
+![](assets\img\finalProject\newEngraved.JPG)
 
 ### Soldering
 
-* Fab Console BOM :
-  * 10k resistor x1
-  * 500ohm resistor x1
-  * 1uf capacitor x1
-  * 1x red LED x1
-  * 20 mhz resonator x1
-  * ISP connector x1
-  * button x1
-  * FTDI connector x1
+|Fab Console BOM :|Controler BOM :|
+|---|---|
+|10k resistor x1</br>500ohm resistor x1</br>1uf capacitor x1</br>1x red LED x1</br>20 mhz resonator x1</br>ISP connector x1</br>button x1</br>FTDI connector x1|Button x3</br>ATtiny45 x1</br>10k resistor</br>1uf capacitor |
 
-* Controler BOM :
-  * Button x3
-  * ATtiny45 x1
-  * 10k resistor
-  * 1uf capacitor
+![solderedCircuits](assets\img\finalProject\solderedCircuits.JPG)
+
+|![left controler](assets\img\finalProject\leftControler.JPG)|![base center](assets\img\finalProject\BaseControler.JPG)|![rightControler](assets\img\finalProject\RightControler.JPG)|
+|---|---|---|
