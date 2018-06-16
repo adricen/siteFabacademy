@@ -124,8 +124,6 @@ To have my button nice and smooth, I wanted to use a mold and cast them with sil
 
 Once I had my mold, I modeled a block the size of my stock of wax, the same that I used for my model mold.  
 
-
-
 |On your tool palette clique on new setp up| Stock panel, dropdown list, select `from solid` and select your the stock you previously modeled | Once it's done, in the first panel, you have to select the good orientation of your job. The Z axis have to go by the top and X on the right so your job will begin from the lower left corner. Set it up correctly and press ok |
 |---|---|
 |![CAM setup](assets\img\finalProject\camSetup00.jpg)| ![camSetup02](assets\img\finalProject\camSetup02.jpg)| ![camSetup01](assets\img\finalProject\camSetup01.jpg)  |
@@ -138,8 +136,9 @@ Once I had my mold, I modeled a block the size of my stock of wax, the same that
 
 ##### Polished Ramp
 
+| 3D Panel > Ramp</br>Select your tool. As it's a rounded pocket I'am going to use an 1/8 ball nose. | Geometry Panel</br>Select the faces you want to mill this shape. | Once you have select the face you want shape, elect faces you want to avoid to touch. This way Fusion will take car of them in his toolpath | Passes Panel</br>Here you can deal with the stepover parametre. As it's a rounded regulary hole, I wanted a smooth surface so I putted a 0.5 mm stepover. This way even if my mill is quite weight I'll have a nice render| PRess OK</br>You should have a toolpath that look like this.|
+|---|---|---|---|---|
 |![camRamp](assets\img\finalProject\camRamp00.jpg)| ![](assets\img\finalProject\camRamp01.jpg)|![](assets\img\finalProject\camRamp02.jpg)|![](assets\img\finalProject\camRamp025.jpg)|![](assets\img\finalProject\camRamp03.jpg)|
-|---|---|---|
 ||||
 
 #### Engraving
@@ -169,7 +168,6 @@ For the cast I used a blue Platinium Silicone Rubber ![silicone reference](asset
 > I have a esign problem, my clips are too fit probably, I should have another try to make them better. Maybe by changing the printed orientation.
 
 ![printing problems](assets\img\finalProject\20180523_112054.jpg)
-
 
 After a while I started to 3D print my controlers. I wanted to have two controlers to take care of an I2C communication protocole for my controler. I still don't know if the signal is going to be effective enought to have a good responsive feeling for a game controler.
 
