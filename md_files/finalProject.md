@@ -106,6 +106,47 @@ Then used the eagle to fusionSync button (on the right of the screen...) and sta
 
 After this I wanted to rework on my controler design to have something more cloth from a classic controler.
 
+> After testing and working with those board, it appears that one button on the controlers are on the wrong pin, the scl, and concerning the base it simply doesn't work. So I made some other and worked with thems.
+
+| ![schematics Base](assets\img\finalProject\schematicsBase.jpg) | ![board base](assets\img\finalProject\boardBase.jpg) |
+|---|---|
+| ![schematics controlers](assets\img\finalProject\schematicsControler.jpg) | ![board controler](assets\img\finalProject\boardControler.jpg) |
+
+### Engraving PCB
+
+|![parametres](assets\img\finalProject\parametre.png) | ![PCB pochette avec infos](assets\img\finalProject\copperPCB.jpg)|
+|---|---|
+
+With this copper, it appears that it need 6 passes at 600 dpi and 2 more at 1200dpi. for the cutting it's 40 passes on a contour.
+
+| ![](assets\img\finalProject\engraving.JPG) | ![pcb layout](assets\img\finalProject\combinedPCB.JPG) | ![engravedPCB](assets\img\finalProject\engravedPCB.JPG)|
+|---|---|---|
+
+
+So far, I have engraving problem with this copper. It appears that the previous tests done in the past was on another style of copper coming from another store, so parameters I had won't work with this one. At the end the engraved side is fully conductive, so my circuit won't work at all, whatever I'll do. After investigating the good parameters for the copper presented before, It finally worked (see the parameters at the beginning of this paragraph).
+
+![](assets\img\finalProject\newEngraved.JPG)
+
+### Soldering
+
+|Fab Console BOM :|Controler BOM :|
+|---|---|
+|10k resistor x1</br>500ohm resistor x1</br>1uf capacitor x1</br>1x red LED x1</br>20 mhz resonator x1</br>ISP connector x1</br>button x1</br>FTDI connector x1|Button x3</br>ATtiny45 x1</br>10k resistor</br>1uf capacitor |
+
+![solderedCircuits](assets\img\finalProject\solderedCircuits.JPG)
+
+|![left controler](assets\img\finalProject\leftControler.JPG)|![base center](assets\img\finalProject\BaseControler.JPG)|![rightControler](assets\img\finalProject\RightControler.JPG)|
+|---|---|---|
+
+> I wasn't able to program my base control board. So I decided to make another one. For my controlers I realized that I had made an error on my wirering, One button was plug-in on the wrong pin.
+
+Here come the new designs :
+
+| ![](assets\img\finalProject\newControler.jpg) | ![](assets\img\finalProject\baseBoardFinal.jpg) |
+|---|---|
+
+and this time they fuses all three of them!!
+
 ### Designing controlers
 
 |![controler](assets\img\finalProject\controleurMode.jpg)|![goingOn](assets\img\finalProject\controleurModOpacity2.jpg)|
@@ -182,27 +223,6 @@ After a while I started to 3D print my controlers. I wanted to have two controle
 |![controler](assets\img\finalProject\printedControler.JPG)|![controler And Cast](assets\img\finalProject\controlerAndCast.JPG)|
 
 
-### Engraving PCB
+### Using processing to program a base game
 
-![put parametres]() and ![PCB pochette avec infos](assets\img\finalProject\copperPCB.jpg)
-10 passes of engraving, 20 of cutting parametres
-
-| ![](assets\img\finalProject\engraving.JPG) | ![pcb layout](assets\img\finalProject\combinedPCB.JPG) | ![engravedPCB](assets\img\finalProject\engravedPCB.JPG)|
-|---|---|---|
-
-
-
-So far, I have engraving problem with this copper. It appears that the previous tests done in the past was on another style of copper coming from another store, so parameters I had won't work with this one. At the end the engraved side is fully conductive, so my circuit won't work at all, whatever I'll do. After investigating the good parameters for the copper presented before, It finally worked (see the parameters at the beginning of this paragraph).
-
-![](assets\img\finalProject\newEngraved.JPG)
-
-### Soldering
-
-|Fab Console BOM :|Controler BOM :|
-|---|---|
-|10k resistor x1</br>500ohm resistor x1</br>1uf capacitor x1</br>1x red LED x1</br>20 mhz resonator x1</br>ISP connector x1</br>button x1</br>FTDI connector x1|Button x3</br>ATtiny45 x1</br>10k resistor</br>1uf capacitor |
-
-![solderedCircuits](assets\img\finalProject\solderedCircuits.JPG)
-
-|![left controler](assets\img\finalProject\leftControler.JPG)|![base center](assets\img\finalProject\BaseControler.JPG)|![rightControler](assets\img\finalProject\RightControler.JPG)|
-|---|---|---|
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HvcOcKd7MA0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
