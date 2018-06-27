@@ -27,3 +27,20 @@ I made the simple exemple of the bus communication for this assignement, to be a
 |![slave cut](assets\img\week14\hello-blink-slaves-laserr-cut.jpg)|![slave laser cut](assets\img\week14\hello-blink-slave-engrave.jpg)|
 
 This assignement will be in my final project developpement.
+
+### Do it again
+
+After some tryout I made another design because my track was to cloth in certain spot. Here is the result.
+
+| ![master](assets\img\week14\masterBoard2.png) | ![board](assets\img\week14\helloMaster.png) |
+|---|---|
+| ![slave](assets\img\week14\slaveBoard2.png) | ![board](assets\img\week14\slaveBoard.png) |
+
+### Programming
+
+| adresse 0 ![master programming](assets\img\week14\masterProg.png) | adresse 1 ![slave 1 programming](assets\img\week14\slave1Prog.png)  | adresse 2 ![slave 2 programming](assets\img\week14\slave2Prog.png) |
+|---|---|---|
+
+### Result
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kDQEVJITC1I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
