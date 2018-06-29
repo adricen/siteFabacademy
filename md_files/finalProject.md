@@ -226,3 +226,15 @@ After a while I started to 3D print my controlers. I wanted to have two controle
 ### Using processing to program a base game
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HvcOcKd7MA0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+### Working on a new board
+
+After some testing on programming, I couldn't manage to programme my board. I haven't put any debugging light on my controler board, so I am not in mesure to have a signale of it working.
+
+##### Designing a fabduino with a controler
+
+| ![Base Board](assets\img\finalProject\boardBaseV03.jpg) | ![Base Schema](assets\img\finalProject\schemaBaseV03.jpg) |
+|---|---|
+| ![Board Controler](assets\img\finalProject\boardControlerV03.jpg) | ![Controler Schema](assets\img\finalProject\schemaControlerV03.jpg) |
+
+With this board, the goal is to have my game controler directly mounted on my board. So I choose to make a fabduino with button on it. I used a 6 pin connector to talk to them using the Arduino IDE.
