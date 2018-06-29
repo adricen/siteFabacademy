@@ -15,7 +15,7 @@
 
 #### ATtiny44A
 
-![Attiny44A](http://fabacademy.org/archives/2013/students/saguar.ruben/pics/ATinny44-Datasheet.PNG)
+![Attiny44A](http://fabacademy.org/archives/2013/students/saguar.ruben/pics/ATinny44-Datasheet.jpg)
 
 | Feature | Explaination |
 | --- | --- |
@@ -69,10 +69,10 @@ sudo apt-get install putty
 
 | plug your board in and be carefull to the GND pin of your ftdi wire. It appears that the ISP connector send current so you don't necessarly need to plug your ftdi to see it work. | ![wirePics](assets\img\week9\helloWire.jpg) |
 | --- | --- |
-| navigate to the folder where you have your files and start by make file | ![helloboard](assets\img\week9\helloScreen.png) |
+| navigate to the folder where you have your files and start by make file | ![helloboard](assets\img\week9\helloScreen.jpg) |
 | To program your board, you need to preprocess your files. the `-f` option is to indicate file to the make process. Inside this the path to your C file is allrady writen | `make -f hello.ftdi.44.echo.c.make |
 | two new file in `.hex` and `.out` have been done from the `.c` file, you can now send it to your board using `program-usbtiny` | `make -f hello.ftdi.44.echo.c.make program-usbtiny |
-| Now connect your board to Putty | ![putty](assets\img\week9\Screenshot from 2018-03-19 20-34-28.png) |
+| Now connect your board to Putty | ![putty](assets\img\week9\Screenshot from 2018-03-19 20-34-28.jpg) |
 | victory is yours, you can now write to your board that respond with a 25 lenght string taxt that you wrote. | ![helloPutty](assets\img\week9\helloPutty.jpg) |
 
 

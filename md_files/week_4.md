@@ -18,7 +18,7 @@ Files ( right clic + download ):
 [fusion360 scene](assets\files\Parametric_object v1.f3d) / [DXF cutting file](assets\img\Week4\parametricDesign10.dxf)
 
 ![parametricDesign](assets\img\Week4\paremtricDesign1.jpg)
-![cutting parametres](assets\img\Week4\parametre.png)
+![cutting parametres](assets\img\Week4\parametre.jpg)
 
 ### <u>1. Defining a parametric shape</u>
 
@@ -58,7 +58,7 @@ Everything is index on the height fabric so it adapte it shape to the height you
 | Shape 01 | Shape 02 |
 | --- | --- |
 | ![starting](assets\img\Week4\fusion360_06.jpg) | ![starting](assets\img\Week4\fusion360_05.jpg)  |
-| ![fusion_6](assets\img\Week4\parametricDesign.png) | ![parametric end](assets\img\Week4\parametricDesign3.jpg) |
+| ![fusion_6](assets\img\Week4\parametricDesign.jpg) | ![parametric end](assets\img\Week4\parametricDesign3.jpg) |
 
 ### <u>3. Then cutting some object and see how they work</u>
 
@@ -113,7 +113,7 @@ Miss - pics of the software -->
 | [sapien shirt](assets\img\Week4\sapienShirt.svg) ![sapien shirt](assets\img\Week4\sapienShirt.svg) | [sapien flesh](assets\img\Week4\blueSapienTry.svg) ![sapien flesh](assets\img\Week4\blueSapienTry.svg) |
 
 Make something for your computer... hmm...
-In order to use multiple color, I tryed to make a cool illustration of Hellboy. Mignola have a perfect sharp black and white style that will fit perfectly for the vinyl cutter. In a first sketch I started to work on multiple character and came up with this : ![goal](assets\img\Week4\photoshop screenshot.png).
+In order to use multiple color, I tryed to make a cool illustration of Hellboy. Mignola have a perfect sharp black and white style that will fit perfectly for the vinyl cutter. In a first sketch I started to work on multiple character and came up with this : ![goal](assets\img\Week4\photoshop screenshot.jpg).
 
 Will I was aworking on it I decided to change my composition and remove 2 character to keep my favorite one. ![goal](assets\img\Week4\contourSimplification.jpg)
 

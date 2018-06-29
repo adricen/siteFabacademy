@@ -15,7 +15,7 @@
 
 The milling procedure include a warm up routin to prepar material before cutting anithing. It allow us to prevent any issue due to the machinery.
 
-| ![warm](assets\img\week8\warm01.png) | ![warmup](assets\img\week8\warm00.png) |
+| ![warm](assets\img\week8\warm01.jpg) | ![warmup](assets\img\week8\warm00.jpg) |
 | --- | --- |
 
 ![warm0](assets\img\week8\warm00.jpg)
@@ -26,7 +26,7 @@ Before beginning my design, I wanted to try diferent assembling part to try, and
 
 I started directly on VCarve using the vectorial software to design my first pieces.
 
-| ![big00](assets\img\week8\big00.png) | ![big00](assets\img\week8\big01.png) | ![big00](assets\img\week8\big02.jpg) |
+| ![big00](assets\img\week8\big00.jpg) | ![big00](assets\img\week8\big01.jpg) | ![big00](assets\img\week8\big02.jpg) |
 | --- | --- | --- |
 | ![big00](assets\img\week8\big03.jpg) | ![big00](assets\img\week8\big04.jpg) | ![big00](assets\img\week8\big05.jpg) |
 | ![big00](assets\img\week8\big08.jpg) | ![big00](assets\img\week8\big09.jpg) | ![big00](assets\img\week8\big10.jpg) |

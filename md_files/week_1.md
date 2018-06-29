@@ -38,7 +38,7 @@
 <!-- <iframe src="https://trello.com/b/aCXozFJu/final-roject-developpement-v01"></iframe> -->
 
 ![dashboard](assets\img\week1\trelloDashboard.jpg)
-![trelloBoard](assets/img/week1/trelloProjectManagement.png)
+![trelloBoard](assets/img/week1/trelloProjectManagement.jpg)
 
 
 

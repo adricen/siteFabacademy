@@ -128,7 +128,7 @@ I wanted to go further with git to enhance my worflow, specialy for the fabacade
 
 | Termux | Install Git |
 | --- | --- |
-| ![first screen termux](assets/img/termux/debut.png) | ![gitinstall](assets/img/termux/install-git.png) |
+| ![first screen termux](assets/img/termux/debut.jpg) | ![gitinstall](assets/img/termux/install-git.jpg) |
 
 > for now, it's where I am at. I still have trouble identifyng where am I in the phone and can't manage to find the good place. Next step is to identifying the image folder and being able to synch it with gihub. Or clone my website on my phone just to have access to my md files and being able to modify theme and synchronized it. For now I can modify files on my phone  
 
@@ -436,12 +436,12 @@ Let see how it work :
 | definition | pics |
 | --- | --- |
 | This is the control panel. As you can do it in Adobe bridge, you can browse your file and see the preview of your picture. Double clic on your selected pics to edit it. | ![xnview01](assets\img\week3\xnView01.jpg) |
-| There you have some interessente features. You can configure your favorite editing soft on some simple shortcut. | ![xnview02](assets\img\week3\xnView02.png) |
+| There you have some interessente features. You can configure your favorite editing soft on some simple shortcut. | ![xnview02](assets\img\week3\xnView02.jpg) |
 
 
 **Associate programmes :**
 
-![Xnview03](assets\img\week3\xnView03.png)
+![Xnview03](assets\img\week3\xnView03.jpg)
 
 Cliquing on associate programme, you can associate your favorit tool like Alt+1
 This way, once you have the image you want to work on, just clic on the defined shortcut to openit within your soft.

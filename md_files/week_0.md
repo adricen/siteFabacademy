@@ -23,7 +23,7 @@ I left the outline on the board, thinking it was better this way. But apparently
 
 **Files :**
 
-Board : [<u>**board**</u>](assets/img/fabIsp/FabOptimus2.png), [<u>**component**</u>](assets/img/fabIsp/component.jpg), [<u>**trace**</u>](assets/img/fabIsp/FabOptimus_Traces2.png)
+Board : [<u>**board**</u>](assets/img/fabIsp/FabOptimus2.jpg), [<u>**component**</u>](assets/img/fabIsp/component.jpg), [<u>**trace**</u>](assets/img/fabIsp/FabOptimus_Traces2.jpg)
 
 Files : [<u>**makefile**</u>](assets/img/fabIsp/programmFiles/Makefile), [<u>**main.hex**</u>](assets/img/fabIsp/programmFiles/main.hex), [<u>**main.c**</u>](assets/img/fabIsp/programmFiles/main.c), [<u>**main.elf**</u>](assets/img/fabIsp/programmFiles/main.elf), [<u>**main.o**</u>](assets/img/fabIsp/programmFiles/main.o)
 
@@ -32,9 +32,9 @@ the second blueprint offer to make this ship replacing the 1,5K resistor by a 1k
 
 | Shape | CorelDraw Settings | Epilog Settings |
 | --- | --- | --- |
-| ![drawing](assets/img/fabIsp/FabOptimus_Traces2-doc.png) | ![corel draw settings](assets/img/fabIsp/corel.jpg) | ![drawing](assets/img/fabIsp/paramEpilog.jpg) |
+| ![drawing](assets/img/fabIsp/FabOptimus_Traces2-doc.jpg) | ![corel draw settings](assets/img/fabIsp/corel.jpg) | ![drawing](assets/img/fabIsp/paramEpilog.jpg) |
 | In corel draw, select your blueprint layer. **Right clic** > <u>*make Haireline*</u>. Select all the white layer and delete them. Group your black layer if needed. | In the object manager you should have two object in the end, configured in `haireline` for the red part, and **filled with color and no outline** |  Print settings for the `Epilog Laser Fusion`. Don't forget to add the thickness of your fabric |
-| ![print](assets/img/fabIsp/printedCard.jpg) | ![fabOptimusComponent](assets/img/fabIsp/FabOptimus2.png) | ![mounted](assets/img/fabIsp/component.jpg) |
+| ![print](assets/img/fabIsp/printedCard.jpg) | ![fabOptimusComponent](assets/img/fabIsp/FabOptimus2.jpg) | ![mounted](assets/img/fabIsp/component.jpg) |
 
 
 

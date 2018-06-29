@@ -40,18 +40,18 @@ I started to model differents project around fusion. I tryed to think about a fi
 
 #### Experienced the parametric designed with fusion 360
 
-| Using sketch on different surfaces ![sketch parametre](assets\img\week3\parameters.png) | Using "components" in fusion allow you to work on multiple component will you work only on one. ![working in fusion](assets\img\week3\parametric_design_00.png) |
+| Using sketch on different surfaces ![sketch parametre](assets\img\week3\parameters.jpg) | Using "components" in fusion allow you to work on multiple component will you work only on one. ![working in fusion](assets\img\week3\parametric_design_00.jpg) |
 |---|---|
-| ![working in fusion](assets\img\week3\parametric_design_01.png) | ![working in fusion](assets\img\week3\parametric_design_02.png) |
-| ![working in fusion](assets\img\week3\parametric_design_03.png) | ![working in fusion](assets\img\week3\parametric_design_04.png) |
-| ![working in fusion](assets\img\week3\parametric_design_05.png) | ![working in fusion](assets\img\week3\parametric_design_06.png) |
-| ![working in fusion](assets\img\week3\parametric_design_07.png) | ![working in fusion](assets\img\week3\parametric_design_08.png) |
-| ![working in fusion](assets\img\week3\parametric_design_09.png) | ![working in fusion](assets\img\week3\parametric_design_10.png) |
-| ![working in fusion](assets\img\week3\parametric_design_11.png) | ![working in fusion](assets\img\week3\parametric_design_12.png) |
-| ![working in fusion](assets\img\week3\parametric_design_13.png) | ![working in fusion](assets\img\week3\parametric_design_14.png) |
+| ![working in fusion](assets\img\week3\parametric_design_01.jpg) | ![working in fusion](assets\img\week3\parametric_design_02.jpg) |
+| ![working in fusion](assets\img\week3\parametric_design_03.jpg) | ![working in fusion](assets\img\week3\parametric_design_04.jpg) |
+| ![working in fusion](assets\img\week3\parametric_design_05.jpg) | ![working in fusion](assets\img\week3\parametric_design_06.jpg) |
+| ![working in fusion](assets\img\week3\parametric_design_07.jpg) | ![working in fusion](assets\img\week3\parametric_design_08.jpg) |
+| ![working in fusion](assets\img\week3\parametric_design_09.jpg) | ![working in fusion](assets\img\week3\parametric_design_10.jpg) |
+| ![working in fusion](assets\img\week3\parametric_design_11.jpg) | ![working in fusion](assets\img\week3\parametric_design_12.jpg) |
+| ![working in fusion](assets\img\week3\parametric_design_13.jpg) | ![working in fusion](assets\img\week3\parametric_design_14.jpg) |
 
 > I used fusion later for a middle project : [machin design](http://fab.academany.org/2018/labs/fablabdigiscope/group2018/)
-![machin design](http://fab.academany.org/2018/labs/fablabdigiscope/group2018/files/Adricen/img/machinRender01.png)
+![machin design](http://fab.academany.org/2018/labs/fablabdigiscope/group2018/files/Adricen/img/machinRender01.jpg)
 
 ### Antimony
 
@@ -59,14 +59,14 @@ I finally found a way to install Antimony on windows 10. Let's jump and detail t
 
 #### a. Install the Ubuntu environment on you windows 10 --> [source here](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
 
-![outside_pics_01](https://www.howtogeek.com/wp-content/uploads/2016/04/ximg_570997a37ca4e.png.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.sRQi9uZ3CQ.png)
+![outside_pics_01](https://www.howtogeek.com/wp-content/uploads/2016/04/ximg_570997a37ca4e.jpg.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.sRQi9uZ3CQ.jpg)
 ---
 | <center><i class="fa fa-500px"></i></center> | <center><i class="fa fa-book"></i></center> |
 | --- | --- |
-| **1. Activate Windows developper mode** | ![outside_pics_02](https://www.howtogeek.com/wp-content/uploads/2016/04/ximg_570999e304309.png.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.5V9iFGJlWR.png) |
+| **1. Activate Windows developper mode** | ![outside_pics_02](https://www.howtogeek.com/wp-content/uploads/2016/04/ximg_570999e304309.jpg.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.5V9iFGJlWR.jpg) |
 | **2. Open Control Panel > Programs and activate `windows Subsystem for linux(Beta)`** |![ubuntu00](assets\img\week2\ubuntuBash00.jpg) |
-| **3. Open Bash** | ![outside_pics_02](https://www.howtogeek.com/wp-content/uploads/2016/04/ximg_57099904643e7.png.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.0LbC1f1nur.png) |
-| **4. Update to Ubuntu Bash** | ![ubuntu02](https://www.howtogeek.com/wp-content/uploads/2016/04/ximg_570998bb8323b.png.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.l29bWUELIg.png) |
+| **3. Open Bash** | ![outside_pics_02](https://www.howtogeek.com/wp-content/uploads/2016/04/ximg_57099904643e7.jpg.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.0LbC1f1nur.jpg) |
+| **4. Update to Ubuntu Bash** | ![ubuntu02](https://www.howtogeek.com/wp-content/uploads/2016/04/ximg_570998bb8323b.jpg.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.l29bWUELIg.jpg) |
 | **5. Run Install** | `lxrun /install /y` |
 | **6. Open Ubuntu Bash and tap `sudo apt-get upgrade`** | ![ubuntu03](assets\img\week2\ubuntuBash02.jpg) |
 
@@ -139,7 +139,7 @@ And that's it, you can now run antimony directly into windows, without having to
 
 You can get the files here ( rightClic + Save Target As ) : [fablab Logo antimony Scene](assets\files\antimony\fablabLogoScene.sb) / [fablabLogo.stl](assets\files\antimony\fablabLogo.stl)
 
-![antimony](assets\img\week3\Antimony.png)
+![antimony](assets\img\week3\Antimony.jpg)
 
 #### e. bonus - finding your file through windows
 

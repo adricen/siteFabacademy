@@ -36,7 +36,7 @@ We have done another try with an ABS conductive material, but for now we are exp
 ## Making a parametric design in Antimony
 (still need to print it)
 
-![antimony](assets\img\week3\Antimony.png)
+![antimony](assets\img\week3\Antimony.jpg)
 
 | ![](assets\img\week6\20180301_141407.jpg)| ![](assets\img\week6\20180301_141741.jpg)| ![](assets\img\week6\20180301_141952.jpg) | ![final object](assets\img\week6\20180301_151230.jpg) |
 |---|---|---|---|
@@ -47,9 +47,9 @@ We have done another try with an ABS conductive material, but for now we are exp
 
 In order to try to melt both technics, I tryed to mix to to differents type of shapes all made inside Zbrush.
 
-| ![hand1](assets\img\week6\ZBrush-fablabLogo00.png) | ![hand1](assets\img\week6\ZBrush-fablabLogo01.png) | ![hand1](assets\img\week6\hand1-00.png) |
+| ![hand1](assets\img\week6\ZBrush-fablabLogo00.jpg) | ![hand1](assets\img\week6\ZBrush-fablabLogo01.jpg) | ![hand1](assets\img\week6\hand1-00.jpg) |
 | --- | --- | --- |
-| ![hand1](assets\img\week6\handCura.png) | ![hand](assets\img\week6\hand1-0.jpg) | ![hand1](assets\img\week6\hand1-1.jpg) |
+| ![hand1](assets\img\week6\handCura.jpg) | ![hand](assets\img\week6\hand1-0.jpg) | ![hand1](assets\img\week6\hand1-1.jpg) |
 | ![hand1](assets\img\week6\hand1-2.jpg) | ![hand1](assets\img\week6\hand1-3.jpg) | ![hand1](assets\img\week6\hand1-4.jpg) |
 | ![hand1](assets\img\week6\hand1-5.jpg) | ![hand1](assets\img\week6\hand1-6.jpg) | ![hand1](assets\img\week6\hand1-8.jpg) |
 ![hand1](assets\img\week6\hand1-7.jpg) |
@@ -68,7 +68,7 @@ We just made the scanning assignement, so the documentation is in wip. We are go
 |![](assets\img\week6\13.jpg)|![](assets\img\week6\14.jpg)|![](assets\img\week6\15.jpg)|
 |![](assets\img\week6\16.jpg)|![](assets\img\week6\17.jpg)|
 
-![scanning wip](assets\img\week6\scanning00.png)
+![scanning wip](assets\img\week6\scanning00.jpg)
 
 The model had a lot of holes into his structure due to the imperfection of the scanning and the post process that was made quick du to a lack of time in the space.
 

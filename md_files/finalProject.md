@@ -81,7 +81,7 @@ I started to do this with a bread board and a Pomona soic-clip.
 ![prototyping first](assets\img\finalProject\breadboardPrototyping.jpg)
 
 After this I wanted to try to use my Arduino as an ISP. As I wont have my fabISP on me all the time, I wanted to try other way to work with ATtiny. I used the ArduinoISP exemple to transforma my board in an ISP programmer.
-![arduino flash](assets\img\finalProject\arduinoFlashToISP.png)
+![arduino flash](assets\img\finalProject\arduinoFlashToISP.jpg)
 
 Then I could work efficiently in testing programming and wirering in the same workflow.
 
@@ -114,7 +114,7 @@ After this I wanted to rework on my controler design to have something more clot
 
 ### Engraving PCB
 
-|![parametres](assets\img\finalProject\parametre.png) | ![PCB pochette avec infos](assets\img\finalProject\copperPCB.jpg)|
+|![parametres](assets\img\finalProject\parametre.jpg) | ![PCB pochette avec infos](assets\img\finalProject\copperPCB.jpg)|
 |---|---|
 
 With this copper, it appears that it need 6 passes at 600 dpi and 2 more at 1200dpi. for the cutting it's 40 passes on a contour.

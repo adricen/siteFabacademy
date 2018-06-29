@@ -47,7 +47,7 @@ I started lately working on KiCAD trying to re-design the HelloBoard. As a begin
 
 ### Redesign the HelloBoard on Eagle - birth of the helloGame board
 
-<u>EAGLES : </u> [Schaematics](assets\files\helloboard\helloGame\helloGame1.5.sch) / [board](assets\files\helloboard\helloGame\helloGame1.5.brd) / [resultBoard](assets\files\helloboard\helloGame\helloGameBoard.png)
+<u>EAGLES : </u> [Schaematics](assets\files\helloboard\helloGame\helloGame1.5.sch) / [board](assets\files\helloboard\helloGame\helloGame1.5.brd) / [resultBoard](assets\files\helloboard\helloGame\helloGameBoard.jpg)
 
 I wanted to try to use every slot available on my ATtiny44, so I put 2 button and 2 led. With this I should be able to programme simple interaction to make a simple 2 player game.
 
@@ -64,7 +64,7 @@ Component :
 
 #### Eagle time
 
-| Schematics using the list above and the clasic echohelloboard exemple I have been able to connect et design my own board | ![eagle0](assets\img\week7\helloGame0.png) |
+| Schematics using the list above and the clasic echohelloboard exemple I have been able to connect et design my own board | ![eagle0](assets\img\week7\helloGame0.jpg) |
 | --- | --- |
 | Board - To make the ground like this and spar some engrave time, create a squarre around your board using `Polygone` tool,then name it using the naming tool that I circle on this picture nad name your element `GND`. Once it's done you can clic on rastnet.  | ![eagle1](assets\img\week7\helloGame1.jpg) |
 | To see if my design fit well with my engraving laser cutter, I made some test on wood to see if it work. | ![woodTest](assets\img\week7\woodTest.jpg) |
