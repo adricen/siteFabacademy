@@ -23,7 +23,8 @@ In the previous Fabricademy, [Julie Taris](http://wiki.textile-academy.org/fabri
 |![engraving geometrie](assets\img\week17\engraving01.JPG)|![engraving geometrie 2](assets\img\week17\engraving02.JPG)|![](assets\img\week17\engraving03.JPG)|
 |---|---|---|
 | <iframe width="560" height="315" src="https://www.youtube.com/embed/OZSLJvA1ODo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> |<iframe width="560" height="315" src="https://www.youtube.com/embed/0cdjPwpn9Hk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>|
-|||
+|<iframe width="560" height="315" src="https://www.youtube.com/embed/jHcSWTdmQLs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>|<iframe width="560" height="315" src="https://www.youtube.com/embed/T6wLaAsgOnA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>|
+| | |
 
 
 ### The shapes

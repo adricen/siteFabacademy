@@ -15,7 +15,7 @@
 
 ### Result
 
-![](assets\img\finalProject\hero_shot.jpg)
+![Presentation](presenation.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KHy-TuclZGc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -111,6 +111,13 @@ Thanks to this wiring, now I can test my program quickly and modify my circuit s
 
 Once I tryed what I wanted, I designed my futur PCB on Eagle.
 
+### Mid term presentation
+
+![presentation old](assets\files\presentation-old.png)
+
+<video controls src="assets\files\presentation-old.mp4">Presentation and validationn project temporary</video>
+
+
 #### Electronic design
 
 |![Schematics](assets\img\finalProject\controlerSchematics.jpg)|![Board](assets\img\finalProject\controlerBoard.jpg)|
@@ -199,10 +206,10 @@ Once I had my mold, I modeled a block the size of my stock of wax, the same that
 |![camRamp](assets\img\finalProject\camRamp00.jpg)| ![](assets\img\finalProject\camRamp01.jpg)|![](assets\img\finalProject\camRamp02.jpg)|![](assets\img\finalProject\camRamp025.jpg)|![](assets\img\finalProject\camRamp03.jpg)|
 ||||
 
-#### Engraving
+#### Milling
 
-|Preparation ![prepa](assets\img\finalProject\millingPreparation.jpg)|Pocket![pocket img](assets\img\finalProject\pocket.jpg)|Poliched Ramp![ramp](assets\img\finalProject\rampPolished.jpg)||
-|---|---|---|
+| Preparation ![prepa](assets\img\finalProject\millingPreparation.jpg) | Pocket ![pocket img](assets\img\finalProject\pocket.jpg)|Poliched Ramp ![ramp](assets\img\finalProject\rampPolished.jpg) |
+|---|---|
 
 ![mold](assets\img\finalProject\heroShot.JPG)
 
@@ -246,6 +253,8 @@ After a while I started to 3D print my controlers. I wanted to have two controle
 
 ![](assets\img\finalProject\board_controler_base.jpg)
 ### Using processing to program a base game
+
+files : [link to project](https://gitlab.fabcloud.org/academany/fabacademy/2018/labs/fablabdigiscope/students/adrien-centonze/tree/master/assets/files/fabGame)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HvcOcKd7MA0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -470,11 +479,11 @@ void loop()
 
 Every byte we read one signal. Each time a signal is detect as low, we send a number on the serial data line. In my processing interface each time it read a 1, 2 or 3, we send a command of a movement.
 
-
 ### reading analog output with analogue discovery device
 
+| ![](assets\img\finalProject\programming_reading.jpg) |![](assets\img\finalProject\programming_reading01.jpg)| ![](assets\img\finalProject\programming_reading02.jpg) |
+|---|---|---|
 |![analog discovery device](assets\img\finalProject\analogOutput.jpg)|![analog discovery device](assets\img\finalProject\readingOutputdata.jpg)|
-|---|---|
 
 With the analogue discovery I was able to mesure and visualize the output of my signal electricaly.
 
