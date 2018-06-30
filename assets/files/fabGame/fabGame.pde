@@ -181,7 +181,7 @@ void serialEvent(Serial p) {
     }  else if ( value.equals("3" ) ) {
       value = null;
       player1 = jump[2];
-      image(player1, width*0.15, height*0.5);
+      image(player1, player1.width*0.15, player1.height*25);
       delay(100);
       player1= idle;
     }

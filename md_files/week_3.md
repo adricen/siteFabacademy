@@ -59,14 +59,14 @@ I finally found a way to install Antimony on windows 10. Let's jump and detail t
 
 #### a. Install the Ubuntu environment on you windows 10 --> [source here](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
 
-![outside_pics_01](https://www.howtogeek.com/wp-content/uploads/2016/04/ximg_570997a37ca4e.jpg.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.sRQi9uZ3CQ.jpg)
+![outside_pics_01](assets\img\week3\ubuntuPrez.png)
 ---
 | <center><i class="fa fa-500px"></i></center> | <center><i class="fa fa-book"></i></center> |
 | --- | --- |
-| **1. Activate Windows developper mode** | ![outside_pics_02](https://www.howtogeek.com/wp-content/uploads/2016/04/ximg_570999e304309.jpg.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.5V9iFGJlWR.jpg) |
+| **1. Activate Windows developper mode** | ![outside_pics_02](assets\img\week3\updateandsecurity.png) |
 | **2. Open Control Panel > Programs and activate `windows Subsystem for linux(Beta)`** |![ubuntu00](assets\img\week2\ubuntuBash00.jpg) |
-| **3. Open Bash** | ![outside_pics_02](https://www.howtogeek.com/wp-content/uploads/2016/04/ximg_57099904643e7.jpg.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.0LbC1f1nur.jpg) |
-| **4. Update to Ubuntu Bash** | ![ubuntu02](https://www.howtogeek.com/wp-content/uploads/2016/04/ximg_570998bb8323b.jpg.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.l29bWUELIg.jpg) |
+| **3. Open Bash** | ![outside_pics_02](assets\img\week3\openBash.png) |
+| **4. Update to Ubuntu Bash** | ![ubuntu02](assets\img\week3\bashshellinstall.png) |
 | **5. Run Install** | `lxrun /install /y` |
 | **6. Open Ubuntu Bash and tap `sudo apt-get upgrade`** | ![ubuntu03](assets\img\week2\ubuntuBash02.jpg) |
 

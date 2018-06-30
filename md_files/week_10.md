@@ -27,7 +27,7 @@ individual assignment:
 
 **Use gloves for usage and let it away from childrens**
 
-![warenty](assets\img\week9\warentyè_mesure.png)
+![warenty](assets\img\week9\warentyè_mesure.jpg)
 
 #### Ecoflex
 

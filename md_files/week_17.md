@@ -11,7 +11,7 @@ Design and produce something with a digital fabrication process
 
 ## Exploring soft robotics
 
-Files : [inflate Shapes](assets\img\week17\inflate.pdf)
+Files : [inflate.pdf](assets\img\week17\inflate.pdf)
 
 | ![](assets\img\week17\squarreShape.jpg ) | ![](assets\img\week17\triangleShape.jpg) |
 |---|---|
@@ -30,6 +30,8 @@ In the previous Fabricademy, [Julie Taris](http://wiki.textile-academy.org/fabri
 | <iframe width="560" height="315" src="https://www.youtube.com/embed/umcX4EwC5gM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> | <iframe width="560" height="315" src="https://www.youtube.com/embed/bJPLg4Sa8OM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> |
 |---|---|
 | <iframe width="560" height="315" src="https://www.youtube.com/embed/NuRZL5Dplgg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> | <iframe width="560" height="315" src="https://www.youtube.com/embed/GJaZYatvRFk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> |
+
+I was able to make the air inflate the squarre shape and retracte but I don't have any video.
 
 ### The shapes
 

@@ -289,7 +289,7 @@ a.nope:hover {
   width: 100%;
 }
 
-.masonry .final {  background-image: url('../img/finalProject/finalProjectPackshot.jpg'); }
+.masonry .final {  background-image: url('../../presenation.png'); }
 .masonry .w0 {  background-image: url('../img/fabIsp/component.jpg'); }
 .masonry .w1 {  color: black;  background-image: url('../img/finalProject/beatboxMachin.jpg'); }
 .masonry .w2 {  background-position: bottom; background-image: url('../img/week2/ubuntuBash02.jpg'); }
@@ -306,6 +306,6 @@ a.nope:hover {
 .masonry .w13 {  background-image: url('../img/week13/t45masterV1.jpg'); }
 .masonry .w14 {  background-image: url('../img/week14/hello-blink-master-board.png'); }
 .masonry .w15 {  background-image: url('../img/week15/machinFront.png'); }
-.masonry .w17 {  background-image: url(''); }
-.masonry .w18 {  background-image: url('../img/week18/finalProjectPackshot.jpg'); }
+.masonry .w17 {  background-image: url('../img/week17/triangel.JPG'); }
+.masonry .w18 {  background-image: url('../../presenation.png'); }
 .masonry .w19 {  background-image: url('../img/week19/creativeCommons00.png'); }
