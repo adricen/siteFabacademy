@@ -9,7 +9,24 @@ Design and produce something with a digital fabrication process
    it. Possibilities include (but are not limited to) composites, textiles,
    biotechnology, robotics, and cooking.
 
-## work it out
+## Exploring soft robotics
+
+Files : [inflate Shapes](assets\img\week17\inflate.pdf)
+
+In the previous Fabricademy, [Julie Taris](http://wiki.textile-academy.org/fabricademy2017/students/julie.taris/start) from Fablab digiscope, explored a way of making soft material with laser cutter and special ThermoVinyl. the result give an inflate material capabloe of taking fifferent shapes.
+
+### Engraving and result
+
+|![engraving geometrie](assets\img\week17\engraving01.JPG)|![engraving geometrie 2](assets\img\week17\engraving02.JPG)|![](assets\img\week17\engraving03.JPG)|
+|---|---|---|
+
+### The shapes
+
+|![squarre 1](assets\img\week17\squaree.JPG)|![squarre 2](assets\img\week17\squaree.JPG)|
+|---|---|
+|![squarre 1](assets\img\week17\triangel.JPG)|![squarre 2](assets\img\week17\heat_sealed_material.jpg)|
+
+## Starting milling PCB
 
 As a wildcard and after tchatting with my local instructor, I choose to mill a PCB with the shopbot CNC we have here. Since I engraved all my PCB with laser from the beginning, I didn't have the occasion to try it myself. So I through myself in it.
 

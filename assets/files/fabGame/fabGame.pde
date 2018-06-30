@@ -4,21 +4,34 @@ import ddf.minim.effects.*;
 import ddf.minim.signals.*;
 import ddf.minim.spi.*;
 import ddf.minim.ugens.*;
-
+import processing.serial.*;
 
 AudioPlayer player;
 Minim minim;//audio context
 
+Serial myPort; // Create object from Serial class
+String val;    // Data received from the serial port
+String[] list = {" ", " "};
 PImage player1, backg, idle;
 PImage [] run = new PImage[4];
 PImage [] jump = new PImage[4];
 int cols, rows, lag, nb, imgSize;
 
 void setup() {
+  
+  
+   // Serial communication
+   String portName = Serial.list()[0];
+    // printArray(Serial.list());
+  
+   
+   myPort = new Serial( this, portName, 9600 );
+   myPort.clear();
+  
   // Loading music
     minim = new Minim(this);
     player = minim.loadFile("Punk_Boy_2nd_Lvl_theme.mp3", 2048);
-    player.play();
+    // player.play();
     
   //sizes;
     fullScreen();
@@ -75,6 +88,17 @@ void draw() {
        */
     }
   }
+  
+    if ( myPort.available() > 0) {          // If data is available,
+    
+    val = myPort.readStringUntil('\n');   // read it and store it in val
+
+    if( val != null) {
+      // print(val);
+    }
+  
+  } 
+  
   image(player1, width*0.15, height*0.68);
 }
 
@@ -88,34 +112,90 @@ void stop()
 void keyPressed() {
   if (key  == CODED) {
     if (keyCode == RIGHT) {
+      if( nb<3 ){
+        nb++;
+      } else {
+        nb = 0;
+      }
       player1 = run[nb];
       lag = lag +2;
-      nb++;
+      
       println(lag);
     } else if (keyCode == LEFT) {
+      if( nb<3 ){
+        nb++;
+      } else {
+        nb = 0;
+      }
       player1 = run[nb];
       lag = lag - 2;
-      nb++;
+      
       println(lag);
     }  else if (keyCode == UP) {
       player1 = jump[2];
-      for(int i=0; i<jump.length; i++) {
-        if( i<2){
-          for(int j=0; j<10; j++){
-            image(player1, width*0.15, height*0.70-(j*3));
-          }          
-        } else {
-          for(int j=0; j<100; j++){
-            image(player1, width*0.15, height*0.70+(j*3));
-          }
-        }
-      }
+      image(player1, width*0.15, height*0.5);         
     }
     if (nb == 4) {
       nb = 0;
     }
   }
 }
+
+void serialEvent(Serial p) { 
+  // String value ="";
+  // inString = p.readString(); 
+  // print(p.readString());
+  val = p.readString();
+  /*
+  for (int i = 0; i < 6; i = i+1){
+    val = p.readString();
+    value += val;
+  }
+  */
+  //delay(100);
+  //print(val);
+  
+  String value =val;
+   println(value);
+   // println(" ");
+   // String[] hashWord = split(val ,'/');
+   // printArray(hashWord);
+  try {
+    if(value.equals("1" ) || value.equals("2" ) || value.equals("3" )){
+    
+    
+  if ( value.equals("1" ) ) {
+
+      player1 = run[nb];
+      nb++;
+      lag = lag +2;
+      value = null;
+      delay(100);
+    } else if ( value.equals(  "2")) {
+      
+      player1 = run[nb];
+      nb++;
+      lag = lag - 2;
+      value = null;
+      delay(100);
+    }  else if ( value.equals("3" ) ) {
+      value = null;
+      player1 = jump[2];
+      image(player1, width*0.15, height*0.5);
+      delay(100);
+      player1= idle;
+    }
+    if (nb == 4) {
+      nb = 0;
+    }
+    } else {
+      player1 = idle;
+    }
+  }  catch(RuntimeException e) {
+    e.printStackTrace();
+  } 
+  
+} 
 
 void keyReleased() {
   player1 = idle;
