@@ -24,8 +24,12 @@ In the previous Fabricademy, [Julie Taris](http://wiki.textile-academy.org/fabri
 |---|---|---|
 | <iframe width="560" height="315" src="https://www.youtube.com/embed/OZSLJvA1ODo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> |<iframe width="560" height="315" src="https://www.youtube.com/embed/0cdjPwpn9Hk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>|
 |<iframe width="560" height="315" src="https://www.youtube.com/embed/jHcSWTdmQLs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>|<iframe width="560" height="315" src="https://www.youtube.com/embed/T6wLaAsgOnA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>|
-| | |
 
+### Testing with air
+
+| <iframe width="560" height="315" src="https://www.youtube.com/embed/umcX4EwC5gM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> | <iframe width="560" height="315" src="https://www.youtube.com/embed/bJPLg4Sa8OM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> |
+|---|---|
+| <iframe width="560" height="315" src="https://www.youtube.com/embed/NuRZL5Dplgg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> | <iframe width="560" height="315" src="https://www.youtube.com/embed/GJaZYatvRFk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> |
 
 ### The shapes
 
