@@ -15,6 +15,8 @@
 
 ### Result
 
+![](assets\img\finalProject\hero_shot.jpg)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KHy-TuclZGc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ### Concept

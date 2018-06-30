@@ -13,12 +13,18 @@ Design and produce something with a digital fabrication process
 
 Files : [inflate Shapes](assets\img\week17\inflate.pdf)
 
+| ![](assets\img\week17\squarreShape.jpg ) | ![](assets\img\week17\triangleShape.jpg) |
+|---|---|
+
 In the previous Fabricademy, [Julie Taris](http://wiki.textile-academy.org/fabricademy2017/students/julie.taris/start) from Fablab digiscope, explored a way of making soft material with laser cutter and special ThermoVinyl. the result give an inflate material capabloe of taking fifferent shapes.
 
 ### Engraving and result
 
 |![engraving geometrie](assets\img\week17\engraving01.JPG)|![engraving geometrie 2](assets\img\week17\engraving02.JPG)|![](assets\img\week17\engraving03.JPG)|
 |---|---|---|
+| <iframe width="560" height="315" src="https://www.youtube.com/embed/OZSLJvA1ODo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> |<iframe width="560" height="315" src="https://www.youtube.com/embed/0cdjPwpn9Hk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>|
+|||
+
 
 ### The shapes
 

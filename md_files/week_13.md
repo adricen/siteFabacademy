@@ -6,6 +6,314 @@ Making a PCB with using input distance, oone input button and two speaker output
 
 files : [fabGAMES files](assets\files\fabGame) (right clic + save target)
 
+> I spend the week trying to make a special board for interface programming and communication but but I didn't succed making a good board at that time. so I made this assignement in my final project [here](#week_assignement)
+
+# Processing with serial communication
+
+
+### Mount electronic devices
+
+|![cloth up](assets\img\finalProject\clothUp.jpg)| I used pull up resistors on this board. I made a design mistac missing to put pull up on the Vcc side of each button so tention could break down when pushing it. It did work well actually ![pull Up resistor](assets\img\finalProject\controler.jpg)|
+|---|---|
+
+![](assets\img\finalProject\board_controler_base.jpg)
+### Using processing to program a base game
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HvcOcKd7MA0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+Simple conrtol with a scrolling effect on the background to simulate movement. For now it will be enought to try and test my buttun on it.
+
+
+### Code breakdown
+
+#### Controler programming
+
+##### Setup
+
+```java
+/*
+Controler PCB with ATtinny45
+*/
+
+//Pin names and function
+//                              ISP   Inputs & Outputs
+const byte S1 = 1; // pin6 PB1  MISO  S1
+const byte S2 = 3; // pin2 PB3        S2
+const byte S3 = 4; // pin3 PB4        S3
+const byte SDA= 0; // pin5 PB0  MOSI  SDA
+const byte SCL= 2; // pin7 PB2  SCK   SCL
+//byte Test_pin = 5; // pin1-PB5-RESET Reserved for ISP Reset
+
+//Variables
+//                            
+bool SW1=0; //Store read value of push button S1
+bool SW2=0; //Store read value of push button S2
+bool SW3=0; //Store read value of push button S3
+
+
+// Setup preparation for every button
+void setup()
+{
+  pinMode(S1, INPUT);
+  pinMode(S2, INPUT);
+  pinMode(S3, INPUT);
+  pinMode(SDA, OUTPUT);
+  pinMode(SCL, OUTPUT);
+  digitalWrite(SDA, LOW);
+  digitalWrite(SCL, LOW);
+}
+
+```
+
+This configuration setup allow us to send digital output via `SDA / SCL` port communication.
+
+##### Loop
+```java
+
+
+void loop()
+{
+  //Read inputs
+
+  SW1 = digitalRead(S1);
+  SW2 = digitalRead(S2);
+  SW3 = digitalRead(S3);
+
+
+  //Send inputs reading over SDA/SCL
+  // When I flash with arduino IDE I used a 1mhz internal clock wich make
+  // Using delay(1) is 8ms
+
+  digitalWrite(SCL, HIGH);
+  digitalWrite(SDA, SW1);
+  delay(1);   //8ms delay
+  digitalWrite(SCL, LOW);
+  digitalWrite(SDA, LOW);
+  delay(1);
+
+  // Each clock we read another pin and read the signal and send a HIGH or LOW signal.
+  digitalWrite(SCL, HIGH);
+  digitalWrite(SDA, SW2);
+  delay(1);
+  digitalWrite(SCL, LOW);
+  digitalWrite(SDA, LOW);
+  delay(1);
+
+  digitalWrite(SCL, HIGH);
+  digitalWrite(SDA, SW3);
+  delay(1);
+  digitalWrite(SCL, LOW);
+  digitalWrite(SDA, LOW);
+  delay(1);
+
+  delay(6); //6x8=48ms delay
+
+}
+```
+
+Every delay we send another byte of information so the digital output is O or 1.
+
+
+#### base programming
+
+```java
+/*
+Base PCB with ATtinny44
+*/
+
+//Pin names and function
+//                  
+const byte RX = 0; // pin13 PA0 Tx Serial
+const byte TX = 1; // pin12 PA1 Rx Serial
+
+const byte SCL= 4; // pin9  PA4  SCL
+const byte SDA= 6; // pin7  PA6  MOSI
+
+const byte LED = 2; //pin11 PA2
+
+
+
+//Variables
+//
+bool d=0; //store d-data and k-clock of custom com pipe
+bool k=0;                          
+bool SW1=0; //Store read value of push button S1
+bool SW2=0; //Store read value of push button S2
+bool SW3=0; //Store read value of push button S3
+bool PSW1=0; //Store printed value of push button S1
+bool PSW2=0; //Store printed value of push button S2
+bool PSW3=0; //Store printed value of push button S3
+
+
+#include <SoftwareSerial.h> //Tuto here: https://www.hackster.io/porrey/easy-serial-on-the-attiny-2676e6
+//#define RX    0 // pin12 PA1 Rx Serial
+//#define TX    1 // pin13 PA0 Tx Serial
+SoftwareSerial Serial(RX, TX);
+
+```
+
+```java
+
+void setup()
+{
+  pinMode(SCL, INPUT);
+  pinMode(SDA, INPUT);
+
+  pinMode(LED, OUTPUT);
+  digitalWrite(LED, LOW);
+
+  digitalWrite(LED, HIGH);
+  delay(1000); //1s delay
+  digitalWrite(LED, LOW);
+  delay(1000); //1s delay
+
+  Serial.begin(9600);
+  delay(10);
+  Serial.println("Serial is awake at 9600");
+
+  //Find beginning of transmission
+  k=0;
+  while(k==0){
+    k=digitalRead(SCL);}
+  delay(40);//data is sent at 2x48ms period
+}
+
+
+void loop()
+{
+
+  //Custom com Reading
+
+  digitalWrite(LED, HIGH);
+
+//  //Find beginning of transmission
+//  k=0;
+//  while(k==0){
+//    k=digitalRead(SCL);}
+//  digitalWrite(SDA, HIGH);
+//  delay(40);//data is sent at 2x48ms period
+//  digitalWrite(SDA, LOW);
+//  digitalWrite(LED, LOW);
+
+  k=0;
+  while(k==0){
+    k=digitalRead(SCL);}
+  delay(1);
+  SW1=digitalRead(SDA);
+  delay(8);
+
+  k=0;
+  while(k==0){
+    k=digitalRead(SCL);}
+  delay(1);
+  SW2=digitalRead(SDA);
+  delay(8);
+
+  k=0;
+  while(k==0){
+    k=digitalRead(SCL);}
+  delay(1);
+  SW3=digitalRead(SDA);
+  delay(8);
+
+  digitalWrite(LED, LOW);
+  //Serial Print
+  if ((PSW1!=SW1)|(PSW2!=SW2)|(PSW3!=SW3)) //print only if sth changed
+  {
+
+    if(SW1 == 0){
+      Serial.print("1");
+    }
+    if(SW2 == 0){
+      Serial.print("2");
+      }
+    if(SW3 == 0){
+      Serial.print("3");
+      }
+
+  }
+  //delay(10); //10ms delay
+}
+
+
+
+```
+
+Every byte we read one signal. Each time a signal is detect as low, we send a number on the serial data line. In my processing interface each time it read a 1, 2 or 3, we send a command of a movement.
+
+
+### reading analog output with analogue discovery device
+
+|![analog discovery device](assets\img\finalProject\analogOutput.jpg)|![analog discovery device](assets\img\finalProject\readingOutputdata.jpg)|
+|---|---|
+
+With the analogue discovery I was able to mesure and visualize the output of my signal electricaly.
+
+### Serial communication Arduino IDE
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qqzZMudDFtg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+### Serial communication with processing
+
+```java
+Serial myPort;
+String portName = Serial.list()[0];
+
+void draw(){
+
+  if ( myPort.available() > 0) {          // If data is available,
+
+    val = myPort.readStringUntil('\n');   // read it and store it in val
+  }
+}
+
+// Using serial reading I can si if it's a 1 / 2 /3 and then do something about it
+void serialEvent(Serial p) {
+  val = p.readString();
+
+  String value =val;
+   println(value);
+
+  try {
+  if ( value.equals("1" ) ) {
+
+      player1 = run[nb];
+      nb++;
+      lag = lag +2;
+      value = null;
+      delay(100);
+    } else if ( value.equals(  "2")) {
+
+      player1 = run[nb];
+      nb++;
+      lag = lag - 2;
+      value = null;
+      delay(100);
+    }  else if ( value.equals("3" ) ) {
+      value = null;
+      player1 = jump[2];
+    }
+    if (nb == 4) {
+      nb = 0;
+    }
+  }  catch(RuntimeException e) {
+    e.printStackTrace();
+  }
+}
+
+```
+
+![processing serial reading](assets\img\finalProject\serialReadingProcessing.jpg)
+
+>This way of doing things allow me to have a simple reading and signal easy to cath and read.
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KHy-TuclZGc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+---
+
+<a name="week_assignement">
 ### Working on it
 
 On the precedent assignement, I just remake the board provided by Neil G. to dive little by little into circuit programming.
